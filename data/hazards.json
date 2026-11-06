@@ -1,0 +1,382 @@
+[
+ {
+  "id": "earthquake",
+  "name": "地震",
+  "tagline": "先穩住自己，再照顧彼此",
+  "intro": "臺灣地震頻繁，平時的小準備能幫助你更從容應對。這場演練陪你練習居家固定、不同場所的掩護，以及震後檢查與海邊避難。",
+  "links": [
+   {
+    "agency": "中央氣象署",
+    "title": "地震防護",
+    "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
+    "short": "氣象署｜地震防護"
+   },
+   {
+    "agency": "中央氣象署",
+    "title": "95. 地震前之準備事項為何？",
+    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/109",
+    "short": "氣象署｜地震前準備事項"
+   },
+   {
+    "agency": "國防部全民防衛動員署",
+    "title": "準備緊急避難包",
+    "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
+    "short": "全動署｜準備緊急避難包"
+   },
+   {
+    "agency": "中央氣象署",
+    "title": "93. 應如何避免海嘯災難？",
+    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
+    "short": "氣象署｜如何避免海嘯災難"
+   }
+  ],
+  "order": 0,
+  "color": "#e8a15c",
+  "icon": "earthquake"
+ },
+ {
+  "id": "tsunami",
+  "name": "海嘯",
+  "tagline": "離開海岸，往內陸高處",
+  "intro": "臺灣沿海可能受到近海或遠方地震引發的海嘯影響。這場演練陪你認識海嘯資訊、規劃避難方向，並練習在解除前持續留在安全處。",
+  "links": [
+   {
+    "agency": "中央氣象署",
+    "title": "海嘯資訊種類及預估波高分級表",
+    "url": "https://scweb.cwa.gov.tw/zh-TW/Guidance/protection/227",
+    "short": "氣象署｜海嘯波高分級表"
+   },
+   {
+    "agency": "中央氣象署",
+    "title": "93. 應如何避免海嘯災難？",
+    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
+    "short": "氣象署｜如何避免海嘯災難"
+   },
+   {
+    "agency": "國家災害防救科技中心",
+    "title": "海嘯溢淹潛勢圖於避難疏散規劃之應用（2026-11-01）",
+    "url": "https://ncdr.nat.gov.tw/NCDR-Topic/2026/NCDRLibrary/november.html",
+    "short": "災防中心｜海嘯溢淹潛勢圖"
+   },
+   {
+    "agency": "中央氣象署",
+    "title": "海嘯之防護",
+    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/118",
+    "short": "氣象署｜海嘯之防護"
+   },
+   {
+    "agency": "中央氣象署",
+    "title": "海嘯來襲時的建議作為",
+    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
+    "short": "氣象署｜海嘯來襲時的建議作為"
+   }
+  ],
+  "order": 1,
+  "color": "#5fb8d6",
+  "icon": "tsunami"
+ },
+ {
+  "id": "typhoon",
+  "name": "颱風強風",
+  "tagline": "先整備，再避風，災後慢一步",
+  "intro": "臺灣的颱風可能帶來強風與豪雨，影響不限於登陸地點。這次從居家整備練到災後通行，陪你判讀警報、照顧家人。",
+  "links": [
+   {
+    "agency": "國家災害防救科技中心",
+    "title": "氣象防災小知識：颱風警報發布標準",
+    "url": "https://den.ncdr.nat.gov.tw/1386/1420/2907/6524/",
+    "short": "災防中心｜颱風警報標準"
+   },
+   {
+    "agency": "中央氣象署",
+    "title": "中央氣象署 強風特報 警示資料說明",
+    "url": "https://alerts.ncdr.nat.gov.tw/web/StaticFile/Document/CapDocument_SW.pdf",
+    "short": "氣象署｜強風特報說明"
+   },
+   {
+    "agency": "內政部消防署",
+    "title": "颱風前要準備什麼",
+    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
+    "short": "消防署｜颱風前要準備什麼"
+   },
+   {
+    "agency": "內政部",
+    "title": "颱風天貼膠帶在玻璃門窗上不能防風抗爆",
+    "url": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=322349",
+    "short": "內政部｜貼膠帶不能防風抗爆"
+   },
+   {
+    "agency": "內政部消防署",
+    "title": "停電應變",
+    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
+    "short": "消防署｜停電應變"
+   }
+  ],
+  "order": 2,
+  "color": "#8aa4c8",
+  "icon": "typhoon"
+ },
+ {
+  "id": "flood",
+  "name": "豪雨淹水",
+  "tagline": "提早上移，避開積水路",
+  "intro": "臺灣豪雨可能在短時間內造成低窪地區積淹水。這次練習看懂雨量分級、提早避難，以及水退後安全整理家園。",
+  "links": [
+   {
+    "agency": "中央氣象署",
+    "title": "豪（大）雨特報：雨量分級與作業說明",
+    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html",
+    "short": "氣象署｜豪大雨分級"
+   },
+   {
+    "agency": "教育部",
+    "title": "災害應變參考程序手冊：颱風、水災與土石流",
+    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+    "short": "教育部｜颱風水災土石流手冊"
+   },
+   {
+    "agency": "衛生福利部疾病管制署",
+    "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
+    "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
+    "short": "疾管署｜淹水清理防疫"
+   }
+  ],
+  "order": 3,
+  "color": "#6d9ee0",
+  "icon": "flood"
+ },
+ {
+  "id": "debris",
+  "name": "土石流與坡地災害",
+  "tagline": "提早離開溪谷，照路線避難",
+  "intro": "臺灣山區遇上豪雨，溪谷與邊坡都可能出現土砂災害。你將練習看懂警戒、辨認異常並安排家人撤離，也學會災後何時才能回家。",
+  "links": [
+   {
+    "agency": "農業部農村發展及水土保持署",
+    "title": "民眾防災指南",
+    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+    "short": "農村水保署｜民眾防災指南"
+   },
+   {
+    "agency": "農業部農村發展及水土保持署",
+    "title": "警戒發布及作為",
+    "url": "https://246.ardswc.gov.tw/DebrisFlow/AlertPublish",
+    "short": "農村水保署｜警戒發布及作為"
+   },
+   {
+    "agency": "農業部農村發展及水土保持署",
+    "title": "防災Q&A",
+    "url": "https://246.ardswc.gov.tw/Bulletin/FAQ",
+    "short": "農村水保署｜防災Q&A"
+   },
+   {
+    "agency": "國防部全民防衛動員署",
+    "title": "臺灣全民安全指引：災害應對",
+    "url": "https://prepare.mnd.gov.tw/emergency-responses",
+    "short": "全動署｜災害應對"
+   },
+   {
+    "agency": "農業部林業及自然保育署",
+    "title": "堰塞湖應變機制簡介",
+    "url": "https://www.forest.gov.tw/0004787",
+    "short": "林業保育署｜堰塞湖應變機制"
+   }
+  ],
+  "order": 4,
+  "color": "#b98a60",
+  "icon": "debris"
+ },
+ {
+  "id": "temperature",
+  "name": "高低溫",
+  "tagline": "看懂冷熱警訊，照顧彼此",
+  "intro": "臺灣夏季悶熱，冬季寒流與濕冷也會影響健康。你將練習安排戶外活動、照顧長幼，並辨識熱傷害、失溫及取暖風險。",
+  "links": [
+   {
+    "agency": "交通部中央氣象署",
+    "title": "高溫",
+    "url": "https://climate.cwa.gov.tw/HighTemperature",
+    "short": "氣象署｜高溫"
+   },
+   {
+    "agency": "交通部中央氣象署",
+    "title": "低溫特報",
+    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W28.html",
+    "short": "氣象署｜低溫特報"
+   },
+   {
+    "agency": "衛生福利部國民健康署",
+    "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
+    "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
+    "short": "國健署｜處暑防熱傷害"
+   },
+   {
+    "agency": "衛生福利部國民健康署",
+    "title": "切勿獨留小孩於車內，保幼3招預防熱傷害",
+    "url": "https://www.mohw.gov.tw/cp-2704-48383-1.html",
+    "short": "國健署｜勿留小孩在車內"
+   },
+   {
+    "agency": "衛生福利部國民健康署",
+    "title": "連續低溫來襲 如何自我保暖 隨身保暖商品使用2原則 低溫保健8要點",
+    "url": "https://www.mohw.gov.tw/cp-16-76942-1.html",
+    "short": "國健署｜低溫保健八要點"
+   }
+  ],
+  "order": 5,
+  "color": "#ef8f6b",
+  "icon": "temperature"
+ },
+ {
+  "id": "air",
+  "name": "空氣品質",
+  "tagline": "看懂空品，安排安心的一天",
+  "intro": "臺灣空品會受天氣、境外污染與在地排放影響，天空看起來清楚也不代表適合劇烈運動。本演練會練習判讀現行AQI、照顧敏感家人，以及面對沙塵與林火煙霧時調整行動。情境數值為演練設定，不代表即時空品。",
+  "links": [
+   {
+    "agency": "環境部",
+    "title": "空氣品質指標：2025年起濃度門檻與活動建議",
+    "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
+    "short": "環境部｜空氣品質指標"
+   },
+   {
+    "agency": "環境部",
+    "title": "空氣品質監測網：監測、預報與環境即時通",
+    "url": "https://airtw.moenv.gov.tw/",
+    "short": "環境部｜空氣品質監測網"
+   },
+   {
+    "agency": "環境部",
+    "title": "室內空氣品質資訊網：空氣清淨機知多少",
+    "url": "https://iaq.moenv.gov.tw/indoorair/improvement_airclean.aspx",
+    "short": "環境部｜空氣清淨機知多少"
+   },
+   {
+    "agency": "衛生福利部國民健康署",
+    "title": "國民健康署提醒民眾做好空污自我防護，口罩正確配戴步驟「開、戴、壓、密」",
+    "url": "https://www.mohw.gov.tw/fp-16-45821-1.html",
+    "short": "國健署｜空污防護與口罩"
+   }
+  ],
+  "order": 6,
+  "color": "#a9b48c",
+  "icon": "air"
+ },
+ {
+  "id": "drought",
+  "name": "乾旱停水",
+  "tagline": "存好安全水，節水有方法",
+  "intro": "臺灣降雨分布不均，乾旱可能帶來減壓、減量或分區供水。本演練陪你辨識水情燈號、安排安全備水與取水，並在復水後照顧飲水和設備安全。所有時程都是演練情境，實際供水依服務單位公告。",
+  "links": [
+   {
+    "agency": "經濟部水利署",
+    "title": "水情燈號意義及對應措施",
+    "url": "https://www.wra.gov.tw/EarlyWarning.aspx?n=18804&sms=9114",
+    "short": "水利署｜水情燈號與措施"
+   },
+   {
+    "agency": "臺北自來水事業處",
+    "title": "防災資訊答客問：地址查詢與緊急取水",
+    "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=107126B84A475DC3&sms=FE72F2803376B31C",
+    "short": "北水處｜地址查詢與取水"
+   },
+   {
+    "agency": "國防部全民防衛動員署",
+    "title": "臺灣全民安全指引：準備日常居家儲備",
+    "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
+    "short": "全動署｜準備日常居家儲備"
+   },
+   {
+    "agency": "衛生福利部疾病管制署",
+    "title": "缺水怎麼辦？疾管署教您如何省水兼防疫 遠離傳染病",
+    "url": "https://www.mohw.gov.tw/cp-2704-20899-1.html",
+    "short": "疾管署｜缺水防疫指引"
+   },
+   {
+    "agency": "臺北自來水事業處",
+    "title": "用戶用水設備建議資訊",
+    "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=27C91968885D4D58&sms=FE72F2803376B31C",
+    "short": "北水處｜用水設備建議"
+   }
+  ],
+  "order": 7,
+  "color": "#d9b45f",
+  "icon": "drought"
+ },
+ {
+  "id": "blackout",
+  "name": "停電",
+  "tagline": "燈熄了，也有準備好的下一步",
+  "intro": "在台灣，風雨或電力設備故障都可能造成停電，影響照明、通訊與日常照護。你將練習備援安排、停電當下的安全行動，以及復電後的檢查。",
+  "links": [
+   {
+    "agency": "勞動部勞動力發展署",
+    "title": "LINE@移點通－停電安全事項要注意－多國語言版",
+    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
+    "short": "勞發署｜停電安全事項"
+   },
+   {
+    "agency": "台灣電力公司北北區營業處",
+    "title": "強颱薔琵逼近 台電台北北區營業處全力戒備 請民眾多利用網路通報查詢停復電資訊",
+    "url": "https://service.taipower.com.tw/branch/d116/xmdoc/cont?sid=0Q295333915940640091&sq=&xsmsid=0M242581312763389988",
+    "short": "台電北北區｜停復電查報與落線"
+   },
+   {
+    "agency": "台灣電力公司基隆區營業處",
+    "title": "颱風災後復電安全注意事項",
+    "url": "https://service.taipower.com.tw/branch/files/file_pool/1/0P315608842096404797/%E9%A2%B1%E9%A2%A8%E7%81%BD%E5%BE%8C%E5%BE%A9%E9%9B%BB%E5%AE%89%E5%85%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85%28%E8%99%95%E9%95%B7%E6%A0%B8%E5%AE%9A%29.pdf",
+    "short": "台電基隆｜災後復電安全"
+   },
+   {
+    "agency": "內政部消防署",
+    "title": "停電應變",
+    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
+    "short": "消防署｜停電應變"
+   }
+  ],
+  "order": 8,
+  "color": "#7d78b8",
+  "icon": "blackout"
+ },
+ {
+  "id": "nuclear",
+  "name": "核與輻射",
+  "tagline": "懂指令，練好掩蔽與疏散",
+  "intro": "台灣核電設施周邊有核子事故應變整備，實際防護措施依核安會與地方政府公告執行。你將練習掩蔽、疏散、碘片與去污原則，不必自行判讀輻射數值來下決定。",
+  "links": [
+   {
+    "agency": "核能安全委員會",
+    "title": "緊急應變計畫區",
+    "url": "https://www.nusc.gov.tw/保安應變/政府平時準備/應變整備/緊急應變計畫區--5_43_155_898.html",
+    "short": "核安會｜緊急應變計畫區"
+   },
+   {
+    "agency": "核能安全委員會",
+    "title": "核子事故應變指南",
+    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+    "short": "核安會｜核子事故應變指南"
+   },
+   {
+    "agency": "國防部全民防衛動員署",
+    "title": "臺灣全民安全指引：核子事故應對原則",
+    "url": "https://prepare.mnd.gov.tw/emergency-responses",
+    "short": "全動署｜核子事故應對原則"
+   },
+   {
+    "agency": "核能安全委員會",
+    "title": "核子事故民眾防護行動規範",
+    "url": "https://erss.nusc.gov.tw/law/LawContent.aspx?id=FL036416",
+    "short": "核安會｜民眾防護行動規範"
+   },
+   {
+    "agency": "核能安全委員會",
+    "title": "輻射劑量比較圖：天然背景輻射",
+    "url": "https://www.nusc.gov.tw/緊急應變/對人的影響/輻射劑量比較圖--5_40_873.html",
+    "short": "核安會｜輻射劑量比較圖"
+   }
+  ],
+  "order": 9,
+  "color": "#6dbba0",
+  "icon": "nuclear"
+ }
+]

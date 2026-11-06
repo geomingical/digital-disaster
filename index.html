@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#f7c98f">
+<meta name="description" content="免登入、點開就能玩的台灣防災知識情境遊戲。操控 Q 版角色走過災前、當下與災後，在十種災害演練中練習正確應變。">
+<title>數位災害</title>
+
+<meta property="og:title" content="數位災害">
+<meta property="og:description" content="免登入、點開就能玩的台灣防災知識情境遊戲">
+<meta property="og:url" content="https://disaster.aimingdata.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://disaster.aimingdata.com/assets/og-cover.jpg">
+<meta property="og:image:secure_url" content="https://disaster.aimingdata.com/assets/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:site_name" content="數位災害">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="數位災害">
+<meta name="twitter:description" content="免登入、點開就能玩的台灣防災知識情境遊戲">
+<meta name="twitter:image" content="https://disaster.aimingdata.com/assets/og-cover.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%23f7c98f'/%3E%3Cpath d='M6 16 16 7l10 9v9a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z' fill='%23fff7e6'/%3E%3Cpath d='M16 23c-5-3-6-5-6-7a3 3 0 0 1 6-1 3 3 0 0 1 6 1c0 2-1 4-6 7z' fill='%23e8785c'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <canvas id="scene" aria-label="防災演練場景"></canvas>
+
+  <div id="stage">
+    <header id="hud" hidden>
+      <div class="hud-route">
+        <div class="hud-route-top">
+          <strong id="hud-hazard"></strong>
+          <span id="hud-stage">災前準備</span>
+        </div>
+        <div class="route-bar" role="progressbar" aria-label="演練進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="route-bar">
+          <div class="route-fill" id="route-fill"></div>
+          <div id="route-ticks"></div>
+          <div class="route-dot" id="route-dot"></div>
+        </div>
+        <ol class="route-labels" aria-hidden="true">
+          <li id="route-l-before">災前</li>
+          <li id="route-l-during">當下</li>
+          <li id="route-l-after">災後</li>
+        </ol>
+      </div>
+      <div class="hud-risk" id="hud-risk">
+        <svg id="risk-face" viewBox="0 0 32 32" width="34" height="34" aria-hidden="true">
+          <circle id="risk-face-bg" cx="16" cy="16" r="14.5" fill="#5bbf7a"/>
+          <ellipse cx="11" cy="13.5" rx="2" ry="2.6" fill="#3a3028"/>
+          <ellipse cx="21" cy="13.5" rx="2" ry="2.6" fill="#3a3028"/>
+          <path id="risk-face-mouth" d="M10.5 19.5 Q16 25 21.5 19.5" fill="none" stroke="#3a3028" stroke-width="2" stroke-linecap="round"/>
+          <path id="risk-face-drop" d="M26 6 q3 4 0 6 q-3-2 0-6" fill="#8fd3f4" opacity="0"/>
+        </svg>
+        <div class="risk-body">
+          <div class="risk-top">風險值 <b id="risk-num">0</b></div>
+          <div class="risk-track">
+            <span class="risk-scale" aria-hidden="true">0</span>
+            <div class="risk-bar" role="meter" aria-label="風險值" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="risk-bar"><div class="risk-fill" id="risk-fill"></div></div>
+            <span class="risk-scale" aria-hidden="true">100</span>
+          </div>
+        </div>
+      </div>
+      <div class="hud-btns">
+        <button class="icon-btn" id="btn-sound" type="button" aria-pressed="false" aria-label="開啟音效" title="開啟音效（M）"></button>
+        <button class="icon-btn" id="btn-help" type="button" aria-label="操作說明" title="操作說明">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 9.2a3 3 0 1 1 4.6 2.5c-1 .7-1.6 1.3-1.6 2.6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="18" r="1.4" fill="currentColor"/></svg>
+        </button>
+        <button class="icon-btn" id="btn-menu" type="button" aria-label="回選單" title="回選單">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5M6.5 10v8.5h11V10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="toasts" aria-live="polite"></div>
+
+    <button id="prompt" type="button" hidden></button>
+
+    <div id="controls" hidden>
+      <div id="joy" aria-label="移動搖桿"><div id="joy-knob"></div></div>
+      <button id="btn-interact" type="button">互動</button>
+      <p id="hints">方向鍵／WASD 移動　·　點地面走過去　·　拖曳看周圍　·　E／空白鍵 互動</p>
+    </div>
+
+    <section id="card" class="card" role="dialog" aria-labelledby="card-title" tabindex="-1" hidden>
+      <div class="card-mini" id="card-mini">
+        <span class="mini-count" id="mini-count"></span>
+        <strong class="mini-title" id="mini-title"></strong>
+        <button type="button" class="mini-review" id="card-review" aria-expanded="false">看題目</button>
+      </div>
+      <div class="card-scroll" id="card-scroll">
+        <div class="card-main">
+          <div class="card-head">
+            <span class="tag" id="card-tag"></span>
+            <span class="card-count" id="card-count"></span>
+          </div>
+          <h2 id="card-title"></h2>
+          <p id="card-sit"></p>
+        </div>
+        <div class="card-side">
+          <div class="opts" id="card-opts"></div>
+          <div class="fb" id="card-fb" aria-live="polite" hidden>
+            <div class="fb-head" id="fb-head"></div>
+            <p class="fb-answer" id="fb-answer" hidden></p>
+            <p class="fb-key" id="fb-key"></p>
+            <p id="fb-why"></p>
+            <div class="fb-src" id="fb-src"></div>
+          </div>
+        </div>
+      </div>
+      <div class="card-foot" id="card-foot" hidden>
+        <div class="card-more" id="card-more" aria-hidden="true"><span>下滑看完整解說</span></div>
+        <button type="button" class="btn btn-primary" id="card-next">繼續前進</button>
+      </div>
+    </section>
+
+    <section id="start-screen" class="screen">
+      <div class="start-card">
+        <p class="start-kicker">一起練習，遇到時更安心</p>
+        <h1>數位災害</h1>
+        <p class="start-sub">在情境裡學會台灣的防災知識</p>
+        <div class="start-btns">
+          <button type="button" class="btn btn-primary btn-big" id="btn-start" disabled>準備中…</button>
+          <button type="button" class="btn" id="btn-howto">操作說明</button>
+          <button type="button" class="btn" id="btn-records">我的紀錄</button>
+        </div>
+        <div class="load-notice" id="load-notice" role="alert" hidden>
+          <p id="load-notice-text"></p>
+          <button type="button" class="btn btn-small" id="btn-retry">重新讀取資料</button>
+        </div>
+        <p class="start-legal">教育演練用，非政府發布，請以官方公告為準。緊急時請撥 119（手機可撥 112）。</p>
+        <button class="icon-btn start-sound" id="btn-sound-start" type="button" aria-pressed="false" aria-label="開啟音效" title="開啟音效"></button>
+      </div>
+    </section>
+
+    <section id="entry-screen" class="screen" hidden>
+      <div class="entry-top">
+        <button type="button" class="btn btn-small entry-pill" id="btn-entry-back">回首頁</button>
+        <div class="entry-ribbon">
+          <h2>選一種災害</h2>
+          <p>每局抽選 8 題</p>
+        </div>
+        <button type="button" class="btn btn-small entry-pill" id="btn-entry-records">我的紀錄</button>
+      </div>
+      <div id="entry-ring" role="group" aria-label="災害選單，可用方向鍵切換">
+        <div id="entry-orbit" aria-hidden="true"></div>
+        <div id="entry-bubble" class="is-hint" aria-live="polite">
+          <div id="bubble-body"></div>
+          <button type="button" class="btn btn-primary" id="bubble-go" hidden>出發</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro-screen" class="screen" hidden>
+      <div class="intro-panel" role="dialog" aria-labelledby="intro-name">
+        <div class="intro-scroll">
+          <div class="intro-top">
+            <canvas id="intro-icon" width="88" height="88" aria-hidden="true"></canvas>
+            <div>
+              <h2 id="intro-name"></h2>
+              <p id="intro-tagline"></p>
+            </div>
+          </div>
+          <p id="intro-text"></p>
+          <ol class="intro-stages">
+            <li><b>災前準備</b><span>社區日常</span></li>
+            <li><b>災害當下</b><span>冷靜判斷</span></li>
+            <li><b>災後</b><span>復原與照顧</span></li>
+          </ol>
+          <p class="intro-meta" id="intro-meta"></p>
+        </div>
+        <div class="intro-btns">
+          <button type="button" class="btn btn-primary" id="btn-go">開始演練</button>
+          <button type="button" class="btn" id="btn-intro-back">換一種災害</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="ending-screen" class="screen" hidden>
+      <div class="ending-panel">
+        <div class="ending-scroll">
+          <div class="ending-left">
+            <canvas id="ending-art" aria-hidden="true"></canvas>
+            <p class="ending-kicker" id="ending-kicker"></p>
+            <h2 id="ending-title"></h2>
+            <div class="ending-status" id="ending-status">
+              <b id="ending-done"></b>
+              <span id="ending-why"></span>
+            </div>
+            <p class="ending-sos" id="ending-sos" hidden>緊急時請撥 <b>119</b>（手機可撥 <b>112</b>）<span class="sos-tip">說清楚地點與狀況</span></p>
+            <p id="ending-msg"></p>
+            <div class="ending-stats">
+              <div><span>答對</span><b id="ending-correct"></b></div>
+              <div><span>最佳連對</span><b id="ending-streak"></b></div>
+              <div class="stat-minor"><span>演練指標（風險）</span><b id="ending-risk"></b></div>
+            </div>
+            <div class="ending-badges" id="ending-badges"></div>
+            <p class="ending-best" id="ending-best"></p>
+            <p class="ending-credit"><a href="https://aimingdata.com" target="_blank" rel="noopener">由 AIMing Data 製作</a></p>
+          </div>
+          <div class="ending-right">
+            <h3>學習總結</h3>
+            <div class="summary-top" id="summary-top">
+              <h4>先記住這 2 件事</h4>
+              <ol id="summary-top-list"></ol>
+            </div>
+            <div class="summary-head">
+              <h4 class="summary-sub">逐題詳解</h4>
+              <p class="summary-note" id="summary-note"></p>
+            </div>
+            <ol id="summary-list"></ol>
+            <div class="res-box" id="res-box">
+              <h3>官方資源連結</h3>
+              <ul id="res-list"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="ending-btns">
+          <button type="button" class="ending-more" id="ending-more" hidden>往下看答題解析</button>
+          <button type="button" class="btn btn-primary" id="btn-again">再玩一次</button>
+          <button type="button" class="btn" id="btn-switch">換一種災害</button>
+          <button type="button" class="btn" id="btn-share">分享</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="modal" class="modal" hidden>
+      <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button type="button" class="modal-x" id="modal-close" aria-label="關閉">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </button>
+        <h2 id="modal-title"></h2>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="legal">教育演練用，非政府發布，請以官方公告為準。緊急時請撥 119（手機可撥 112）。</footer>
+</div>
+<noscript><p style="position:fixed;top:40%;left:0;right:0;text-align:center">這個遊戲需要開啟 JavaScript 才能遊玩。</p></noscript>
+
+<script src="js/core.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/art.js"></script>
+<script src="js/props.js"></script>
+<script src="js/scenes.js"></script>
+<script src="js/world.js"></script>
+<script src="js/entry.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
