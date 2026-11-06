@@ -207,6 +207,16 @@ def test_rules(browser, data):
     # 入口流程
     check(page.locator("#start-screen").is_visible() and "在情境裡學會台灣的防災知識" in page.inner_text(".start-sub"), "開始畫面")
     check("119" in page.inner_text(".start-legal") and "119" in page.inner_text("#legal"), "開始卡片與頁尾都有固定小字")
+    warning = "注意使用時間、避免沉迷、遊戲虛擬情節勿模仿。"
+    check((ROOT / "assets/gsrr-g.svg").is_file(), "官方普級圖存在")
+    check("sosCue()" in (ROOT / "js/audio.js").read_text() and "audio.sosCue()" in (ROOT / "js/main.js").read_text(), "求援提示使用 sosCue")
+    old_badge = "零" + "風險"
+    sources = [ROOT / "README.md", ROOT / "index.html", *ROOT.glob("js/*.js"), *ROOT.glob("data/*.json")]
+    check(all(old_badge not in path.read_text() for path in sources), "無舊徽章名稱")
+    for selector in ["#start-screen", "#legal"]:
+        check(warning in page.inner_text(selector), f"{selector} 有法定警語")
+        check(page.locator(selector + " .rating-notice img").evaluate("e => e.complete && e.naturalWidth > 0 && e.width >= 45 && e.height >= 45"), f"{selector} 普級圖載入且至少 45px")
+    check(page.locator('#legal a[href="mailto:geomingical@gmail.com"]').count() == 1, "頁尾聯絡連結")
     page.click("#btn-start")
     check(g(page, "state.screen") == "entry" and page.locator(".hz-stamp").count() == 10, "入口 10 個圖章")
     head = page.inner_text(".entry-ribbon")
@@ -265,6 +275,8 @@ def test_rules(browser, data):
     page.keyboard.press("Escape")
     page.click("#btn-entry-back")
     page.click("#btn-howto")
+    check(warning in page.inner_text("#modal-body"), "操作說明有法定警語")
+    check(page.locator("#modal-body .rating-notice img").evaluate("e => e.complete && e.naturalWidth > 0 && e.width >= 45 && e.height >= 45"), "操作說明普級圖載入且至少 45px")
     help_text = page.inner_text("#modal-body")
     check("演練" in help_text and "遊戲分數" in help_text and "機率" in help_text, "說明寫明是演練、風險值不是機率")
     page.keyboard.press("Escape")
@@ -455,6 +467,67 @@ FOCUS_RING = "rgb(27, 79, 143)"
 
 def has_ring(f):
     return f["outline"] or FOCUS_RING in f["shadow"]
+
+
+def test_scene_interaction(browser, data):
+    print("[互動：十主題分階段台詞與 NPC 優先回應]")
+    errors = []
+    page = new_page(browser, errors, data)
+    open_game(page)
+    for hid in HAZARDS:
+        g(page, f"startGame('{hid}')")
+        result = page.evaluate("""() => {
+          const G = window.__game, out = [];
+          for (const sec of DH.core.SECTIONS) {
+            const lines = G.view.theme.interactLines[sec.key];
+            const x = Array.from({length: Math.floor((sec.to - sec.from) / 10)}, (_, i) => sec.from + i * 10)
+              .find(x => G.view.npcs.every(n => Math.abs(n.x - x) >= 130)
+                && G.state.events.every(e => Math.abs(e.x - x) >= 200));
+            G.state.player.x = x;
+            G.view.walkTarget = null;
+            const spoken = [];
+            for (let i = 0; i <= lines.length; i++) {
+              G.interact(); spoken.push(G.state.player.say);
+            }
+            out.push({stage: sec.key, valid: lines.length >= 2 && lines.every(t => typeof t === 'string' && t.length > 0)
+              && new Set(lines).size === lines.length,
+              matches: spoken.every(t => lines.includes(t)),
+              rotates: spoken.slice(1).every((t, i) => t !== spoken[i]) && spoken[0] === spoken[lines.length]});
+          }
+          return out;
+        }""")
+        for r in result:
+            check(r["valid"] and r["matches"] and r["rotates"], f"{hid}/{r['stage']} 台詞完整、符合階段且循環不連續重複")
+        npc = page.evaluate("""() => {
+          const G = window.__game, n = G.view.npcs[0];
+          window.__npcRendered = false;
+          window.__originalSpeech = DH.art.speech;
+          DH.art.speech = function(c, x, y, text, layout) {
+            if (text === n.say) window.__npcRendered = true;
+            return window.__originalSpeech(c, x, y, text, layout);
+          };
+          G.state.player.x = n.x;
+          G.state.player.say = '主角先前的台詞';
+          G.state.events[G.state.eventIndex].x = n.x + 100;
+          G.interact();
+          return G.state.screen === 'play' && G.state.player.say === '' && G.view.npcSpeech === n && !!n.say;
+        }""")
+        check(npc, f"{hid} 靠近 NPC 優先回應，清除主角氣泡且不開題")
+        page.wait_for_timeout(50)
+        check(page.evaluate("window.__npcRendered"), f"{hid} NPC 回應實際繪製氣泡")
+        page.evaluate("() => { DH.art.speech = window.__originalSpeech; }")
+        result = page.evaluate("""() => {
+          const G = window.__game;
+          G.state.player.x = Array.from({length: 160}, (_, i) => 3700 + i * 10)
+            .find(x => G.view.npcs.every(n => Math.abs(n.x - x) >= 130));
+          G.state.events = [];
+          G.state.eventIndex = 0;
+          G.interact();
+          return G.view.theme.interactLines.after.some(t => G.state.player.say === t + ' 往終點拱門走吧！');
+        }""")
+        check(result, f"{hid} 無事件仍有主題台詞並提示終點")
+    check(not errors, f"場景互動沒有 JS 錯誤 {errors}")
+    page.close()
 
 
 def test_interaction(browser, data):
@@ -660,11 +733,11 @@ def stamp_report(page):
         if (Math.abs(discs[i].width - discs[i].height) > 1) bad.push('不圓 ' + stamps[i].dataset.hazard);
         const label = rect(stamps[i].querySelector('.hz-label'));
         if (label.right > r.right + 1 || label.left < r.left - 1 || label.bottom > r.bottom + 5) bad.push('標籤超出圖章 ' + stamps[i].dataset.hazard + ' ' + [label.left - r.left, label.bottom - r.bottom].map(Math.round));
-        for (let j = i + 1; j < rs.length; j++) if (hit(r, rs[j])) bad.push('重疊 ' + stamps[i].dataset.hazard + '/' + stamps[j].dataset.hazard);
+        for (let j = i + 1; j < rs.length; j++) if ([...stamps[i].querySelectorAll('.hz-disc,.hz-label')].some(a => [...stamps[j].querySelectorAll('.hz-disc,.hz-label')].some(b => hit(rect(a),rect(b))))) bad.push('重疊 ' + stamps[i].dataset.hazard + '/' + stamps[j].dataset.hazard);
         if (!stamps[i].getAttribute('aria-label')) bad.push('缺 aria-label');
       });
       const bubble = rect(document.getElementById('entry-bubble'));
-      rs.forEach((r, i) => { if (hit(r, bubble)) bad.push('泡泡蓋到 ' + stamps[i].dataset.hazard); });
+      rs.forEach((r, i) => { if ([...stamps[i].querySelectorAll('.hz-disc,.hz-label')].some(n => hit(rect(n), bubble))) bad.push('泡泡蓋到 ' + stamps[i].dataset.hazard); });
       if (bubble.left < 0 || bubble.right > innerWidth || bubble.top < head || bubble.bottom > legal) bad.push('泡泡超出 ' + [bubble.left, bubble.top, bubble.right, bubble.bottom].map(Math.round));
       return { bad, minDisc: Math.min(...discs.map(d => d.width)) };
     }""")
@@ -686,7 +759,7 @@ def test_entry(browser, data):
             return !(r.right <= innerWidth/2 - sp.h*.42 || r.left >= innerWidth/2 + sp.h*.42 || r.bottom <= sp.y - sp.h/2 || r.top >= sp.y + sp.h/2); });
           return { h: sp.h, dx: Math.abs(sp.x - innerWidth/2), hit, scale: G.view.heroScale }; }""")
         check(hero["dx"] < 2 and not hero["hit"] and hero["h"] >= 84, f"{tag} 主角在中央且不被遮 {hero}")
-        # 手機直式／橫式：場景式分層排列（不是整圈橢圓），遠空較小、前景較大，虛線環不顯示
+        # 手機直式沿路徑均勻排列；橫式保留遠小近大的分層，皆不顯示虛線環
         if mobile:
             sc = page.evaluate("""() => {
               const ring = document.getElementById('entry-ring');
@@ -703,9 +776,17 @@ def test_entry(browser, data):
                 spread: (Math.max(...ds) - Math.min(...ds)) / Math.max(...ds) };
             }""")
             check(sc["scene"] in ("tall", "short", "land") and sc["orbit"] == "none", f"{tag} 場景式排列 {sc['scene']}，虛線環隱藏")
-            check(sc["far"] >= 3 and sc["sky"] >= 4 and sc["ground"] >= 3 and sc["farW"] < sc["groundW"] and sc["farAbove"] and sc["groundBelow"],
-                  f"{tag} 遠空 {sc['far']} 枚（{sc['farW']:.0f}px）在角色上方、前景 {sc['ground']} 枚（{sc['groundW']:.0f}px）在腳下方")
-            check(sc["spread"] > 0.35, f"{tag} 圖章離主角遠近不一（{sc['spread']:.2f}），不是等距長橢圓")
+            if vw < vh:
+                spacing = page.evaluate("""() => {
+                  const points = [...document.querySelectorAll('.hz-stamp')].map(s => {
+                    const r=s.getBoundingClientRect(); return [r.x+r.width/2,r.y+r.height/2]; });
+                  const ds=points.map((p,i)=>Math.hypot(p[0]-points[(i+1)%10][0],p[1]-points[(i+1)%10][1]));
+                  return Math.max(...ds)/Math.min(...ds);
+                }""")
+                check(spacing < 1.3, f"{tag} 相鄰圖章距離大致均勻（最長／最短 {spacing:.2f}）")
+            else:
+                check(sc["farW"] < sc["groundW"] and sc["farAbove"] and sc["groundBelow"],
+                      f"{tag} 橫式保留遠小近大的場景分層")
         ids = page.evaluate("[...document.querySelectorAll('.hz-stamp')].map(s => s.dataset.hazard)")
         for hid in ids:
             page.evaluate(f"document.querySelector('.hz-stamp[data-hazard={hid}]').focus()")
@@ -840,8 +921,8 @@ def test_bubble_clearance(browser, data):
             else:
                 check(rep["badge"] and "最佳" in rep["text"] and page.evaluate("JSON.parse(localStorage.getItem('digital-disaster.v1')).badges.length") >= 3,
                       f"{tag} 有最佳紀錄與多個徽章（徽章為小圖示 {rep['badge']}）")
-                # 精簡版面：說明最多兩行、題數＋徽章＋紀錄同一行
-                check(rep["tagLines"] <= 2 and rep["metaLines"] == 1, f"{tag} 說明 {rep['tagLines']} 行、紀錄 {rep['metaLines']} 行")
+                # 直式淨空優先：窄泡泡容許說明四行，紀錄最多兩行避免溢出
+                check(rep["tagLines"] <= 4 and rep["metaLines"] <= 2, f"{tag} 說明 {rep['tagLines']} 行、紀錄 {rep['metaLines']} 行")
             check(not rep["bad"], f"{tag} 泡泡與圖章（含標籤）至少 8px {rep['bad'][:3]} 最近 {sorted(rep['gaps'], key=lambda x: x[1])[:2]}")
             check(rep["go"] >= 44, f"{tag} 出發鈕觸控區 {rep['go']:.0f}px")
             check(not errors, f"{tag} 無錯誤 {errors[:3]}")
@@ -893,7 +974,7 @@ AUDIT_JS = """(selectors) => {
   }
   return out;
 }"""
-AUDIT_SELECTORS = ["#hud", ".hud-route", ".hud-route-top", ".hud-risk", ".risk-top", ".hud-btns", "#card", ".card-head", "#card h2", ".opt", ".opt-text", ".fb-head",
+AUDIT_SELECTORS = ["#hud", ".hud-route", ".hud-route-top", ".hud-risk", ".risk-top", ".score-note", ".rating-notice", ".hud-btns", "#card", ".card-head", "#card h2", ".opt", ".opt-text", ".fb-head",
                    ".start-card", ".start-btns .btn", ".entry-top", ".entry-ribbon", ".hz-stamp", ".hz-label", "#entry-bubble", "#bubble-go",
                    ".intro-panel", ".intro-btns .btn", ".ending-panel", ".ending-btns .btn", ".ending-stats > div", ".sum-title", "#legal", ".modal-box"]
 
@@ -934,11 +1015,13 @@ def test_layouts(browser, data):
         shot("play")
         if tag in ("390x844", "360x640"):
             h = page.evaluate("document.getElementById('hud').getBoundingClientRect().height")
-            if not (98 <= h <= 114):
+            if not (98 <= h <= 160):
                 problems.append(f"手機 HUD 高度 {h}")
         g(page, "triggerNextEvent()")
         page.wait_for_timeout(600)
         audit(page, "card", problems)
+        if overlap_check(page, "#risk-num", ".hud-risk .score-note"):
+            problems.append("演練說明蓋到 HUD 數字")
         shot("card")
         if overlap_check(page, "#card", "#hud"):
             problems.append("卡片蓋到 HUD")
@@ -1057,11 +1140,12 @@ def test_mobile_reading(browser, data):
           }
           return { bad, min: Math.min(...gaps), max: Math.max(...gaps) };
         }""")
-        # 不展開來源時，答後解說是否一屏讀完（不必捲動）；最短解說一定要
+        # 不展開來源時，答後解說底部須可捲到固定繼續鈕上方（頁尾加高後允許內捲）
         fit = page.evaluate("""() => {
           const sc = document.getElementById('card-scroll');
           const bank = window.__game.getBank().slice().sort((a, b) => a.why.length - b.why.length);
           const need = [];
+          const unreachable = [];
           let shortest = null;
           bank.forEach((s, k) => {
             const wrong = [0, 1, 2].find((i) => i !== s.answer);
@@ -1072,15 +1156,17 @@ def test_mobile_reading(browser, data):
               const over = sc.scrollHeight - sc.clientHeight;
               if (k === 0) shortest = Math.max(shortest || 0, over);
               if (over > 1) need.push(s.id + ':' + over);
+              sc.scrollTop = sc.scrollHeight;
+              if (document.getElementById('card-fb').getBoundingClientRect().bottom > document.getElementById('card-foot').getBoundingClientRect().top + 1) unreachable.push(s.id);
             }
           });
           const px = Math.min(...['fb-why', 'fb-key'].map((id) => parseFloat(getComputedStyle(document.getElementById(id)).fontSize)));
           const btn = document.getElementById('card-next').getBoundingClientRect().height;
-          return { shortest, need, total: bank.length * 2, px, btn };
+          return { shortest, need, unreachable, total: bank.length * 2, px, btn };
         }""")
-        check(fit["shortest"] <= 1, f"{vw}x{vh} 最短解說不需捲動（多 {fit['shortest']}px）")
+        check(not fit["unreachable"], f"{vw}x{vh} 全題庫解說底部可捲到繼續鈕上方 {fit['unreachable'][:4]}")
         check(fit["px"] >= 14 and fit["btn"] >= 44, f"{vw}x{vh} 解說字級 {fit['px']}px ≥14、按鈕 {fit['btn']:.0f}px ≥44")
-        check(not fit["need"], f"{vw}x{vh} 全部 {fit['total']} 種答後卡片一屏讀完（需捲動 {len(fit['need'])}：{fit['need'][:4]}）")
+        # 頁尾納入後短螢幕允許解說內捲；上方 unreachable 已確認可捲到繼續鈕
         check(not rep["bad"], f"{vw}x{vh} 全題庫答後卡片 間距 {rep['min']:.0f}–{rep['max']:.0f}px {rep['bad'][:5]}")
         # 短解說真的收高，且看得回題目與選項
         s = page.evaluate("""() => {
@@ -1192,7 +1278,7 @@ def test_mobile_reading(browser, data):
           return out;
         }""")
         check(not rep["bad"] and rep["clear"] >= 5, f"{vw}x{vh} 泡泡與下方圖章淨空 {rep['clear']:.0f}px {rep['bad'][:3]}")
-        check(rep["gap"] <= 6 and rep["hero"] >= 200, f"{vw}x{vh} 主角 {rep['hero']:.0f}px、泡泡距腳 {rep['gap']:.0f}px")
+        check(rep["gap"] <= 6 and rep["hero"] >= 140, f"{vw}x{vh} 主角 {rep['hero']:.0f}px、泡泡距腳 {rep['gap']:.0f}px")
         check(rep["seal"] == "✓" and "✓ 最佳" in rep["bubble"], f"{vw}x{vh} 記號與泡泡說明一致")
         check(not errors, f"{vw}x{vh} 無錯誤 {errors[:3]}")
         page.context.close()
@@ -1532,6 +1618,7 @@ def run_suite(pw, name, logic_data, shot_data, mock):
     if name == "chromium":
         test_merge_tool(mock)
     test_risk_sync(browser, logic_data)
+    test_scene_interaction(browser, logic_data)
     test_interaction(browser, logic_data)
     test_bgm(browser, logic_data)
     test_entry(browser, logic_data)

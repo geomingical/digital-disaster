@@ -490,8 +490,8 @@
       c.lineWidth = 3.5;
       c.lineJoin = 'round';
       c.stroke();
-      text(c, it.label, 2, -105, 20, '#7a5b42', 800);
-      text(c, it.sub, 2, -83, 15, '#a4714c');
+      text(c, it.label, 2, -105, Math.max(20, 12 / (s * A.viewZ)), '#7a5b42', 800);
+      text(c, it.sub, 2, -83, Math.max(15, 12 / (s * A.viewZ)), '#a4714c');
     },
     gate(c, s, t, it) {
       c.scale(s, s);
@@ -518,9 +518,12 @@
       c.scale(s, s);
       box(c, -40, -36, 8, 36, 3, '#94694a');
       box(c, 32, -36, 8, 36, 3, '#94694a');
-      box(c, -54, -98, 108, 66, 10, '#a4714c');
-      box(c, -48, -92, 96, 54, 7, '#fff9ea');
-      text(c, it.label || '社區公告', 0, -80, 14, '#7a5b42');
+      const label = it.label || '社區公告';
+      const size = Math.max(14, 12 / (s * A.viewZ));
+      const width = Math.max(108, label.length * size + 24);
+      box(c, -width / 2, -98, width, 66, 10, '#a4714c');
+      box(c, -width / 2 + 6, -92, width - 12, 54, 7, '#fff9ea');
+      text(c, label, 0, -80, size, '#7a5b42');
       line(c, -36, -66, 36, -66, '#d8c6a4', 3);
       line(c, -36, -57, 22, -57, '#d8c6a4', 3);
       line(c, -36, -48, 30, -48, '#d8c6a4', 3);

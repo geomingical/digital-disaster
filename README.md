@@ -80,3 +80,23 @@ WebKit 需要 `python3 -m playwright install webkit` 與 `install-deps webkit`�
 十種災害各玩一次全對與全錯，並檢查配額、分級、備援（http 正常時不得請求 `fallback-data.js`；`file://` 完整玩一局）、風險結算（HUD == 回饋卡）、入口圖章不重疊且不出界、hover 從圖章移到泡泡按「出發」、鍵盤從開始畫面玩到結局、焦點樣式（computed outline／box-shadow）、WebAudio 開關、背景音樂（手勢前不建立 AudioContext；點擊後播放入口曲；各階段與結局曲目切換；靜音使 BGM gain 歸零並寫入 localStorage、重新載入後仍靜音；模擬 `visibilitychange` hidden 時暫停、切回恢復；全程無 console error）、手機答後閱讀（360x640 與 390x844 全部 120 題×正誤兩種卡片不需捲動、字級 ≥14px、按鈕 ≥44px）、手機結局 DOM 順序與安慰句 ≤2 行、版面溢出、外部請求。截圖輸出到上一層的 `screenshots/`（海嘯另有 `play-tsunami-before/during/after.png`；手機入口另有 `mobile-entry-360.png`、`mobile-entry-selected-360.png`（有紀錄＋徽章）、`mobile-entry-landscape.png`），版面稽核圖在 `screenshots/audit/`（390x844、360x640、844x390、1024x576、1440x900）；WebKit 的截圖在 `screenshots/webkit/`。
 
 `window.__game`：`state`、`view`、`store`、`audio`（`audio.state()` 見上）、`getBank()`、`getHazards()`、`startGame(id)`、`selectHazard(id)`、`teleportToNextEvent()`、`teleportToFinish()`、`triggerNextEvent()`、`answer(i)`（i 為畫面上的選項順序）、`correctIndex()`、`wrongIndex()`、`continue()`、`skipToEnding('good'|'normal'|'bad'|風險值)`、`backToMenu()`。
+
+## 合規／分級
+
+起始畫面、操作說明與頁尾並列官方 GSRR 普級標識、「普遍級（普級）」與法定警語「注意使用時間、避免沉迷、遊戲虛擬情節勿模仿。」。原有教育演練聲明與真遇險才撥 119／112 的提醒保留。
+
+發行人須自行至 https://www.gamerating.org.tw/ 完成遊戲分級登錄。本次改動只做站上標示，不代表已完成登錄。
+
+## 素材授權
+
+遊戲場景圖像以 Canvas 程式自繪，見 `js/art.js`、`js/props.js`。`props.js` 的 `sirentower` 是 Canvas 繪製的警報塔視覺道具，無聲音。
+
+所有音效與背景音樂以 WebAudio 即時合成，無音檔，未取樣或引用任何真實警報器或官方警報（如國家級警報、PWS）音檔，音型刻意不同於官方警報。求援提示音函式為 `sosCue()`。
+
+`assets/` 僅有 `og-cover.jpg` 與官方 GSRR 普級標識 `gsrr-g.svg`。標識來源為《遊戲軟體分級管理辦法》法定標識，依規定原樣使用。
+
+## 隱私
+
+遊戲僅在瀏覽器 localStorage 的 `digital-disaster.v1` 鍵儲存遊玩進度、作答紀錄、徽章及音效偏好，不上傳伺服器，無分析追蹤。程式的 `fetch()` 用於讀取本站題庫 JSON。部署 CSP 設定為 `connect-src 'self'`，圖片亦允許本站來源。
+
+可從「我的紀錄」清除紀錄，但會保留音效偏好。若要全部清除，請清除此網站的瀏覽器儲存資料，或在本站開發者工具執行 `localStorage.removeItem('digital-disaster.v1')` 後重新載入。

@@ -279,6 +279,7 @@
     ui.closeModal();
     clearRun();
     state.hazard = id;
+    interactCounts.clear();
     useTheme(id);
     state.events = core.buildEvents(core.pickScenarios(bank, id, rng, store.data.seen), rng);
     state.streak = 0;
@@ -430,9 +431,11 @@
     });
     needsRedraw = true;
     sizeEndingCanvas();
-    if (grade.tier === 'bad') audio.siren();
+    if (grade.tier === 'bad') audio.sosCue();
     else audio.fanfare();
   }
+
+  const interactCounts = new Map();
 
   function interact() {
     if (state.screen === 'card') {
@@ -440,11 +443,25 @@
       return;
     }
     if (state.screen !== 'play') return;
+    updateNpcSpeech();
+    if (view.npcSpeech) {
+      say('', 0);
+      view.walkTarget = null;
+      state.player.dir = view.npcSpeech.x >= state.player.x ? 1 : -1;
+      audio.pop();
+      return;
+    }
     const ev = nextEvent();
     if (ev && Math.abs(ev.x - state.player.x) < HINT_RANGE) {
       openEvent(ev);
     } else {
-      say(ev ? '前面還有狀況，繼續走吧' : '往終點拱門走吧！', 1.5);
+      const stage = core.sectionAt(state.player.x).key;
+      const lines = (view.theme.interactLines || scenes.THEMES.home.interactLines)[stage];
+      const key = `${state.hazard}:${stage}`;
+      const count = interactCounts.get(key) || 0;
+      interactCounts.set(key, count + 1);
+      const finishHint = state.eventIndex >= state.events.length ? ' 往終點拱門走吧！' : '';
+      say(lines[count % lines.length] + finishHint, 4);
     }
   }
 
@@ -733,6 +750,11 @@
     canvas.height = Math.round(h * dpr);
     if (state.screen === 'entry') layout = entryLayout(w, h);
     else layout = STILL_SCREENS.has(state.screen) ? startLayout(w, h) : world.makeLayout(w, h);
+    const card = document.getElementById('card');
+    if (!card.hidden) {
+      const topSafe = document.getElementById('hud').getBoundingClientRect().bottom + 24;
+      card.style.maxHeight = `calc(100% - ${topSafe}px)`;
+    }
     sizeEndingCanvas();
     needsRedraw = true;
   }
@@ -770,7 +792,15 @@
       const z = clamp(w / 390, 0.75, 1.2);
       const legal = document.getElementById('legal').offsetHeight;
       const basePx = Math.min(card.bottom + 24 + 166 * z, h - legal - 128 * z);
-      return world.makeLayout(w, h, { z, basePx, camX: 660 });
+      const L = world.makeLayout(w, h, { z, basePx, camX: 660 });
+      /* 短直式讓角色完整落在首頁卡與法定頁尾之間。 */
+      const room = h - legal - card.bottom - 24;
+      const heroHeight = HERO_NATIVE_H * z * (0.92 + HOME_D * 0.12);
+      L.heroScale = Math.min(1, Math.max(1, room) / heroHeight);
+      const feet = Math.max(card.bottom + 12 + heroHeight * L.heroScale,
+        Math.min(world.playerY(L, 660, HOME_D) * z, h - legal - 12));
+      L.base += feet / z - world.playerY(L, 660, HOME_D);
+      return L;
     }
     const gap = 16;
     const z = clamp((w - card.right - gap) / SCENE_SPAN, 0.55, 1.05);
@@ -1044,6 +1074,7 @@
     getBank: () => bank,
     getHazards: () => hazards,
     startGame,
+    interact,
     selectHazard,
     backToMenu: toEntry,
     teleportToNextEvent() {

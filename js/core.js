@@ -227,7 +227,7 @@
   const BADGES = [
     ...HAZARD_IDS.map((id) => ({ id: `done-${id}`, name: `${HAZARD_BADGES[id]}演練員`, desc: `完成一次${HAZARD_BADGES[id]}演練` })),
     { id: 'legend', name: '穩穩的判斷', desc: '風險低於 20 完成演練' },
-    { id: 'zero', name: '零風險', desc: '風險 0 完成演練' },
+    { id: 'zero', name: '滿分應變', desc: '演練分數 0 完成' },
     { id: 'streak5', name: '判斷連發', desc: '一局中連續答對 5 題' },
     { id: 'rescue', name: '勇於求援', desc: '經歷一次求援結局' },
     { id: 'all', name: '防災達人', desc: '十種災害全部完成' },
