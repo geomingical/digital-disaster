@@ -398,12 +398,36 @@
     c.restore();
   }
 
-  function speech(c, x, y, str) {
-    c.font = `700 15px ${FONT}`;
-    const w = c.measureText(str).width + 22;
-    box(c, x - w / 2, y - 32, w, 28, 12, 'rgba(255,253,246,.96)');
-    poly(c, [x - 7, y - 5, x + 7, y - 5, x, y + 3], 'rgba(255,253,246,.96)');
-    text(c, str, x, y - 18, 15, '#5a4a3e');
+  function speech(c, x, y, str, viewport) {
+    c.save();
+    const z = viewport ? viewport.z : 1;
+    const size = Math.max(15, 13 / z);
+    const gap = 8 / z;
+    const maxWidth = viewport ? Math.min(340 / z, viewport.vw - gap * 2) : 340;
+    const padding = 11 / z;
+    c.font = `700 ${size}px ${FONT}`;
+    const lines = [''];
+    for (const ch of str) {
+      const i = lines.length - 1;
+      if (c.measureText(lines[i] + ch).width > maxWidth - padding * 2) {
+        if (lines.length === 2) {
+          while (c.measureText(lines[1] + '…').width > maxWidth - padding * 2) lines[1] = lines[1].slice(0, -1);
+          lines[1] += '…';
+          break;
+        }
+        lines.push(ch);
+      } else lines[i] += ch;
+    }
+    const w = Math.max(...lines.map(line => c.measureText(line).width)) + padding * 2;
+    const cx = viewport ? Math.max(gap + w / 2, Math.min(viewport.vw - gap - w / 2, x)) : x;
+    const lineHeight = size * 1.4;
+    const h = lines.length * lineHeight + 10 / z;
+    const bottom = y - 4;
+    box(c, cx - w / 2, bottom - h, w, h, 12, 'rgba(255,253,246,.98)');
+    const tail = Math.max(cx - w / 2 + 9, Math.min(cx + w / 2 - 9, x));
+    poly(c, [tail - 7, bottom - 1, tail + 7, bottom - 1, tail, y + 3], 'rgba(255,253,246,.98)');
+    lines.forEach((line, i) => text(c, line, cx, bottom - h + 5 / z + lineHeight * (i + 0.5), size, '#5a4a3e'));
+    c.restore();
   }
 
   /* 事件標記圖示：在半徑約 14 的圓內繪製 ---------------------------------- */
@@ -1092,7 +1116,7 @@
         poly(c, [hxx - 5.2, hyy + 1, hxx + 5.2, hyy + 1, hxx, hyy + 7], '#ef7f7a');
         c.globalAlpha = 1;
       }
-      speech(c, Math.max(84, gx + 46 * sc), Math.max(36, gy - 128 * gs - 16), '別怕，我們來幫忙！');
+      speech(c, Math.max(84, gx + 46 * sc), Math.max(36, gy - 128 * gs - 16), '別怕，我們來幫忙！', { z: 1, vw: w });
     },
   };
 

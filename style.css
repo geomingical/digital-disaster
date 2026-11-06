@@ -1015,10 +1015,11 @@ body.touch #hints { display: none; }
 
 /* 場景式排列（手機直式／橫式）：不畫整圈虛線；遠空圖章坐在小雲上、略淡，前景圖章落地有影子 */
 #entry-ring.is-scene #entry-orbit { display: none; }
-/* 場景式的泡泡夠寬：名稱和出發鈕同一列，說明緊接在名稱下，紀錄一行 */
-.is-scene:not(.is-side) #entry-bubble:not(.is-hint) { grid-template-areas: 'name go' 'tag go' 'meta meta'; row-gap: 0; }
+/* 直式泡泡名稱獨佔一列；窄畫面讓紀錄換行，保留兩側圖章淨空。 */
+.is-scene:not(.is-side) #entry-bubble:not(.is-hint) { grid-template-areas: 'name name' 'tag go' 'meta meta'; row-gap: 0; }
 .is-scene:not(.is-side) #entry-bubble:not(.is-hint) .bubble-tag { align-self: start; }
-.is-scene .bubble-meta { flex-wrap: nowrap; white-space: nowrap; }
+.is-scene .bubble-meta { flex-wrap: wrap; }
+.is-scene .bubble-meta > span { white-space: nowrap; }
 .is-scene .hz-float { position: relative; isolation: isolate; }
 .is-scene .hz-float::before {
   content: '';
@@ -1175,7 +1176,7 @@ body.touch #hints { display: none; }
 #bubble-body { display: contents; }
 .hint-part { display: inline-block; }
 .bubble-hint { grid-area: name; margin: 0; font-size: 15px; font-weight: 700; line-height: 1.45; }
-.bubble-name { grid-area: name; align-self: end; margin-bottom: 1px; display: block; color: #a4471f; font-size: 18px; line-height: 1.25; }
+.bubble-name { text-wrap: balance; grid-area: name; align-self: end; margin-bottom: 1px; display: block; color: #a4471f; font-size: 18px; line-height: 1.25; }
 .bubble-tag { grid-area: tag; align-self: end; margin: 0; font-size: 14px; line-height: 1.35; }
 .bubble-meta { grid-area: meta; align-self: start; display: flex; flex-wrap: wrap; align-items: center; gap: 1px 6px; margin: 1px 0 0; color: #6b5c50; font-size: 13px; line-height: 1.35; }
 .bubble-meta > span:first-child { color: #6b5c50; }

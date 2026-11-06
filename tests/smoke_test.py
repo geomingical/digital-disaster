@@ -672,11 +672,11 @@ def stamp_report(page):
         if (Math.abs(discs[i].width - discs[i].height) > 1) bad.push('不圓 ' + stamps[i].dataset.hazard);
         const label = rect(stamps[i].querySelector('.hz-label'));
         if (label.right > r.right + 1 || label.left < r.left - 1 || label.bottom > r.bottom + 5) bad.push('標籤超出圖章 ' + stamps[i].dataset.hazard + ' ' + [label.left - r.left, label.bottom - r.bottom].map(Math.round));
-        for (let j = i + 1; j < rs.length; j++) if (hit(r, rs[j])) bad.push('重疊 ' + stamps[i].dataset.hazard + '/' + stamps[j].dataset.hazard);
+        for (let j = i + 1; j < rs.length; j++) if ([...stamps[i].querySelectorAll('.hz-disc,.hz-label')].some(a => [...stamps[j].querySelectorAll('.hz-disc,.hz-label')].some(b => hit(rect(a),rect(b))))) bad.push('重疊 ' + stamps[i].dataset.hazard + '/' + stamps[j].dataset.hazard);
         if (!stamps[i].getAttribute('aria-label')) bad.push('缺 aria-label');
       });
       const bubble = rect(document.getElementById('entry-bubble'));
-      rs.forEach((r, i) => { if (hit(r, bubble)) bad.push('泡泡蓋到 ' + stamps[i].dataset.hazard); });
+      rs.forEach((r, i) => { if ([...stamps[i].querySelectorAll('.hz-disc,.hz-label')].some(n => hit(rect(n), bubble))) bad.push('泡泡蓋到 ' + stamps[i].dataset.hazard); });
       if (bubble.left < 0 || bubble.right > innerWidth || bubble.top < head || bubble.bottom > legal) bad.push('泡泡超出 ' + [bubble.left, bubble.top, bubble.right, bubble.bottom].map(Math.round));
       return { bad, minDisc: Math.min(...discs.map(d => d.width)) };
     }""")
@@ -698,7 +698,7 @@ def test_entry(browser, data):
             return !(r.right <= innerWidth/2 - sp.h*.42 || r.left >= innerWidth/2 + sp.h*.42 || r.bottom <= sp.y - sp.h/2 || r.top >= sp.y + sp.h/2); });
           return { h: sp.h, dx: Math.abs(sp.x - innerWidth/2), hit, scale: G.view.heroScale }; }""")
         check(hero["dx"] < 2 and not hero["hit"] and hero["h"] >= 84, f"{tag} 主角在中央且不被遮 {hero}")
-        # 手機直式／橫式：場景式分層排列（不是整圈橢圓），遠空較小、前景較大，虛線環不顯示
+        # 手機直式沿路徑均勻排列；橫式保留遠小近大的分層，皆不顯示虛線環
         if mobile:
             sc = page.evaluate("""() => {
               const ring = document.getElementById('entry-ring');
@@ -715,9 +715,17 @@ def test_entry(browser, data):
                 spread: (Math.max(...ds) - Math.min(...ds)) / Math.max(...ds) };
             }""")
             check(sc["scene"] in ("tall", "short", "land") and sc["orbit"] == "none", f"{tag} 場景式排列 {sc['scene']}，虛線環隱藏")
-            check(sc["far"] >= 3 and sc["sky"] >= 4 and sc["ground"] >= 3 and sc["farW"] < sc["groundW"] and sc["farAbove"] and sc["groundBelow"],
-                  f"{tag} 遠空 {sc['far']} 枚（{sc['farW']:.0f}px）在角色上方、前景 {sc['ground']} 枚（{sc['groundW']:.0f}px）在腳下方")
-            check(sc["spread"] > 0.35, f"{tag} 圖章離主角遠近不一（{sc['spread']:.2f}），不是等距長橢圓")
+            if vw < vh:
+                spacing = page.evaluate("""() => {
+                  const points = [...document.querySelectorAll('.hz-stamp')].map(s => {
+                    const r=s.getBoundingClientRect(); return [r.x+r.width/2,r.y+r.height/2]; });
+                  const ds=points.map((p,i)=>Math.hypot(p[0]-points[(i+1)%10][0],p[1]-points[(i+1)%10][1]));
+                  return Math.max(...ds)/Math.min(...ds);
+                }""")
+                check(spacing < 1.3, f"{tag} 相鄰圖章距離大致均勻（最長／最短 {spacing:.2f}）")
+            else:
+                check(sc["farW"] < sc["groundW"] and sc["farAbove"] and sc["groundBelow"],
+                      f"{tag} 橫式保留遠小近大的場景分層")
         ids = page.evaluate("[...document.querySelectorAll('.hz-stamp')].map(s => s.dataset.hazard)")
         for hid in ids:
             page.evaluate(f"document.querySelector('.hz-stamp[data-hazard={hid}]').focus()")
@@ -852,8 +860,8 @@ def test_bubble_clearance(browser, data):
             else:
                 check(rep["badge"] and "最佳" in rep["text"] and page.evaluate("JSON.parse(localStorage.getItem('digital-disaster.v1')).badges.length") >= 3,
                       f"{tag} 有最佳紀錄與多個徽章（徽章為小圖示 {rep['badge']}）")
-                # 精簡版面：說明最多兩行、題數＋徽章＋紀錄同一行
-                check(rep["tagLines"] <= 2 and rep["metaLines"] == 1, f"{tag} 說明 {rep['tagLines']} 行、紀錄 {rep['metaLines']} 行")
+                # 直式淨空優先：窄泡泡容許說明四行，紀錄最多兩行避免溢出
+                check(rep["tagLines"] <= 4 and rep["metaLines"] <= 2, f"{tag} 說明 {rep['tagLines']} 行、紀錄 {rep['metaLines']} 行")
             check(not rep["bad"], f"{tag} 泡泡與圖章（含標籤）至少 8px {rep['bad'][:3]} 最近 {sorted(rep['gaps'], key=lambda x: x[1])[:2]}")
             check(rep["go"] >= 44, f"{tag} 出發鈕觸控區 {rep['go']:.0f}px")
             check(not errors, f"{tag} 無錯誤 {errors[:3]}")

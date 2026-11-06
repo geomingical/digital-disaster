@@ -279,7 +279,29 @@
     return { S: S0, rings: 0, scene: kind, rx: area.w / 2, ry: area.h / 2, cx, cy: area.t + area.h / 2, rects, hero };
   }
 
+  /* 直式沿同一條路徑等弧長放置，淨空包含選取光圈及浮動極值。 */
+  function fitPortrait(area, kind) {
+    const S = Math.max(MIN_STAMP, Math.min(50, Math.round(area.w * 0.14)));
+    const cells = hazards.map(h => ({ ...cellOf(h.name, S, false), S }));
+    const margin = 9;
+    const rx = (area.w - (S + 18)) / 2 - 1;
+    const ry = (area.h - Math.max(...cells.map(c => c.h))) / 2 - margin;
+    const cx = area.l + area.w / 2;
+    const cy = area.t + area.h / 2;
+    const rects = ellipsePoints(10, rx, ry, 0.5).map((p, i) => {
+      const cell = cells[i], x = cx + p.x, y = cy + p.y;
+      const layer = p.y < -ry * 0.35 ? 'far' : p.y > ry * 0.35 ? 'ground' : 'side';
+      return { x, y, cell, layer, l: x - cell.w / 2, r: x + cell.w / 2, t: y - cell.h / 2, b: y + cell.h / 2 };
+    });
+
+    const h = Math.min(kind === 'short' ? 90 : 160, area.h * 0.27, area.w * 0.4);
+    const y = cy - (kind === 'short' ? 75 : 30);
+    const hero = { h, y, top: y - h / 2, bottom: y + h / 2 };
+    return { S, rings: 0, scene: kind, rx, ry, cx, cy, rects, hero };
+  }
+
   function fitScene(area, kind, oneLine) {
+    if (kind !== 'land') return fitPortrait(area, kind);
     const start = kind === 'land' ? clamp(Math.round(area.h * 0.18), 46, 60) : clamp(Math.round(area.w * 0.16), 48, 64);
     for (let S = start; S >= MIN_STAMP; S -= 1) {
       const fit = trySlots(area, kind, S, oneLine);
@@ -406,7 +428,7 @@
     const feet = hero.y + hero.h / 2 + (wide ? 4 : 10);
     /* 圖章選取時會放大 10%、上下浮動 3px，淨空要把這些算進去，看起來才有 10px 以上的間距 */
     const clear = BUBBLE_CLEAR + fit.S * 0.1 + 3;
-    const MIN_W = 170;
+    const MIN_W = fit.scene === 'short' ? 146 : 170;
     const maxW = Math.min(wide ? 330 : 300, area.w - 8);
     /* 收窄也躲不掉的（正下方）圖章決定泡泡的下緣；其餘兩側的圖章決定寬度 */
     const under = fit.rects.filter((r) => r.y > feet && r.r > cx - MIN_W / 2 && r.l < cx + MIN_W / 2);
@@ -493,6 +515,35 @@
         link.style.top = `${sy - box.top}px`;
         link.style.height = `${len}px`;
         link.style.transform = `rotate(${(-Math.atan2(ex - sx, ey - sy) * 180) / Math.PI}deg)`;
+      }
+    }
+    if (fit.scene && !side) {
+      const obstacles = [...document.querySelectorAll('.hz-stamp')].map((stamp, i) => {
+        const r = fit.rects[i];
+        const label = stamp.querySelector('.hz-label');
+        const disc = stamp.querySelector('.hz-disc');
+        const grow = stamp.classList.contains('is-active') ? r.cell.S * 0.1 + 3 : 0;
+        const half = Math.max(disc.offsetWidth / 2 + grow, label.offsetWidth / 2);
+        return { l: r.x - half, r: r.x + half, t: r.t - grow - 3,
+          b: r.t + Math.max(disc.offsetHeight, label.offsetTop + label.offsetHeight) + 3 };
+      });
+      let best = null;
+      for (let width = maxW; width >= MIN_W; width -= 4) {
+        bub.style.width = `${width}px`;
+        const height = bub.offsetHeight;
+        const l = cx - width / 2;
+        for (let y = area.t + 8; y + height <= area.t + area.h - 8; y += 2) {
+          const box = { l, r: l + width, t: y, b: y + height };
+          if (obstacles.some(r => overlaps(r, box, 8))) continue;
+          const score = Math.abs(y - top) + (maxW - width) * 0.15;
+          if (!best || score < best.score) best = { l, y, width, score };
+        }
+      }
+      if (best) {
+        left = best.l; top = best.y; w = best.width;
+        tailX = clamp(tailX, left + 26, left + w - 26);
+        link.hidden = true;
+        bub.classList.remove('is-docked');
       }
     }
     bub.style.setProperty('--tail-x', `${tailX - left}px`);

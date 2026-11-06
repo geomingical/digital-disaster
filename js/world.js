@@ -523,7 +523,7 @@
     c.restore();
     if (near) {
       A.box(c, x - 26, by - 53, 52, 23, 11.5, '#bd542b');
-      A.text(c, '查看', x, by - 41, 14, '#fff', 700);
+      A.text(c, '查看', x, by - 41, Math.max(14, 12 / A.viewZ), '#fff', 700);
     }
   }
 
@@ -570,6 +570,47 @@
     c.setTransform(1, 0, 0, 1, 0, 0);
     c.drawImage(hazeBuf, 0, 0);
     c.restore();
+  }
+
+  let atmosphere;
+  function drawAtmosphere(c, L, g, w, hero, list) {
+    if (!atmosphere) atmosphere = document.createElement('canvas');
+    const scale = Math.max(1, L.z);
+    const width = Math.ceil((L.vw + 80) * scale);
+    const height = Math.ceil((L.vh + 440) * scale);
+    if (atmosphere.width !== width || atmosphere.height !== height) {
+      atmosphere.width = width;
+      atmosphere.height = height;
+    }
+    const fx = atmosphere.getContext('2d');
+    fx.setTransform(scale, 0, 0, scale, 40 * scale, 40 * scale);
+    fx.clearRect(-40, -40, L.vw + 80, L.vh + 440);
+    if (g.theme.fx) g.theme.fx(fx, L, Object.assign({}, g, { sprites, hero }), w);
+    /* 停電已有夜幕，避免另疊灰霧與暗角洗掉夜色及停電線索。 */
+    if (!g.theme.lamps) {
+      riskFog(fx, L, g, g.riskView);
+      vignette(fx, L, g.riskView);
+    }
+    fx.globalCompositeOperation = 'destination-out';
+    const clearNear = (x, y, rx, ry, strength) => {
+      fx.save();
+      fx.translate(x, y);
+      fx.scale(rx, ry);
+      const fade = fx.createRadialGradient(0, 0, 0.35, 0, 0, 1);
+      fade.addColorStop(0, `rgba(0,0,0,${strength})`);
+      fade.addColorStop(1, 'rgba(0,0,0,0)');
+      fx.fillStyle = fade;
+      fx.fillRect(-1, -1, 2, 2);
+      fx.restore();
+    };
+    clearNear(hero.sx, hero.y - 65, 100, 135, 0.95);
+    for (const e of list) {
+      if (e.isNext || e.npc || (e.it && !e.it.haze && e.it.oy > -40)) {
+        clearNear(e.sx, e.y - 65, e.it ? 120 : 85, 115, e.isNext ? 0.95 : 0.75);
+      }
+    }
+    fx.globalCompositeOperation = 'source-over';
+    c.drawImage(atmosphere, -40, -40, width / scale, height / scale);
   }
 
   /* 主要繪製 --------------------------------------------------------- */
@@ -680,15 +721,14 @@
     }
 
     butterflies(c, L, g, def, w);
-    if (def.fx) def.fx(c, L, Object.assign({}, g, { sprites, hero: { sx: heroSx, y: heroY, dir: p.dir } }), w);
-    riskFog(c, L, g, g.riskView);
+    drawAtmosphere(c, L, g, w, { sx: heroSx, y: heroY, dir: p.dir }, list);
 
     if (g.npcSpeech) {
       const n = g.npcSpeech;
       const headH = n.kind === 'neighbor' ? 112 : 66;
-      A.speech(c, clamp(n.x - left, 120, L.vw - 120), pathTop(L, n.x) + n.oy - headH * n.s, n.say);
+      A.speech(c, n.x - left, pathTop(L, n.x) + n.oy - headH * n.s, n.say, L);
     }
-    if (p.say) A.speech(c, clamp(heroSx, 100, L.vw - 100), heroY - 122 - p.jump, p.say);
+    if (p.say) A.speech(c, heroSx, heroY - 122 - p.jump, p.say, L);
 
     for (const q of g.particles) {
       const sx = q.x - left;
@@ -715,7 +755,6 @@
 
     /* 前景貼著螢幕下緣，不跟著鏡頭上抬 */
     foreground(c, L, g, pal);
-    vignette(c, L, g.riskView);
   }
 
   DH.world = { PATH_H, makeLayout, pathTop, playerY, clearAroundEvents, render, blendAt, FINISH_X };
