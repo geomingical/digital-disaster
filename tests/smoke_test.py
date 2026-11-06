@@ -469,6 +469,67 @@ def has_ring(f):
     return f["outline"] or FOCUS_RING in f["shadow"]
 
 
+def test_scene_interaction(browser, data):
+    print("[互動：十主題分階段台詞與 NPC 優先回應]")
+    errors = []
+    page = new_page(browser, errors, data)
+    open_game(page)
+    for hid in HAZARDS:
+        g(page, f"startGame('{hid}')")
+        result = page.evaluate("""() => {
+          const G = window.__game, out = [];
+          for (const sec of DH.core.SECTIONS) {
+            const lines = G.view.theme.interactLines[sec.key];
+            const x = Array.from({length: Math.floor((sec.to - sec.from) / 10)}, (_, i) => sec.from + i * 10)
+              .find(x => G.view.npcs.every(n => Math.abs(n.x - x) >= 130)
+                && G.state.events.every(e => Math.abs(e.x - x) >= 200));
+            G.state.player.x = x;
+            G.view.walkTarget = null;
+            const spoken = [];
+            for (let i = 0; i <= lines.length; i++) {
+              G.interact(); spoken.push(G.state.player.say);
+            }
+            out.push({stage: sec.key, valid: lines.length >= 2 && lines.every(t => typeof t === 'string' && t.length > 0)
+              && new Set(lines).size === lines.length,
+              matches: spoken.every(t => lines.includes(t)),
+              rotates: spoken.slice(1).every((t, i) => t !== spoken[i]) && spoken[0] === spoken[lines.length]});
+          }
+          return out;
+        }""")
+        for r in result:
+            check(r["valid"] and r["matches"] and r["rotates"], f"{hid}/{r['stage']} 台詞完整、符合階段且循環不連續重複")
+        npc = page.evaluate("""() => {
+          const G = window.__game, n = G.view.npcs[0];
+          window.__npcRendered = false;
+          window.__originalSpeech = DH.art.speech;
+          DH.art.speech = function(c, x, y, text, layout) {
+            if (text === n.say) window.__npcRendered = true;
+            return window.__originalSpeech(c, x, y, text, layout);
+          };
+          G.state.player.x = n.x;
+          G.state.player.say = '主角先前的台詞';
+          G.state.events[G.state.eventIndex].x = n.x + 100;
+          G.interact();
+          return G.state.screen === 'play' && G.state.player.say === '' && G.view.npcSpeech === n && !!n.say;
+        }""")
+        check(npc, f"{hid} 靠近 NPC 優先回應，清除主角氣泡且不開題")
+        page.wait_for_timeout(50)
+        check(page.evaluate("window.__npcRendered"), f"{hid} NPC 回應實際繪製氣泡")
+        page.evaluate("() => { DH.art.speech = window.__originalSpeech; }")
+        result = page.evaluate("""() => {
+          const G = window.__game;
+          G.state.player.x = Array.from({length: 160}, (_, i) => 3700 + i * 10)
+            .find(x => G.view.npcs.every(n => Math.abs(n.x - x) >= 130));
+          G.state.events = [];
+          G.state.eventIndex = 0;
+          G.interact();
+          return G.view.theme.interactLines.after.some(t => G.state.player.say === t + ' 往終點拱門走吧！');
+        }""")
+        check(result, f"{hid} 無事件仍有主題台詞並提示終點")
+    check(not errors, f"場景互動沒有 JS 錯誤 {errors}")
+    page.close()
+
+
 def test_interaction(browser, data):
     print("[互動：延遲載入、hover、鍵盤、焦點]")
     errors = []
@@ -1557,6 +1618,7 @@ def run_suite(pw, name, logic_data, shot_data, mock):
     if name == "chromium":
         test_merge_tool(mock)
     test_risk_sync(browser, logic_data)
+    test_scene_interaction(browser, logic_data)
     test_interaction(browser, logic_data)
     test_bgm(browser, logic_data)
     test_entry(browser, logic_data)

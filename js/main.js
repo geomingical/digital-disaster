@@ -279,6 +279,7 @@
     ui.closeModal();
     clearRun();
     state.hazard = id;
+    interactCounts.clear();
     useTheme(id);
     state.events = core.buildEvents(core.pickScenarios(bank, id, rng, store.data.seen), rng);
     state.streak = 0;
@@ -434,17 +435,33 @@
     else audio.fanfare();
   }
 
+  const interactCounts = new Map();
+
   function interact() {
     if (state.screen === 'card') {
       if (state.current && state.current.done) continueAfterAnswer();
       return;
     }
     if (state.screen !== 'play') return;
+    updateNpcSpeech();
+    if (view.npcSpeech) {
+      say('', 0);
+      view.walkTarget = null;
+      state.player.dir = view.npcSpeech.x >= state.player.x ? 1 : -1;
+      audio.pop();
+      return;
+    }
     const ev = nextEvent();
     if (ev && Math.abs(ev.x - state.player.x) < HINT_RANGE) {
       openEvent(ev);
     } else {
-      say(ev ? '前面還有狀況，繼續走吧' : '往終點拱門走吧！', 1.5);
+      const stage = core.sectionAt(state.player.x).key;
+      const lines = (view.theme.interactLines || scenes.THEMES.home.interactLines)[stage];
+      const key = `${state.hazard}:${stage}`;
+      const count = interactCounts.get(key) || 0;
+      interactCounts.set(key, count + 1);
+      const finishHint = state.eventIndex >= state.events.length ? ' 往終點拱門走吧！' : '';
+      say(lines[count % lines.length] + finishHint, 4);
     }
   }
 
@@ -1057,6 +1074,7 @@
     getBank: () => bank,
     getHazards: () => hazards,
     startGame,
+    interact,
     selectHazard,
     backToMenu: toEntry,
     teleportToNextEvent() {
