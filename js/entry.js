@@ -145,7 +145,7 @@
       { x: 0.19, layer: 'ground', lift: 16 },
       { x: 0.1, layer: 'side' },
       { x: 0.1, layer: 'side', hi: true },
-      { x: 0.12, layer: 'far', lift: 26 },
+      { x: 0.12, layer: 'far', lift: 0 },
       { x: 0.37, layer: 'far', lift: 4 },
     ],
     /* 橫式手機：卡片靠左（主角左側），右半邊留給村口的土地公廟、雜貨店、房子與樹，整片讀成一幅場景。
@@ -156,7 +156,7 @@
       { x: 0.93, layer: 'far', lift: 10 },
       { x: 0.93, layer: 'ground', lift: 0 },
       { x: 0.76, layer: 'ground', lift: 4 },
-      { x: 0.23, layer: 'ground', lift: 2 },
+      { x: 0.61, layer: 'ground', lift: 2 },
       { x: 0.07, layer: 'ground', lift: 10 },
       { x: 0.08, layer: 'far', lift: 6 },
       { x: 0.25, layer: 'far', lift: 22 },

@@ -473,7 +473,7 @@
       const x = ((raw % span) + span) % span - 350;
       const y = L.base - 170 + (i % 4) * 92 + Math.sin(g.t * 0.3 + i) * 14;
       const size = 430 + (i % 3) * 130;
-      c.globalAlpha = 0.42 * fog;
+      c.globalAlpha = 0.25 * fog;
       c.drawImage(sprites.fog, x - size / 2, y - size * 0.3, size, size * 0.6);
     }
     c.globalAlpha = 1;
@@ -484,7 +484,7 @@
     const r = Math.max(L.vw, L.vh) * 0.82;
     const g = c.createRadialGradient(L.vw / 2, L.vh * 0.55, r * 0.34, L.vw / 2, L.vh * 0.55, r);
     g.addColorStop(0, 'rgba(32,36,58,0)');
-    g.addColorStop(1, `rgba(32,36,58,${0.6 * v})`);
+    g.addColorStop(1, `rgba(32,36,58,${0.4 * v})`);
     c.fillStyle = g;
     c.fillRect(-20, -20, L.vw + 40, L.vh + 40);
   }

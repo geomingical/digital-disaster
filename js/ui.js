@@ -260,6 +260,8 @@
 
     /* 事件卡片 ------------------------------------------------------- */
     openCard(ev, index, total) {
+      const topSafe = $('hud').getBoundingClientRect().bottom - $('stage').getBoundingClientRect().top + 12;
+      $('card').style.maxHeight = `calc(100% - ${topSafe + 12}px)`;
       const s = ev.scenario;
       const stage = SECTIONS.find((x) => x.key === s.stage);
       $('card-tag').textContent = s.category;

@@ -733,6 +733,11 @@
     canvas.height = Math.round(h * dpr);
     if (state.screen === 'entry') layout = entryLayout(w, h);
     else layout = STILL_SCREENS.has(state.screen) ? startLayout(w, h) : world.makeLayout(w, h);
+    const card = document.getElementById('card');
+    if (!card.hidden) {
+      const topSafe = document.getElementById('hud').getBoundingClientRect().bottom + 24;
+      card.style.maxHeight = `calc(100% - ${topSafe}px)`;
+    }
     sizeEndingCanvas();
     needsRedraw = true;
   }
@@ -770,7 +775,15 @@
       const z = clamp(w / 390, 0.75, 1.2);
       const legal = document.getElementById('legal').offsetHeight;
       const basePx = Math.min(card.bottom + 24 + 166 * z, h - legal - 128 * z);
-      return world.makeLayout(w, h, { z, basePx, camX: 660 });
+      const L = world.makeLayout(w, h, { z, basePx, camX: 660 });
+      /* 短直式讓角色完整落在首頁卡與法定頁尾之間。 */
+      const room = h - legal - card.bottom - 24;
+      const heroHeight = HERO_NATIVE_H * z * (0.92 + HOME_D * 0.12);
+      L.heroScale = Math.min(1, Math.max(1, room) / heroHeight);
+      const feet = Math.max(card.bottom + 12 + heroHeight * L.heroScale,
+        Math.min(world.playerY(L, 660, HOME_D) * z, h - legal - 12));
+      L.base += feet / z - world.playerY(L, 660, HOME_D);
+      return L;
     }
     const gap = 16;
     const z = clamp((w - card.right - gap) / SCENE_SPAN, 0.55, 1.05);
