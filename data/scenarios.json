@@ -1,3896 +1,3902 @@
 [
- {
-  "id": "eq-before-01",
-  "hazard": "earthquake",
-  "category": "居家固定",
-  "stage": "before",
-  "title": "週末整理書櫃",
-  "situation": "週六你和孩子整理客廳，發現高書櫃未固定。最上層還擺著厚重相簿，你會怎麼調整？",
-  "options": [
-   "把高書櫃固定好，厚重相簿放低",
-   "把高櫃靠緊牆壁，暫不加裝固定器",
-   "將厚重相簿留上層，櫃門關緊即可"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   25
-  ],
-  "why": "將高櫃固定、把重物改放下層，可減少家具翻倒及物品落下的風險。櫃子貼牆或只關上櫃門，都不能取代家具固定。",
-  "keypoint": "固定高櫃，重物放低。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "95. 地震前之準備事項為何？",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/109",
-    "short": "氣象署｜地震前準備事項"
-   }
-  ]
- },
- {
-  "id": "eq-before-02",
-  "hazard": "earthquake",
-  "category": "避難包",
-  "stage": "before",
-  "title": "替阿嬤備一包",
-  "situation": "晚上你陪阿嬤整理玄關的避難包，她平常需要服藥。你想讓她撤離時拿得動，怎麼準備較合適？",
-  "options": [
-   "以罐頭為主裝好，藥品等撤離再找",
-   "備飲水、照明及藥品，再試背調整重量",
-   "盡量裝入更多存糧，較重就用手提"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   22
-  ],
-  "why": "避難包要依使用者需求與負重能力準備，常用藥及照明也要納入。把家中存糧全搬進去可能拿不動，臨時找藥則會耽誤出發。",
-  "keypoint": "避難包要拿得動，也要顧到用藥。",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "準備緊急避難包",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
-    "short": "全動署｜準備緊急避難包"
-   }
-  ]
- },
- {
-  "id": "eq-before-03",
-  "hazard": "earthquake",
-  "category": "輔具",
-  "stage": "before",
-  "title": "輪椅旁的演練",
-  "situation": "下午你陪使用輪椅的爸爸在客廳演練，旁邊有軟墊。若搖晃時無法移到桌下，應先練習哪個動作？",
-  "options": [
-   "先離開輪椅坐在地板，再爬向門口",
-   "由家人推輪椅往門外，離開家具旁",
-   "先鎖住輪子留在座位，用軟墊護頭頸"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "無法轉移的輪椅使用者可固定車輪、維持坐姿並保護頭頸。搖晃時硬要離開輔具或推行撤離，可能因失去平衡而跌倒。",
-  "keypoint": "固定輪椅，留在座位保護頭頸。",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "行動不便者之地震緊急避難原則",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=1509&code=list&flag=detail&ids=98",
-    "short": "消防署｜行動不便者避震"
-   }
-  ]
- },
- {
-  "id": "eq-before-04",
-  "hazard": "earthquake",
-  "category": "迷思",
-  "stage": "before",
-  "title": "群組傳來三角圖",
-  "situation": "晚餐後你收到家族群組圖片，說地震時應離開桌下、躺到高櫃旁。你和家人要選哪個方式練習？",
-  "options": [
-   "就近躲堅固桌下，護頭並抓穩",
-   "躺在高櫃旁邊，利用櫃側空間掩護",
-   "先移到樓梯口，再蹲下保護頭頸部"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   25
-  ],
-  "why": "官方避難核心是趴下、掩護、穩住，利用堅固桌子降低落物傷害。高櫃可能傾倒，搖晃時跑向樓梯也可能跌倒，別依網傳圖改變動作。",
-  "keypoint": "演練趴下、掩護、穩住。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "地震防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
-    "short": "氣象署｜地震防護"
-   }
-  ]
- },
- {
-  "id": "eq-during-01",
-  "hazard": "earthquake",
-  "category": "就地掩護",
-  "stage": "during",
-  "title": "水杯突然晃動",
-  "situation": "午后你在書桌前工作，水杯突然晃動，手機也發出地震告警。身旁有堅固桌子，你先做什麼？",
-  "options": [
-   "先到廚房關閉瓦斯，再回桌下掩護",
-   "就近趴低進桌下，護頭抓住桌腳",
-   "先到陽台確認外面，再決定躲哪裡"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   22
-  ],
-  "why": "搖晃當下先降低重心，在堅固桌下保護頭頸並抓住桌腳。穿越房間關瓦斯或跑到陽台，會增加途中跌倒及遭落物擊中的機會。",
-  "keypoint": "先護頭頸，抓穩桌腳等搖晃停止。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "地震防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
-    "short": "氣象署｜地震防護"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   }
-  ]
- },
- {
-  "id": "eq-during-02",
-  "hazard": "earthquake",
-  "category": "電梯",
-  "stage": "during",
-  "title": "震時困在電梯內",
-  "situation": "上午你搭電梯時遇到地震，車廂停止且門沒有打開。緊急通話裝置就在按鍵旁，你怎麼做？",
-  "options": [
-   "把門拉開一點確認位置，再跨出車廂",
-   "打開頂板查看出口，嘗試往上攀爬",
-   "使用緊急通話求助，留在車廂待援"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "電梯停住且門未開時，用緊急通話聯絡管理人員或電梯業者，在車廂內等候協助。自行拉門跨出或往上攀爬有墜落風險；震後撤離改走樓梯。",
-  "keypoint": "受困電梯用緊急通話，勿自行開門攀出。",
-  "sources": [
-   {
-    "agency": "勞動部勞動力發展署",
-    "title": "LINE@移點通－電梯受困－多國語版本",
-    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb38088195d01808ced69334647",
-    "short": "勞發署｜電梯受困"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "地震防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
-    "short": "氣象署｜地震防護"
-   }
-  ]
- },
- {
-  "id": "eq-during-03",
-  "hazard": "earthquake",
-  "category": "戶外",
-  "stage": "during",
-  "title": "公園地面在晃",
-  "situation": "傍晚你帶孩子在公園中央玩球，周圍沒有高樹、招牌或電線。地面突然搖晃，你要怎麼帶孩子應對？",
-  "options": [
-   "原地蹲低護頭，陪孩子等搖晃停止",
-   "移到公園圍牆邊，靠著牆面護住頭",
-   "先進附近商店，再靠玻璃門邊蹲下"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   25
-  ],
-  "why": "已在空曠處時，降低重心並保護頭頸，避免奔跑跌倒。圍牆及玻璃門周邊可能有倒塌或碎片風險，不必為找屋簷跑進建物。",
-  "keypoint": "空曠處蹲低護頭，遠離牆與落物。",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   }
-  ]
- },
- {
-  "id": "eq-during-04",
-  "hazard": "earthquake",
-  "category": "車輛",
-  "stage": "during",
-  "title": "方向盤傳來晃動",
-  "situation": "白天你開車行經一般道路，突然感到強烈搖晃。前方有可安全靠停且無明顯落物的路段，你怎麼做？",
-  "options": [
-   "先立刻踩住煞車，在原本車道等候",
-   "開警示燈減速靠停，留在車內等候",
-   "先加速離開這段路，到家後再停車"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   22
-  ],
-  "why": "先減速並開啟警示燈，在避開落物的位置安全靠停，留在車內等待搖晃停止。急煞可能導致追撞，加速趕路則增加失控風險。",
-  "keypoint": "減速靠停，留在車內等搖晃停止。",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "地震防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
-    "short": "氣象署｜地震防護"
-   }
-  ]
- },
- {
-  "id": "eq-during-05",
-  "hazard": "earthquake",
-  "category": "床上",
-  "stage": "during",
-  "title": "半夜被震醒",
-  "situation": "半夜你在床上被震醒，枕頭就在手邊。床邊沒有高櫃，上方也沒有吊掛物，你當下怎麼做？",
-  "options": [
-   "先下床走到門口，扶住門框等震停",
-   "先鑽到床底躲好，等到震停再出來",
-   "留在床上蜷起身，用枕頭護頭頸"
-  ],
-  "answer": 2,
-  "risk": [
-   25,
-   22,
-   0
-  ],
-  "why": "沒有易掉落物時，可以留在床上蜷身並用枕頭保護頭頸。摸黑移動可能跌倒或踩到碎片，臨時鑽入床底也會增加不必要的移動。",
-  "keypoint": "床上無落物威脅時，留床護頭頸。",
-  "sources": [
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "防災無障礙：肢體障礙者",
-    "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
-    "short": "災防中心｜肢體障礙者防災"
-   }
-  ]
- },
- {
-  "id": "eq-after-01",
-  "hazard": "earthquake",
-  "category": "瓦斯",
-  "stage": "after",
-  "title": "廚房傳來異味",
-  "situation": "搖晃已停，你和家人在玄關聞到疑似瓦斯味，電燈仍關著。你要怎麼處理？",
-  "options": [
-   "不碰電器開關，帶家人離屋求助",
-   "先開抽風機排氣，再查看瓦斯管線",
-   "先開燈照明查看，再點爐確認漏氣"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   25
-  ],
-  "why": "疑似漏氣時不要點火或操作電器開關，以免火花引燃。先離開危險處，再從屋外聯絡消防或瓦斯業者；不要留在室內自行試火找漏點。",
-  "keypoint": "疑似漏氣不碰電器，離屋後求助。",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "In an indoor space after the earthquake (the building is possibly damaged)",
-    "url": "https://www.nfa.gov.tw/eng/index.php?article_id=9004&code=list&flag=detail&ids=1371",
-    "short": "消防署｜震後室內應變"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "地震防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
-    "short": "氣象署｜地震防護"
-   }
-  ]
- },
- {
-  "id": "eq-after-02",
-  "hazard": "earthquake",
-  "category": "建物餘震",
-  "stage": "after",
-  "title": "柱子出現新裂縫",
-  "situation": "震後你走到家門外，看到柱子裂損、混凝土剝落。家人想回去拿電腦，這時你怎麼建議？",
-  "options": [
-   "趁現在沒有搖晃，先進屋拿出電腦",
-   "遠離受損建物，請專業人員評估",
-   "先貼膠帶標記裂縫，再進屋觀察變化"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   22
-  ],
-  "why": "柱子裂損伴隨混凝土剝落，應先撤離受損建物，再請結構技師等專業人員評估。暫時不搖不代表建物可安全進入，餘震仍須防備；膠帶只能標記，不能補強結構。",
-  "keypoint": "遠離受損建物，餘震仍須防備。",
-  "sources": [
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "防災無障礙：肢體障礙者",
-    "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
-    "short": "災防中心｜肢體障礙者防災"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "地震防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
-    "short": "氣象署｜地震防護"
-   }
-  ]
- },
- {
-  "id": "eq-after-03",
-  "hazard": "earthquake",
-  "category": "海嘯",
-  "stage": "after",
-  "title": "海邊強震剛停止",
-  "situation": "上午你和朋友在海邊停車場遇到強烈地震，搖晃剛停止。手機還沒收到海嘯通知，你接著怎麼做？",
-  "options": [
-   "留在停車場等待，收到正式通知再走",
-   "先上堤防看看海水，有退潮再往高處",
-   "帶朋友遠離海岸，往內陸高處走"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "沿海強震後要警覺海嘯，能安全移動時立即遠離海岸往高處。不要把收到手機通知或看到海退當成撤離的必要條件，也不要到堤防觀浪。",
-  "keypoint": "海邊強震後，主動往內陸高處避難。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "93. 應如何避免海嘯災難？",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
-    "short": "氣象署｜如何避免海嘯災難"
-   }
-  ]
- },
- {
-  "id": "ts-before-01",
-  "hazard": "tsunami",
-  "category": "潛勢區",
-  "stage": "before",
-  "title": "出遊先看避難圖",
-  "situation": "週末前你替家人安排海邊民宿，手上有地方政府海嘯避難圖。出發前怎麼用這張圖較合適？",
-  "options": [
-   "先查民宿出口位置，高處等到現場再找",
-   "查潛勢範圍，和家人熟悉高處與路線",
-   "先記最近地下室，覺得有混凝土就夠了"
-  ],
-  "answer": 1,
-  "risk": [
-   22,
-   0,
-   25
-  ],
-  "why": "潛勢圖呈現模擬可能淹及的區域與深度，可搭配地方避難圖熟悉安全地點與路線。只查出入口仍不夠；海嘯避難要朝高處與內陸規劃，一般地下室不適合作為目的地。",
-  "keypoint": "先查潛勢區，熟悉往高處的路線。",
-  "sources": [
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "海嘯溢淹潛勢圖於避難疏散規劃之應用（2026-11-01）",
-    "url": "https://ncdr.nat.gov.tw/NCDR-Topic/2026/NCDRLibrary/november.html",
-    "short": "災防中心｜海嘯溢淹潛勢圖"
-   }
-  ]
- },
- {
-  "id": "ts-before-02",
-  "hazard": "tsunami",
-  "category": "警報認識",
-  "stage": "before",
-  "title": "四種資訊怎麼分",
-  "situation": "晚上你在社區防災課看到「警報、警訊、消息、解除」四種海嘯資訊。你要把哪個觀念記進筆記？",
-  "options": [
-   "看到警訊先當成消息，等改發警報再看",
-   "警報解除就可返家，不必看地方管制",
-   "讀完整的官方資訊，配合所在地指示"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "氣象署的警報、警訊、消息與解除，各有不同發布條件，應讀完整內容再配合地方指示。警訊也可能涉及臺灣沿海威脅，不能當成無關緊要的消息；官方解除海嘯威脅，也不等於地方道路與災區管制一併解除。",
-  "keypoint": "分清資訊類別，依所在地指示行動。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯資訊種類及預估波高分級表",
-    "url": "https://scweb.cwa.gov.tw/zh-TW/Guidance/protection/227",
-    "short": "氣象署｜海嘯波高分級表"
-   }
-  ]
- },
- {
-  "id": "ts-before-03",
-  "hazard": "tsunami",
-  "category": "照護準備",
-  "stage": "before",
-  "title": "和阿公走一趟",
-  "situation": "你和步行較慢的阿公住在沿海，週日下午準備演練海嘯避難。手上有地方避難圖，該怎麼安排？",
-  "options": [
-   "陪阿公實走避難路線，確認需要的協助",
-   "先約港邊停車場集合，再一起上車離開",
-   "先找可搭電梯的大樓，不必再試走樓梯"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   22
-  ],
-  "why": "平時和阿公一起走過避難路線，可確認他的速度與需要的協助，再安排家人支援。目的地應依地方海嘯避難規劃選擇，港邊集合會讓撤離延後；不要把災時電梯仍可使用當成唯一方案。",
-  "keypoint": "照護需求先演練，協助人手先約定。",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "防災有Bear來 海嘯安全應變",
-    "url": "https://www.nfa.gov.tw/cht/index.php?act=article&article_id=10284&code=print&ids=1517",
-    "short": "消防署｜海嘯安全應變"
-   },
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "防災無障礙：肢體障礙者",
-    "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
-    "short": "災防中心｜肢體障礙者防災"
-   }
-  ]
- },
- {
-  "id": "ts-before-04",
-  "hazard": "tsunami",
-  "category": "資訊準備",
-  "stage": "before",
-  "title": "手機沒網路怎麼辦",
-  "situation": "你準備帶孩子到沿海露營，營地手機收訊不穩。出門前除了避難圖，還想備一個接收官方資訊的方法，選哪個？",
-  "options": [
-   "下載海況攝影的影片，沒訊號時回放判斷",
-   "備妥可攜收音機，先學會調台使用",
-   "先存社群的海嘯截圖，沒有網路就照著做"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   22
-  ],
-  "why": "可攜收音機能在網路不便時提供另一個資訊管道，平時先熟悉操作。海況影片與舊截圖無法取代當次官方警報及現場疏散指示。",
-  "keypoint": "備妥收音機，資訊管道別只靠網路。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯之防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/118",
-    "short": "氣象署｜海嘯之防護"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "準備緊急避難包",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
-    "short": "全動署｜準備緊急避難包"
-   }
-  ]
- },
- {
-  "id": "ts-during-01",
-  "hazard": "tsunami",
-  "category": "自主避難",
-  "stage": "during",
-  "title": "強震後還沒通知",
-  "situation": "早上你在沙灘陪孩子玩沙，突然遇到強烈搖晃。你先護住頭頸，等到可以安全移動時，應該怎麼做？",
-  "options": [
-   "先回停車場坐車等候，收到警報再上高地",
-   "先在岸邊看有沒有退潮，再決定是否離開",
-   "立即帶孩子離開海岸，往內陸高處走"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "海邊感到強烈地震後，即使還沒收到警報，也應主動往內陸高處避難。不是每次海嘯前都會海退，等待通知或觀察海況可能錯過撤離時間。",
-  "keypoint": "海邊強震後不等通知，先離岸避難。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "93. 應如何避免海嘯災難？",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
-    "short": "氣象署｜如何避免海嘯災難"
-   }
-  ]
- },
- {
-  "id": "ts-during-02",
-  "hazard": "tsunami",
-  "category": "避難方向",
-  "stage": "during",
-  "title": "河口捷徑要走嗎",
-  "situation": "午后海嘯警報響起，你在河口附近的商店街。標示路線通往內陸高地，朋友提議走河岸捷徑，你怎麼選？",
-  "options": [
-   "依地方標示往內陸高處，避開河岸",
-   "沿河堤走到橋上等候，離地較高應較安全",
-   "先上堤防查看浪況，再選擇往哪一邊撤離"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   25
-  ],
-  "why": "海嘯可沿河川往內陸影響，撤離要遠離海岸與河岸。橋上與堤防不適合停留觀浪，應依地方標示路線前往安全處。",
-  "keypoint": "往內陸高處，避開海岸與河岸。",
-  "sources": [
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "海嘯溢淹潛勢圖於避難疏散規劃之應用（2026-11-01）",
-    "url": "https://ncdr.nat.gov.tw/NCDR-Topic/2026/NCDRLibrary/november.html",
-    "short": "災防中心｜海嘯溢淹潛勢圖"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯之防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/118",
-    "short": "氣象署｜海嘯之防護"
-   }
-  ]
- },
- {
-  "id": "ts-during-03",
-  "hazard": "tsunami",
-  "category": "垂直避難",
-  "stage": "during",
-  "title": "來不及離開低地",
-  "situation": "下午你在沿海低地接到疏散指示，已來不及走出溢淹範圍。旁邊有地方指定的堅固海嘯避難大樓，你怎麼做？",
-  "options": [
-   "先留一樓大廳等候，看到水來再上樓避難",
-   "循避難標示走樓梯，到大樓指定高層避難",
-   "先進地下停車場避難，利用混凝土牆擋水"
-  ],
-  "answer": 1,
-  "risk": [
-   22,
-   0,
-   25
-  ],
-  "why": "若已無法及時走出溢淹範圍，可依地方規劃到堅固避難大樓的指定高層。NCDR 提醒垂直避難應往頂樓，並建議至少三層樓以上；不要留在一樓等海水，也不要往地下室躲。",
-  "keypoint": "來不及遠離時，依規劃向高層避難。",
-  "sources": [
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "海嘯溢淹潛勢圖於避難疏散規劃之應用（2026-11-01）",
-    "url": "https://ncdr.nat.gov.tw/NCDR-Topic/2026/NCDRLibrary/november.html",
-    "short": "災防中心｜海嘯溢淹潛勢圖"
-   }
-  ]
- },
- {
-  "id": "ts-during-04",
-  "hazard": "tsunami",
-  "category": "遠洋海嘯",
-  "stage": "during",
-  "title": "本地沒震也要走",
-  "situation": "傍晚你在漁港旁散步，本地沒有感到地震，卻收到氣象署海嘯警報。現場人員開始引導疏散，你怎麼做？",
-  "options": [
-   "先留在碼頭等候，本地開始搖晃再跟著走",
-   "先開車沿岸確認海況，看到浪再轉往高地",
-   "配合現場人員疏散，離港往安全高處"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "遠方地震也可能引發傳到臺灣的海嘯，本地沒有震感不能否定警報。不要自行把預估抵達時間當成觀浪空檔，應依所在地警報與人員指示避難。",
-  "keypoint": "遠方海嘯也有威脅，無震感仍須應變。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯資訊種類及預估波高分級表",
-    "url": "https://scweb.cwa.gov.tw/zh-TW/Guidance/protection/227",
-    "short": "氣象署｜海嘯波高分級表"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "93. 應如何避免海嘯災難？",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
-    "short": "氣象署｜如何避免海嘯災難"
-   }
-  ]
- },
- {
-  "id": "ts-during-05",
-  "hazard": "tsunami",
-  "category": "船舶港口",
-  "stage": "during",
-  "title": "兩處家人怎麼辦",
-  "situation": "你在岸上的港區工作，收到海嘯警報，家人的船已在深海。你正在港區避難指示牌旁，怎麼應對？",
-  "options": [
-   "你依標示離港上高處，提醒船勿返港",
-   "你先到岸邊的船上看守，請家人回港接應",
-   "你先留在港邊等船，家人靠岸後一起避難"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   25
-  ],
-  "why": "岸上人員應停止港邊作業、依指示離開，已在深海的船隻不要急著返港。不要為保船回到碼頭；船上後續航行應配合海事單位與船長指示。",
-  "keypoint": "岸上離港避難，深海船隻勿急返港。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "93. 應如何避免海嘯災難？",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
-    "short": "氣象署｜如何避免海嘯災難"
-   }
-  ]
- },
- {
-  "id": "ts-after-01",
-  "hazard": "tsunami",
-  "category": "多波來襲",
-  "stage": "after",
-  "title": "第一波過了",
-  "situation": "你和家人在高處避難，第一波海水退去後，朋友說想回港邊拿背包。警報還沒解除，你怎麼回應？",
-  "options": [
-   "趁第一波退去的空檔，先請朋友快拿快回",
-   "和家人留在安全處，等官方解除及現場指示",
-   "陪朋友到港邊看一看，確定沒浪再拿背包"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   22
-  ],
-  "why": "海嘯可能多次侵襲並持續數小時，第一波過後不表示結束。警報未解除前應留在安全處，別為取物或確認海況返回港邊。",
-  "keypoint": "第一波過後仍要避難，等官方解除。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯之防護",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/118",
-    "short": "氣象署｜海嘯之防護"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯來襲時的建議作為",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
-    "short": "氣象署｜海嘯來襲時的建議作為"
-   }
-  ]
- },
- {
-  "id": "ts-after-02",
-  "hazard": "tsunami",
-  "category": "解除查證",
-  "stage": "after",
-  "title": "群組說可以回家",
-  "situation": "天黑後你仍在避難點，群組流傳一張「海嘯解除」截圖，但看不出時間。現場尚未通知返家，你怎麼做？",
-  "options": [
-   "截圖看起來是官方格式，先照著訊息返家",
-   "從避難點看海面已平靜，先自行離開回家",
-   "核對氣象署當次資訊，依現場指示行動"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "解除要以當次官方資訊為準，無時間截圖可能是舊資料。海面暫時平靜不能證明威脅解除；返家也要配合地方管制與現場安排。",
-  "keypoint": "查當次官方解除資訊，再依指示返回。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯資訊種類及預估波高分級表",
-    "url": "https://scweb.cwa.gov.tw/zh-TW/Guidance/protection/227",
-    "short": "氣象署｜海嘯波高分級表"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯來襲時的建議作為",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
-    "short": "氣象署｜海嘯來襲時的建議作為"
-   }
-  ]
- },
- {
-  "id": "ts-after-03",
-  "hazard": "tsunami",
-  "category": "災後安全",
-  "stage": "after",
-  "title": "解除後屋子受損",
-  "situation": "海嘯解除後你依開放路線回到社區，發現住家牆面明顯毀損，巷內也有殘留物。手上有避難包，你接著怎麼做？",
-  "options": [
-   "避開毀損房屋，依指示前往收容處",
-   "先進屋找出寢具，挑損壞較少的房間住宿",
-   "先自己搬開門邊殘骸，清出通道再進屋"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   25
-  ],
-  "why": "警報解除後仍要注意受損建物，明顯毀損的房屋應避開。住家不安全時，攜避難包依救災人員指示到收容處；不要先進屋過夜或自行搬動殘骸，以免受到二次傷害。",
-  "keypoint": "解除後仍避開危屋，依指示安置。",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "海嘯來襲時的建議作為",
-    "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
-    "short": "氣象署｜海嘯來襲時的建議作為"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   }
-  ]
- },
- {
-  "id": "ty-before-01",
-  "hazard": "typhoon",
-  "category": "居家整備",
-  "stage": "before",
-  "title": "陽台先收什麼",
-  "situation": "週末你在家陪長輩，預報說颱風將接近。陽台有花盆、曬衣架，手機正在充電。",
-  "options": [
-   "風雨前收妥雜物，備照明與藥品",
-   "先買足食物，陽台物品等起風再整理",
-   "把花盆靠著外側欄杆，留出室內空間"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "鬆動物可能被風吹落，應在風雨前收進室內或牢固固定。只買食物仍漏掉居家風險；把花盆留在外側也可能掉落。",
-  "keypoint": "趁風雨前固定物品並備妥照護用品",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "颱風前要準備什麼",
-    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
-    "short": "消防署｜颱風前要準備什麼"
-   }
-  ]
- },
- {
-  "id": "ty-before-02",
-  "hazard": "typhoon",
-  "category": "警報判讀",
-  "stage": "before",
-  "title": "只有海警也要準備",
-  "situation": "傍晚你在家看到海上颱風警報，家人說還沒有陸警。你們原訂隔天去海邊散步。",
-  "options": [
-   "海警只影響船隻，照原計畫到岸邊",
-   "取消海邊行程，現在開始居家整備",
-   "等陸警發布再準備，海邊行程先保留"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "海警針對七級暴風範圍可能侵襲近海的威脅，陸警則針對陸地；並非等陸警才準備。海岸也可能有強風大浪，不宜依警報名稱判定能否遊玩。",
-  "keypoint": "海警就開始整備，海岸活動先取消",
-  "sources": [
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "氣象防災小知識：颱風警報發布標準",
-    "url": "https://den.ncdr.nat.gov.tw/1386/1420/2907/6524/",
-    "short": "災防中心｜颱風警報標準"
-   },
-   {
-    "agency": "內政部消防署",
-    "title": "颱風前要準備什麼",
-    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
-    "short": "消防署｜颱風前要準備什麼"
-   }
-  ]
- },
- {
-  "id": "ty-before-03",
-  "hazard": "typhoon",
-  "category": "門窗防護",
-  "stage": "before",
-  "title": "貼米字膠帶就夠嗎",
-  "situation": "白天你檢查客廳窗戶，發現窗框鬆動。家人拿出膠帶，提議貼米字就不用找人修。",
-  "options": [
-   "先貼米字膠帶，等颱風過後再修框",
-   "留一小道窗縫，靠通風減輕風壓",
-   "風雨前請專業人員處理鬆動窗框"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "膠帶無法讓玻璃更耐風，也不能阻止玻璃破裂，窗框是否穩固同樣重要。應在風雨前修繕鬆動窗框；只貼膠帶或留窗縫，都未解決窗框鬆動的問題。",
-  "keypoint": "膠帶不能取代牢靠的門窗",
-  "sources": [
-   {
-    "agency": "內政部",
-    "title": "颱風天貼膠帶在玻璃門窗上不能防風抗爆",
-    "url": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=322349",
-    "short": "內政部｜貼膠帶不能防風抗爆"
-   },
-   {
-    "agency": "內政部消防署",
-    "title": "颱風前要準備什麼",
-    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
-    "short": "消防署｜颱風前要準備什麼"
-   }
-  ]
- },
- {
-  "id": "ty-before-04",
-  "hazard": "typhoon",
-  "category": "照護避難",
-  "stage": "before",
-  "title": "鐵皮屋的撤離安排",
-  "situation": "下午你和坐輪椅的爸爸住在鐵皮屋，里辦公處通知預防性撤離。屋外目前還能安全通行。",
-  "options": [
-   "聯絡里辦協助，帶藥與輔具撤離",
-   "先把屋頂加綁繩子，晚點再評估撤離",
-   "等風把屋頂吹響，再請鄰居協助撤離"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "接獲撤離通知就應配合，行動不便者更需要預留交通與協助時間。臨時加綁不能替代撤離；等屋頂出現異狀再走，可能已難安全移動。",
-  "keypoint": "需要協助的家人提早安排撤離",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：颱風應對原則",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜颱風應對原則"
-   },
-   {
-    "agency": "內政部消防署",
-    "title": "颱風前要準備什麼",
-    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
-    "short": "消防署｜颱風前要準備什麼"
-   }
-  ]
- },
- {
-  "id": "ty-during-01",
-  "hazard": "typhoon",
-  "category": "停班停課",
-  "stage": "during",
-  "title": "停課日去買點心",
-  "situation": "早上你陪孩子在堅固住家，縣市已宣布停班停課。窗外暫時沒下雨，孩子想走去買點心。",
-  "options": [
-   "停班停課路上人少，騎車帶孩子去買",
-   "留在室內，追蹤官方風雨資訊",
-   "趁現在沒雨出門，遇到風大再回家"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "住宅堅固且未受災害威脅時，颱風期間宜留在家中，減少非必要外出。眼前沒下雨不代表後續沒有強風或降雨；步行或騎車買點心仍會增加戶外暴露。",
-  "keypoint": "停班停課時減少非必要外出",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "颱風來時注意事項",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
-    "short": "消防署｜颱風來時注意事項"
-   }
-  ]
- },
- {
-  "id": "ty-during-02",
-  "hazard": "typhoon",
-  "category": "戶外避風",
-  "stage": "during",
-  "title": "機車開始左右晃",
-  "situation": "傍晚你騎車回家，陣風讓車身左右偏移。前方有可進入的堅固建築，旁邊則是招牌與施工圍籬。",
-  "options": [
-   "靠施工圍籬停車，等風小一點再騎",
-   "降低車速繼續騎，趕快回家比較安心",
-   "在安全處停妥車，進堅固建築暫避"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "車身已受強風吹偏時，應在安全地點停止騎行並避風，可進入附近堅固建築。圍籬與招牌有倒塌或掉落風險；只減速繼續騎，仍可能失去控制。",
-  "keypoint": "強風難以控制車身時先安全避風",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "颱風來時注意事項",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
-    "short": "消防署｜颱風來時注意事項"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "陸上強風特報：燈號標準與注意事項",
-    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
-    "short": "氣象署｜強風特報燈號"
-   }
-  ]
- },
- {
-  "id": "ty-during-03",
-  "hazard": "typhoon",
-  "category": "迷思破除",
-  "stage": "during",
-  "title": "突然安靜的十分鐘",
-  "situation": "夜裡你在客廳聽見風雨突然轉弱，手機仍顯示颱風警報。家人說可能到颱風眼了，想去巷口看看。",
-  "options": [
-   "留在室內避風，查看官方消息",
-   "先去巷口看一下，風變大立刻回家",
-   "把窗戶全打開，趁平靜時讓屋內通風"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "短暫平靜可能與颱風眼經過有關，後續強風仍可能再起。走到戶外或打開窗戶，都可能在風勢恢復時暴露於危險。",
-  "keypoint": "風雨暫停不代表颱風已離開",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "颱風來時注意事項",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
-    "short": "消防署｜颱風來時注意事項"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "陸上強風特報：燈號標準與注意事項",
-    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
-    "short": "氣象署｜強風特報燈號"
-   }
-  ]
- },
- {
-  "id": "ty-during-04",
-  "hazard": "typhoon",
-  "category": "強風特報",
-  "stage": "during",
-  "title": "沒有颱風也有黃燈",
-  "situation": "冬日下午你在家看到所在地陸上強風黃色燈號，卻沒有颱風警報。你原本要去河濱騎自行車。",
-  "options": [
-   "黃色還不是紅色，先去河濱騎一小段",
-   "改室內活動，留意強風與交通",
-   "沒有颱風警報，河濱行程照常進行"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "陸上強風特報也會用於非颱風造成的強風，黃燈已提醒注意戶外風險。不能等到紅燈才防範；空曠河濱仍可能有強陣風。",
-  "keypoint": "沒有颱風，也要留意陸上強風特報",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "中央氣象署 強風特報 警示資料說明",
-    "url": "https://alerts.ncdr.nat.gov.tw/web/StaticFile/Document/CapDocument_SW.pdf",
-    "short": "氣象署｜強風特報說明"
-   },
-   {
-    "agency": "中央氣象署",
-    "title": "陸上強風特報：燈號標準與注意事項",
-    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
-    "short": "氣象署｜強風特報燈號"
-   }
-  ]
- },
- {
-  "id": "ty-during-05",
-  "hazard": "typhoon",
-  "category": "窗邊避險",
-  "stage": "during",
-  "title": "玻璃一直震動",
-  "situation": "夜間你陪幼兒待在家，客廳玻璃被風吹得震動。你手上有手機，內側房間離窗較遠。",
-  "options": [
-   "陪孩子靠窗觀察，確認玻璃有沒有裂",
-   "頂住玻璃再貼膠帶，試著減少震動",
-   "帶孩子到離窗較遠處，持續接收警報"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "強風時應遠離容易破損的玻璃，移到室內較安全的位置。靠近觀察或臨時頂住玻璃，可能遭碎片割傷；貼膠帶也不能補足抗風能力。",
-  "keypoint": "風強時遠離玻璃，不冒險補強",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "陸上強風特報：燈號標準與注意事項",
-    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
-    "short": "氣象署｜強風特報燈號"
-   },
-   {
-    "agency": "內政部",
-    "title": "颱風天貼膠帶在玻璃門窗上不能防風抗爆",
-    "url": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=322349",
-    "short": "內政部｜貼膠帶不能防風抗爆"
-   }
-  ]
- },
- {
-  "id": "ty-after-01",
-  "hazard": "typhoon",
-  "category": "電線通報",
-  "stage": "after",
-  "title": "倒樹纏著電線",
-  "situation": "清晨風雨減弱，你出門看到巷口倒樹纏著垂落電線。鄰居拿著掃把，想先挪出一條路。",
-  "options": [
-   "遠離並提醒鄰居，通報台電1911",
-   "用乾掃把挑開電線，再一起清理樹枝",
-   "看附近也停電，就先徒手移走樹枝"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "垂落電線應視為可能帶電，遠離並撥台電1911通報。鄰近停電不足以確認電線安全；自行挑線或搬動纏線樹枝都可能接觸電線，應交由台電處理。",
-  "keypoint": "掉落電線不靠近、不碰觸，通報1911",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "停電應變",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
-    "short": "消防署｜停電應變"
-   }
-  ]
- },
- {
-  "id": "ty-after-02",
-  "hazard": "typhoon",
-  "category": "返家安全",
-  "stage": "after",
-  "title": "警報解除就回家嗎",
-  "situation": "下午颱風警報解除，你和家人在親友家暫住。原住處巷道仍有倒樹，地方也尚未解除管制。",
-  "options": [
-   "請家人留守，自己先回去清倒樹",
-   "等管制解除、確認路況再返家",
-   "警報已解除，先走小巷繞過封鎖處"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "氣象警報解除不等於道路與建物已恢復安全。應配合地方管制並確認路況；繞封鎖或自行清理未確認的倒樹，都可能遇到殘存危險。",
-  "keypoint": "返家先確認地方管制與道路狀況",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "颱風來時注意事項",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
-    "short": "消防署｜颱風來時注意事項"
-   }
-  ]
- },
- {
-  "id": "ty-after-03",
-  "hazard": "typhoon",
-  "category": "健康防護",
-  "stage": "after",
-  "title": "整理院子的碎片",
-  "situation": "水退後你準備清院子，地上有泥沙與碎玻璃。家人拿來拖鞋和手套，問你要先穿哪一套。",
-  "options": [
-   "穿拖鞋加厚手套，方便隨時沖洗雙腳",
-   "先徒手撿走碎片，再換裝清理泥沙",
-   "換長靴並戴防水手套、口罩再清理"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "清理災後環境應保護手腳與呼吸道，避免傷口接觸污泥。拖鞋露出腳部，徒手處理碎片也容易割傷，應先穿戴防護用品。",
-  "keypoint": "災後清理先做好手腳與呼吸道防護",
-  "sources": [
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
-    "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
-    "short": "疾管署｜淹水清理防疫"
-   }
-  ]
- },
- {
-  "id": "fl-before-01",
-  "hazard": "flood",
-  "category": "雨量分級",
-  "stage": "before",
-  "title": "三小時就要注意",
-  "situation": "晚上你在家看防災教材，例題寫三小時雨量達100毫米、24小時未達200毫米。家人以為全天沒到200就不算豪雨。",
-  "options": [
-   "已達豪雨條件，短時間大雨也要整備",
-   "還沒達豪雨條件，等全天200毫米再說",
-   "只算一般大雨，短時間雨量不用計入"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "豪雨條件為24小時達200毫米，或3小時達100毫米，任一成立即可。大雨為24小時80毫米或1小時40毫米；大豪雨為24小時350毫米或3小時200毫米；超大豪雨為24小時500毫米，皆為以上。這些是雨量分級，不能當成住家淹水深度或安全界線。",
-  "keypoint": "豪雨也看短延時雨量，不只看全天",
-  "sources": [
-   {
-    "agency": "中央氣象署",
-    "title": "豪（大）雨特報：雨量分級與作業說明",
-    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html",
-    "short": "氣象署｜豪大雨分級"
-   }
-  ]
- },
- {
-  "id": "fl-before-02",
-  "hazard": "flood",
-  "category": "地下室",
-  "stage": "before",
-  "title": "抽水機之外的準備",
-  "situation": "下午你巡查社區地下停車場，預報晚間有豪雨。管理員說抽水機能運轉，你手上拿著車鑰匙。",
-  "options": [
-   "等雨勢最大再下樓，順便確認抽水狀況",
-   "提早移車，確認擋水與撤離安排",
-   "抽水機正常就留車，等水進來再移車"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "易積水地下空間應備妥擋水設施，並在進水前完成必要移車及避難安排。只確認設備能運轉還不夠；進水後不要再下去查看或搶車。",
-  "keypoint": "地下室移車趁早，進水後不再下去",
-  "sources": [
-   {
-    "agency": "教育部",
-    "title": "災害應變參考程序手冊：颱風、水災與土石流",
-    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
-    "short": "教育部｜颱風水災土石流手冊"
-   },
-   {
-    "agency": "教育部",
-    "title": "災害應變參考程序手冊：水災應變原則",
-    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
-    "short": "教育部｜水災應變手冊"
-   }
-  ]
- },
- {
-  "id": "fl-before-03",
-  "hazard": "flood",
-  "category": "照護避難",
-  "stage": "before",
-  "title": "陪奶奶提早離開",
-  "situation": "傍晚你陪使用助行器的奶奶住在低窪一樓，里辦通知撤離。外面尚無積水，你已備好藥袋與手機。",
-  "options": [
-   "把家具墊高後等候，淹進來再決定去向",
-   "先讓奶奶睡一覺，半夜若淹水再出發",
-   "聯絡協助帶藥撤離，走安全路線"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "接獲撤離通知應及早行動，行動較慢的家人需要預留協助時間。墊高家具不能替代撤離；等夜間或積水後再走，路線可能已不安全。",
-  "keypoint": "低窪住家配合通知及早協助撤離",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "颱風發生時該如何疏散、避難",
-    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=58&article_id=187",
-    "short": "消防署｜颱風疏散避難"
-   },
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "防災無障礙：肢體障礙者",
-    "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
-    "short": "災防中心｜肢體障礙者防災"
-   }
-  ]
- },
- {
-  "id": "fl-before-04",
-  "hazard": "flood",
-  "category": "用電整備",
-  "stage": "before",
-  "title": "先斷電還是先涉水",
-  "situation": "上午你在低窪住家準備避難，地板和雙手都乾燥。總開關可安全接近，家人問電器怎麼處理。",
-  "options": [
-   "安全關總電源，按撤離安排離開",
-   "先讓電器繼續運轉，水進屋後才斷電",
-   "保持總電源開啟，靠漏電斷路器就好"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "準備應對淹水時，趁地面、雙手與開關周圍乾燥且能安全操作，先關閉總電源。不要等水進屋才操作，也不要只靠漏電保護裝置；若已需涉水接近開關，先離開並尋求專業協助。",
-  "keypoint": "斷電要趁能安全操作時完成",
-  "sources": [
-   {
-    "agency": "教育部",
-    "title": "災害應變參考程序手冊：水災應變原則",
-    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
-    "short": "教育部｜水災應變手冊"
-   },
-   {
-    "agency": "經濟部標準檢驗局",
-    "title": "使用轉接電源線組（延長線）注意事項",
-    "url": "https://www.bsmi.gov.tw/wSite/ct?ctNode=6014&mp=1&xItem=40683",
-    "short": "標檢局｜延長線注意事項"
-   }
-  ]
- },
- {
-  "id": "fl-during-01",
-  "hazard": "flood",
-  "category": "行人安全",
-  "stage": "during",
-  "title": "熟悉的巷口積水了",
-  "situation": "下班時你牽孩子到巷口，前方路面已被混濁積水蓋住。回家只差一個街口，但看不見水底。",
-  "options": [
-   "找長棍探一下路，水不深就帶孩子走",
-   "退回安全處，另找未淹水路線",
-   "沿熟悉的路邊走，牽緊孩子慢慢通過"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "混濁積水會遮住排水溝與可能脫落的溝蓋，熟悉街道也不代表水底安全。你目前仍能退回未淹水處，應改走安全路線；拿棍探路不應成為帶孩子主動涉水的理由。",
-  "keypoint": "不因熟悉道路就牽孩子涉水",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "颱風過後應注意事項",
-    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=59&article_id=192",
-    "short": "消防署｜颱風過後應注意事項"
-   }
-  ]
- },
- {
-  "id": "fl-during-02",
-  "hazard": "flood",
-  "category": "地下道",
-  "stage": "during",
-  "title": "前車通過就能過嗎",
-  "situation": "夜裡你開車接家人，地下道入口已積水，警示燈亮起。前面一輛休旅車剛通過，你的車還停在乾燥路面。",
-  "options": [
-   "等前車駛遠一些，再跟著低速通過",
-   "加速通過低點，減少車子泡水時間",
-   "在安全處改道，避開積水地下道"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "地下道等低窪路段容易迅速積水，應遵守警示與管制改道。前車通過不代表水深未變或你的車能通過，低速與加速都不能消除受困風險。",
-  "keypoint": "地下道有積水或警示就改道",
-  "sources": [
-   {
-    "agency": "教育部",
-    "title": "災害應變參考程序手冊：颱風、水災與土石流",
-    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
-    "short": "教育部｜颱風水災土石流手冊"
-   }
-  ]
- },
- {
-  "id": "fl-during-03",
-  "hazard": "flood",
-  "category": "垂直避難",
-  "stage": "during",
-  "title": "水已擋住大門",
-  "situation": "深夜你和家人受困在堅固公寓一樓，屋外急流已阻斷出路。樓梯通往無積水二樓，手機還能通話。",
-  "options": [
-   "走樓梯上樓，撥119報受困位置",
-   "牽繩子一起涉水，趁水還沒更高離開",
-   "到地下室找工具，先把大門排水疏通"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "若已無法安全向外撤離，可往安全較高樓層移動並撥119通報救援位置。不可把提早撤離原則變成強行涉水，也不要進入地下室；垂直避難須以建物與樓梯安全為前提。",
-  "keypoint": "出路被水阻斷時往安全高樓層避難",
-  "sources": [
-   {
-    "agency": "教育部",
-    "title": "災害應變參考程序手冊：颱風、水災與土石流",
-    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
-    "short": "教育部｜颱風水災土石流手冊"
-   },
-   {
-    "agency": "內政部消防署",
-    "title": "颱風發生時該如何疏散、避難",
-    "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=58&article_id=187",
-    "short": "消防署｜颱風疏散避難"
-   }
-  ]
- },
- {
-  "id": "fl-during-04",
-  "hazard": "flood",
-  "category": "車輛避險",
-  "stage": "during",
-  "title": "車還在地下二樓",
-  "situation": "豪雨中你在社區一樓，管理員通知地下車道開始進水。你的車停在地下二樓，車鑰匙就在口袋。",
-  "options": [
-   "搭電梯下樓取車，趁水還不深開上來",
-   "遠離地下入口，在安全處配合應變",
-   "請鄰居同行下樓，兩個人一起移車"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "地下空間進水後，不要再下去搶車，水位可能上升並阻斷出口。找人同行仍可能一起受困；也不應搭電梯下地下室搶救財物，先留在安全處配合應變。",
-  "keypoint": "地下室已進水，不下樓搶車",
-  "sources": [
-   {
-    "agency": "教育部",
-    "title": "災害應變參考程序手冊：水災應變原則",
-    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
-    "short": "教育部｜水災應變手冊"
-   }
-  ]
- },
- {
-  "id": "fl-during-05",
-  "hazard": "flood",
-  "category": "電器安全",
-  "stage": "during",
-  "title": "水邊的延長線",
-  "situation": "下午你看到客廳積水靠近通電延長線，通往總開關的路也濕了。孩子正想伸手把插頭拔掉。",
-  "options": [
-   "站在積水裡拔插頭，先讓延長線斷電",
-   "拿濕布包住插頭，再把電源拔除",
-   "阻止靠近，離開水區請專業協助"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "延長線應避免在水中或潮濕環境使用，濕手接觸通電插頭也有觸電風險。此時先阻止孩子靠近並離開水區；站在水中拔插頭或拿濕布包著拔，都不是安全處理方式。",
-  "keypoint": "水區可能漏電，不涉水拔插頭或斷電",
-  "sources": [
-   {
-    "agency": "經濟部標準檢驗局",
-    "title": "使用轉接電源線組（延長線）注意事項",
-    "url": "https://www.bsmi.gov.tw/wSite/ct?ctNode=6014&mp=1&xItem=40683",
-    "short": "標檢局｜延長線注意事項"
-   }
-  ]
- },
- {
-  "id": "fl-after-01",
-  "hazard": "flood",
-  "category": "清理消毒",
-  "stage": "after",
-  "title": "先洗淨再消毒",
-  "situation": "水退後你回到已確認安全的家，地面留有污泥。你拿著漂白水，家人打算直接倒在泥上消毒。",
-  "options": [
-   "穿戴防護清泥洗淨，再稀釋消毒",
-   "直接將漂白水倒進污泥，等乾了再掃除",
-   "穿拖鞋用水沖一遍，表面乾了就算完成"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "應先穿戴防護用品，清除污泥並清洗環境，之後再進行消毒。消毒劑依產品標示及官方指引稀釋使用，不能直接倒原液代替清潔，也不能只看地面乾燥就認定完成。",
-  "keypoint": "先清除、清洗，再按指引消毒",
-  "sources": [
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
-    "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
-    "short": "疾管署｜淹水清理防疫"
-   }
-  ]
- },
- {
-  "id": "fl-after-02",
-  "hazard": "flood",
-  "category": "飲食安全",
-  "stage": "after",
-  "title": "冰箱裡的泡水食物",
-  "situation": "午后你整理已退水廚房，發現備好的便當曾泡到污水。家人覺得加熱後還能吃，你手邊另有未受污染的食品。",
-  "options": [
-   "去掉碰水的外層，其餘留給晚餐吃",
-   "丟棄泡水便當，改吃未受污染的食品",
-   "把便當充分煮熱，確認沒異味再食用"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "便當曾接觸污水，應整份丟棄，改吃未受污染的食品。刮除表層或加熱後聞起來正常，都不足以確認沒有殘留污染。",
-  "keypoint": "泡水食物不食用，不靠加熱挽救",
-  "sources": [
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
-    "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
-    "short": "疾管署｜淹水清理防疫"
-   }
-  ]
- },
- {
-  "id": "fl-after-03",
-  "hazard": "flood",
-  "category": "泡水設備",
-  "stage": "after",
-  "title": "水退了就能發動嗎",
-  "situation": "隔天你在已開放通行的停車場看到泡水汽車，家裡洗衣機也曾進水。兩者外觀看來已乾，你拿著車鑰匙猶豫。",
-  "options": [
-   "先發動汽車看看，家電晚點再插電測試",
-   "兩者都先試用一下，異常才找人檢查",
-   "汽車交專業拖修，家電檢查後再使用"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "泡水車不應自行發動，應交專業拖吊及維修檢查。泡水家電也須確認安全後才能使用；外表乾燥不代表內部電路與機件已恢復。",
-  "keypoint": "泡水車不發動，泡水電器先專業檢查",
-  "sources": [
-   {
-    "agency": "教育部",
-    "title": "災害應變參考程序手冊：颱風、水災與土石流",
-    "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
-    "short": "教育部｜颱風水災土石流手冊"
-   }
-  ]
- },
- {
-  "id": "df-before-01",
-  "hazard": "debris",
-  "category": "潛勢辨識",
-  "stage": "before",
-  "title": "地圖沒標就安全？",
-  "situation": "你剛搬到山村，週末與家人查防災地圖。住家旁的小溪沒有標成土石流潛勢溪流。",
-  "options": [
-   "查坡地風險與地方避難路線",
-   "只記住列管溪流，其餘溪溝照常通行",
-   "把未列管視為安全，豪雨時照常走溪邊"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "潛勢資料是防災參考，未列管不等於沒有土砂危害。只看溪流名單會漏掉邊坡等風險，應搭配地方避難資訊。",
-  "keypoint": "未列管不代表沒有坡地風險",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "防災Q&A",
-    "url": "https://246.ardswc.gov.tw/Bulletin/FAQ",
-    "short": "農村水保署｜防災Q&A"
-   },
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   }
-  ]
- },
- {
-  "id": "df-before-02",
-  "hazard": "debris",
-  "category": "警戒準備",
-  "stage": "before",
-  "title": "黃燈時先接阿嬤",
-  "situation": "你家位於警戒影響範圍，下午收到黃色警戒。阿嬤使用助行器，村里已安排預防性疏散接送。",
-  "options": [
-   "先整理行李，等升紅燈才聯絡接送",
-   "備妥藥物輔具，依村里安排接送",
-   "先留家中觀察，等雨勢加大再安排接送"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "黃色警戒就要準備避難，行動不便者宜預防性疏散。等紅燈才安排可能遇上夜間風雨，等進水更可能錯過通行時機。",
-  "keypoint": "行動不便者在黃色警戒就提早疏散",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   },
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "警戒發布及作為",
-    "url": "https://246.ardswc.gov.tw/DebrisFlow/AlertPublish",
-    "short": "農村水保署｜警戒發布及作為"
-   }
-  ]
- },
- {
-  "id": "df-before-03",
-  "hazard": "debris",
-  "category": "路線規劃",
-  "stage": "before",
-  "title": "捷徑跨過溪溝",
-  "situation": "你與爸爸在晴天演練撤離，手上有村里避難圖。地圖路線較遠，另一條捷徑需經過溪溝與陡坡。",
-  "options": [
-   "記下跨溪捷徑，豪雨時比較省時間",
-   "只用導航最短路線，不必看避難圖",
-   "依避難圖熟悉路線，確認替代路與聯絡人"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "地方避難路線考量地形與危險區域，應事先熟悉。跨溪或貼著陡坡的捷徑可能受洪水與落石影響，導航距離短不代表適合避難。",
-  "keypoint": "避難走安全路線，不貪跨溪捷徑",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   }
-  ]
- },
- {
-  "id": "df-before-04",
-  "hazard": "debris",
-  "category": "戶外活動",
-  "stage": "before",
-  "title": "山區露營遇雨報",
-  "situation": "你週末要帶孩子到溪谷露營，帳篷已裝車。出發前看到山區豪雨預報，營地附近又有陡峭邊坡。",
-  "options": [
-   "取消溪谷行程，改室內活動",
-   "先到營地觀察，溪水變濁再收帳",
-   "詢問營主雨勢，沒有封營就照常過夜"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "溪谷與邊坡在豪雨時可能受土砂或溪水暴漲影響，應提早避開。到場等徵兆才撤收會壓縮逃生時間，橋下也不是避難位置。",
-  "keypoint": "豪雨前就避開溪谷露營與登山",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   }
-  ]
- },
- {
-  "id": "df-during-01",
-  "hazard": "debris",
-  "category": "疏散時機",
-  "stage": "during",
-  "title": "紅燈還要守家嗎",
-  "situation": "你晚間在家收到紅色警戒，地方人員通知你沿指定道路撤離。門前尚未積水，你手上已拿著避難包。",
-  "options": [
-   "再觀察半小時，看到溪水上漲再走",
-   "帶包配合撤離，到指定安全處所",
-   "先到溪橋確認水勢，再決定要不要走"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "紅色警戒應依地方指示前往安全處所，不以家門口有無積水決定。延後撤離或到橋上查看，都會增加暴露於危險區的時間。",
-  "keypoint": "收到撤離指示就配合，不等水到門前",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "警戒發布及作為",
-    "url": "https://246.ardswc.gov.tw/DebrisFlow/AlertPublish",
-    "short": "農村水保署｜警戒發布及作為"
-   },
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   }
-  ]
- },
- {
-  "id": "df-during-02",
-  "hazard": "debris",
-  "category": "異常前兆",
-  "stage": "during",
-  "title": "溪水突然變濁",
-  "situation": "你和朋友在山區步道休息，腳下溪水忽然混濁並夾帶枯木。附近開始有落石聲，手機還沒收到警戒。",
-  "options": [
-   "先錄下水色變化，再回頭找出口",
-   "等手機警戒到達，才帶朋友離開",
-   "循安全路徑離谷，安全後通報"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "水色突變、漂流木及落石都是需警覺的現場異常，不必等簡訊才行動。拍攝會耽誤離開，等待訊息也不能排除眼前危險。",
-  "keypoint": "看到異常先離開，不等手機警戒",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   },
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   }
-  ]
- },
- {
-  "id": "df-during-03",
-  "hazard": "debris",
-  "category": "撤離方向",
-  "stage": "during",
-  "title": "別順著溪流跑",
-  "situation": "你與隊友在溪畔聽見上游轟隆聲，已能看見土砂向下移動。側邊有可通往遠離溪谷高地的安全步道。",
-  "options": [
-   "沿側邊安全步道，撤往溪流兩側高地",
-   "沿著溪流向下跑，找更寬的河床",
-   "逆著溪流往上跑，找土砂較少的地方"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "應利用安全路徑往溪道兩側較高處撤離，減少停留在土砂流動路徑上。題目中的側邊步道可遠離溪谷；沿溪向上或向下跑都仍在溪道附近，不應為了橫向移動而跨溪或爬不穩定陡坡。",
-  "keypoint": "橫向遠離溪道，往兩側安全高地",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   }
-  ]
- },
- {
-  "id": "df-during-04",
-  "hazard": "debris",
-  "category": "邊坡前兆",
-  "stage": "during",
-  "title": "樹歪了牆也裂了",
-  "situation": "你在山坡住家門外發現樹木新近傾斜，擋土牆也出現裂縫。鄰居想請你拿鏟子一起清掉坡腳落石。",
-  "options": [
-   "站遠一點看裂縫，等繼續擴大再走",
-   "先遠離邊坡，提醒鄰居並通報",
-   "先清掉坡腳落石，讓門口恢復通行"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "新出現的傾斜、裂縫與落石可能是坡地不穩的徵兆。留下觀察或自行清理都可能遭後續崩落波及，應先離開危險範圍。",
-  "keypoint": "邊坡異常先遠離，別自行清落石",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   }
-  ]
- },
- {
-  "id": "df-during-05",
-  "hazard": "debris",
-  "category": "堰塞湖",
-  "stage": "during",
-  "title": "接到堰塞湖撤離通知",
-  "situation": "你在下游家中收到堰塞湖警報，地方通知沿指定路線到收容處所。家人說外面沒下雨，想先去河堤看看。",
-  "options": [
-   "先看住家雨勢，沒下雨就留在家中",
-   "走上河堤確認水勢，再回家帶行李",
-   "帶家人依指定路線前往收容處所"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "堰塞湖的風險需依壩體、蓄水及影響範圍等現況評估，住家沒下雨不能取代專業判斷。既已接獲地方撤離通知，就應依指定路線離開，不先去河堤查看而延誤避難。",
-  "keypoint": "堰塞湖警報依指示撤離，不去河邊看",
-  "sources": [
-   {
-    "agency": "農業部林業及自然保育署",
-    "title": "堰塞湖應變機制簡介",
-    "url": "https://www.forest.gov.tw/0004787",
-    "short": "林業保育署｜堰塞湖應變機制"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   }
-  ]
- },
- {
-  "id": "df-after-01",
-  "hazard": "debris",
-  "category": "返家時機",
-  "stage": "after",
-  "title": "雨停就能回家嗎",
-  "situation": "你和家人在收容處所過夜，早上天空放晴。朋友傳訊說村口已有人回家，但地方尚未通知可返回。",
-  "options": [
-   "留在安全處，確認警戒解除與地方返家指示",
-   "跟著朋友先回村口，看到封鎖再折返",
-   "趁放晴先回家，下午再確認警戒資訊"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "放晴與他人返家不能取代警戒及通行確認，坡地仍可能有後續災害。應等警戒解除並依地方指示返家，避免在未確認路段冒險。",
-  "keypoint": "返家看解除與地方指示，不只看天氣",
-  "sources": [
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   }
-  ]
- },
- {
-  "id": "df-after-02",
-  "hazard": "debris",
-  "category": "二次災害",
-  "stage": "after",
-  "title": "回家路上又見落石",
-  "situation": "你依通知返家途中，發現前方道路有新落石，坡面仍傳來聲響。同行者認為只要搬開幾顆石頭就能通過。",
-  "options": [
-   "停在落石旁等一下，沒聲響就通過",
-   "退至安全處通報，等候通行安排",
-   "大家一起搬石頭，趕在下一場雨前回家"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "獲准返家後仍要留意新落石及異常聲響，這些可能表示邊坡仍不穩定。應退至安全處通報並等候安排；停在坡下觀察或自行搬石，都會增加遭後續崩落波及的機會。",
-  "keypoint": "路上再有落石，退開通報別硬闖",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：災害應對",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜災害應對"
-   },
-   {
-    "agency": "農業部農村發展及水土保持署",
-    "title": "民眾防災指南",
-    "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
-    "short": "農村水保署｜民眾防災指南"
-   }
-  ]
- },
- {
-  "id": "df-after-03",
-  "hazard": "debris",
-  "category": "資訊通報",
-  "stage": "after",
-  "title": "想幫忙查上游",
-  "situation": "你暫住親友家，群組流傳上游堰塞湖已消失。朋友邀你騎車去管制區拍照，地方尚未解除管制。",
-  "options": [
-   "先到河道入口拍照，再等地方解除管制",
-   "跟著熟路朋友進山，親眼確認才可靠",
-   "查官方及地方公告，留在管制區外"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "堰塞湖是否解除警戒，須經權責單位評估並發布通知，群組轉傳不能取代這項程序。警戒解除前仍應避開受管制河道，不為了拍照靠近危險區，也不跟著熟路朋友闖入。",
-  "keypoint": "堰塞湖安全由官方確認，不自行探查",
-  "sources": [
-   {
-    "agency": "農業部林業及自然保育署",
-    "title": "堰塞湖應變機制簡介",
-    "url": "https://www.forest.gov.tw/0004787",
-    "short": "林業保育署｜堰塞湖應變機制"
-   },
-   {
-    "agency": "農業部林業及自然保育署",
-    "title": "燕子口堰塞湖壩體今午已潰決 及時通報相關單位終平安落幕",
-    "url": "https://www.forest.gov.tw/0000176/news/0077263",
-    "short": "林業保育署｜燕子口堰塞湖通報"
-   }
-  ]
- },
- {
-  "id": "tp-before-01",
-  "hazard": "temperature",
-  "category": "高溫燈號",
-  "stage": "before",
-  "title": "黃燈也要調行程",
-  "situation": "你週末要陪爸爸在戶外搬貨，預報顯示當地高溫黃色燈號。朋友說黃燈還好，中午搬完再休息就行。",
-  "options": [
-   "改到較涼時段，安排遮蔭休息與補水",
-   "照原定中午搬貨，口渴時再停下喝水",
-   "等升紅燈才調整，黃燈先把工作做完"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "氣象署的高溫燈號以日最高溫為基準，達36°C以上即納入示警。黃燈時就應避開炎熱時段、安排涼處休息並主動喝水；等到口渴或紅燈才調整，會延後防護。",
-  "keypoint": "高溫黃燈就調整活動與休息",
-  "sources": [
-   {
-    "agency": "交通部中央氣象署",
-    "title": "高溫",
-    "url": "https://climate.cwa.gov.tw/HighTemperature",
-    "short": "氣象署｜高溫"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
-    "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
-    "short": "國健署｜處暑防熱傷害"
-   }
-  ]
- },
- {
-  "id": "tp-before-02",
-  "hazard": "temperature",
-  "category": "低溫照護",
-  "stage": "before",
-  "title": "寒流前找阿公",
-  "situation": "你看到當地低溫特報，明早要去探望獨居阿公。他習慣清晨出門運動，家裡已備有外套與帽子。",
-  "options": [
-   "照常清晨運動，出汗後就不用外套",
-   "先聯絡確認保暖，改在較暖時段出門",
-   "等低溫紅燈才聯絡，其他燈號照常作息"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "低溫特報需注意適用地區及持續時間，不能等紅燈才照護。長者應注意頭頸與四肢保暖、避開清晨低溫，親友也宜主動聯繫。",
-  "keypoint": "低溫先關懷長者，避開清晨外出",
-  "sources": [
-   {
-    "agency": "交通部中央氣象署",
-    "title": "低溫特報",
-    "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W28.html",
-    "short": "氣象署｜低溫特報"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "連續低溫來襲 如何自我保暖 隨身保暖商品使用2原則 低溫保健8要點",
-    "url": "https://www.mohw.gov.tw/cp-16-76942-1.html",
-    "short": "國健署｜低溫保健八要點"
-   }
-  ]
- },
- {
-  "id": "tp-before-03",
-  "hazard": "temperature",
-  "category": "幼兒安全",
-  "stage": "before",
-  "title": "買東西只要幾分鐘",
-  "situation": "你載幼兒到便利商店，孩子在後座睡著。車子停在路邊，你打算下車買水，車內還有剛才的冷氣。",
-  "options": [
-   "車窗開一條縫，讓孩子繼續睡幾分鐘",
-   "先把冷氣開強，熄火後快速去買水",
-   "帶孩子一起下車，到商店內買水"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "幼兒體溫調節較弱，停泊車內可能很快變熱。應帶孩子一起離車；開一點窗或事先吹冷氣，都不足以讓獨留車內成為安全的安排。",
-  "keypoint": "不把幼兒獨留車內，短暫也要照顧",
-  "sources": [
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "切勿獨留小孩於車內，保幼3招預防熱傷害",
-    "url": "https://www.mohw.gov.tw/cp-2704-48383-1.html",
-    "short": "國健署｜勿留小孩在車內"
-   }
-  ]
- },
- {
-  "id": "tp-before-04",
-  "hazard": "temperature",
-  "category": "補水迷思",
-  "stage": "before",
-  "title": "不口渴就不用喝？",
-  "situation": "你準備傍晚去健走，水壺已裝好。朋友說不口渴就別喝，你也想到阿嬤因心臟病有醫囑限水。",
-  "options": [
-   "自己定時少量補水，阿嬤依醫囑",
-   "大家都等口渴再喝，避免運動時上廁所",
-   "替阿嬤訂相同大量飲水目標，不用問醫師"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "預防熱傷害不宜只靠口渴決定補水，日常可主動少量多次喝水。大量流汗時需考量電解質，醫囑限水者則應詢問醫師，不能全家套用同一水量。",
-  "keypoint": "主動少量多次補水，限水者先問醫師",
-  "sources": [
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
-    "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
-    "short": "國健署｜處暑防熱傷害"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "預防熱傷害！保持涼爽、補充水分、提高警覺",
-    "url": "https://www.mohw.gov.tw/fp-16-41241-1.html",
-    "short": "國健署｜預防熱傷害"
-   }
-  ]
- },
- {
-  "id": "tp-during-01",
-  "hazard": "temperature",
-  "category": "熱衰竭",
-  "stage": "during",
-  "title": "搬貨後暈又想吐",
-  "situation": "你與同事在悶熱倉庫搬貨，同事大量流汗、頭暈噁心，但清醒且能吞嚥。旁邊有陰涼休息區與飲水。",
-  "options": [
-   "給水後繼續慢慢搬，做完再一起休息",
-   "停工降溫補水，陪同協助就醫",
-   "讓他獨自回倉庫休息，下班再問情況"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "大量出汗伴隨暈眩、噁心，可能是熱衰竭，應停止工作、移至涼處並鬆衣降溫。清醒且能吞嚥者可少量補充含電解質飲品，並由人陪同協助就醫；意識異常立即打119，不能繼續搬貨或獨留休息。",
-  "keypoint": "疑似熱衰竭先停工降溫，惡化就求援",
-  "sources": [
-   {
-    "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
-    "title": "中暑怎麼辦？",
-    "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
-    "short": "新竹臺大｜中暑怎麼辦"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
-    "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
-    "short": "國健署｜處暑防熱傷害"
-   }
-  ]
- },
- {
-  "id": "tp-during-02",
-  "hazard": "temperature",
-  "category": "中暑急救",
-  "stage": "during",
-  "title": "球友開始答非所問",
-  "situation": "你打球時發現朋友全身發燙，回答問題混亂，站也站不穩。場邊有水、毛巾與手機，其他人正圍過來。",
-  "options": [
-   "扶到場邊灌運動飲料，等他清醒再求援",
-   "先測到高於40°C，才決定是否叫救護車",
-   "請人打119，同時移至涼處降溫且不餵水"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "熱暴露後意識異常應視為疑似中暑急症，立即求援並以濕毛巾、搧風等方式降溫。不必等量到特定體溫；意識不清時灌水有嗆入風險，應有人陪同等救援。",
-  "keypoint": "熱後意識異常，119與降溫同步進行",
-  "sources": [
-   {
-    "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
-    "title": "中暑怎麼辦？",
-    "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
-    "short": "新竹臺大｜中暑怎麼辦"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
-    "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
-    "short": "國健署｜處暑防熱傷害"
-   }
-  ]
- },
- {
-  "id": "tp-during-03",
-  "hazard": "temperature",
-  "category": "失溫處置",
-  "stage": "during",
-  "title": "冷雨後說話含糊",
-  "situation": "你在山上遇到冷雨，隊友衣服濕透、發抖且說話含糊。你有備用乾衣、保暖毯與手機，旁邊就有可避風雨處。",
-  "options": [
-   "立即求援並避風雨，換乾衣包毯",
-   "讓他繼續快走流汗，靠運動恢復體溫",
-   "留在原地等雨停，保留濕衣以免換衣受寒"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "淋雨後發抖又言語不清，可能是失溫，應立即求援就醫。先在可避風雨處換去濕衣、用乾衣及保暖毯減少散熱；繼續快走耗力或穿濕衣等待，都會延誤保暖與救援。",
-  "keypoint": "失溫疑兆先求援，避風雨換乾衣保暖",
-  "sources": [
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "高溫與酷寒",
-    "url": "https://www.cdc.gov.tw/Category/ListContent/wL-8Abm9o5_5l4gSOR8M5g?uaid=_VBRPRbLJSqI9J9_wSjD2w",
-    "short": "疾管署｜高溫與酷寒"
-   }
-  ]
- },
- {
-  "id": "tp-during-04",
-  "hazard": "temperature",
-  "category": "取暖通風",
-  "stage": "during",
-  "title": "暖氣開了仍怕冷",
-  "situation": "你與家人寒流夜在客廳取暖，使用中的燃氣取暖設備原廠要求通風。家人嫌冷，想把門窗與通風口全部封住。",
-  "options": [
-   "先封通風口保暖，每小時再開窗一次",
-   "保持通風，確認設備排氣正常",
-   "沒有聞到異味，就把門窗全部關緊"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "燃氣設備燃燒不完全且通風不良時可能累積一氧化碳，不能靠有無異味判斷。應依設備規範使用並保持通風排氣，間歇開窗不能合理化封住通風口。",
-  "keypoint": "燃氣取暖要通風，不能靠聞味道判斷",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "冷氣團來襲 消防署提醒：熱水器要通風 防中毒卡安心",
-    "url": "https://www.nfa.gov.tw/pro/index.php?article_id=17433&code=list&flag=detail&ids=1470",
-    "short": "消防署｜熱水器通風防中毒"
-   },
-   {
-    "agency": "衛生福利部食品藥物管理署",
-    "title": "提醒餐飲業者應注意營業場所之通風及排氣，預防一氧化碳中毒",
-    "url": "https://www.mohw.gov.tw/cp-2624-19499-1.html",
-    "short": "食藥署｜餐飲通風防一氧化碳"
-   }
-  ]
- },
- {
-  "id": "tp-during-05",
-  "hazard": "temperature",
-  "category": "長者熱害",
-  "stage": "during",
-  "title": "室內阿嬤也頭暈",
-  "situation": "你下午去阿嬤家，屋內悶熱不通風。她沒有外出，卻頭暈乏力且體溫升高，你手上有電話與濕毛巾。",
-  "options": [
-   "她沒曬太陽，先蓋毯休息觀察到晚上",
-   "只開窗就離開，讓她睡醒再打電話",
-   "陪她到涼處降溫並協助就醫"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "室內悶熱也可能造成熱傷害，長者更需照顧。應先離開熱環境、降溫並觀察，若持續升溫或意識異常立即119；加蓋厚毯或獨留可能延誤。",
-  "keypoint": "室內也會熱傷害，長者不適要陪同處理",
-  "sources": [
-   {
-    "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
-    "title": "中暑怎麼辦？",
-    "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
-    "short": "新竹臺大｜中暑怎麼辦"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "預防熱傷害！保持涼爽、補充水分、提高警覺",
-    "url": "https://www.mohw.gov.tw/fp-16-41241-1.html",
-    "short": "國健署｜預防熱傷害"
-   }
-  ]
- },
- {
-  "id": "tp-after-01",
-  "hazard": "temperature",
-  "category": "恢復追蹤",
-  "stage": "after",
-  "title": "休息後還是噁心",
-  "situation": "你健走時曾頭暈大量流汗，已在涼處休息、降溫與補水。過了一會仍噁心無力，朋友問要不要繼續走完路線。",
-  "options": [
-   "停止行程，請人陪同就醫",
-   "把剩下路線走慢一點，回家再睡覺",
-   "先獨自坐車回家，明天不舒服再處理"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "熱傷害處理後症狀仍未改善，需要醫療評估。繼續運動可能加重熱負荷，獨自離開也可能錯過惡化徵兆；出現意識異常要立即求援。",
-  "keypoint": "降溫休息後仍不適，停止活動並就醫",
-  "sources": [
-   {
-    "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
-    "title": "中暑怎麼辦？",
-    "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
-    "short": "新竹臺大｜中暑怎麼辦"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
-    "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
-    "short": "國健署｜處暑防熱傷害"
-   }
-  ]
- },
- {
-  "id": "tp-after-02",
-  "hazard": "temperature",
-  "category": "低溫健康",
-  "stage": "after",
-  "title": "回暖後阿公胸痛",
-  "situation": "你早上陪阿公從寒冷戶外回家，他已換上乾衣坐下休息。屋內逐漸暖起來，他卻說胸口痛、呼吸不舒服。",
-  "options": [
-   "再加一件外套，等午餐後看是否好轉",
-   "立即撥119求助，陪同並依救護指示處理",
-   "請他走動暖身，看看胸口會不會放鬆"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   25
-  ],
-  "why": "低溫可能誘發心血管急症，回到暖處不代表胸痛與呼吸不適可忽略。應立即求援，等待觀察或要求走動可能延誤醫療並增加負擔。",
-  "keypoint": "低溫後胸痛呼吸不適，立即119",
-  "sources": [
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "連續低溫來襲 如何自我保暖 隨身保暖商品使用2原則 低溫保健8要點",
-    "url": "https://www.mohw.gov.tw/cp-16-76942-1.html",
-    "short": "國健署｜低溫保健八要點"
-   }
-  ]
- },
- {
-  "id": "tp-after-03",
-  "hazard": "temperature",
-  "category": "再次預防",
-  "stage": "after",
-  "title": "沒亮燈就恢復跑？",
-  "situation": "你上次在悶熱天運動曾頭暈，這次已就醫評估恢復。今天當地沒有高溫燈號，朋友邀你中午跑同樣路線。",
-  "options": [
-   "沒亮高溫燈號，就維持中午原定強度",
-   "先少喝水減輕負擔，跑完再一次補足",
-   "改涼爽時段，補水休息並留意不適"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   25,
-   0
-  ],
-  "why": "高溫燈號是提醒工具，沒有燈號也不能排除活動與悶熱造成的熱負荷。恢復活動仍需調整時段、補水與休息，不能靠不喝水或照原強度來適應。",
-  "keypoint": "沒有高溫燈號，仍要防熱與留意不適",
-  "sources": [
-   {
-    "agency": "交通部中央氣象署",
-    "title": "高溫",
-    "url": "https://climate.cwa.gov.tw/HighTemperature",
-    "short": "氣象署｜高溫"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
-    "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
-    "short": "國健署｜處暑防熱傷害"
-   }
-  ]
- },
- {
-  "id": "aq-before-01",
-  "hazard": "air",
-  "category": "指標判讀",
-  "stage": "before",
-  "title": "舊表還能用嗎",
-  "situation": "週六早上，你和家人在家整理防災卡。你找到一張2024年的PM2.5對照表，想拿來判讀之後的空品。",
-  "options": [
-   "改查環境部現行AQI與對照表",
-   "沿用舊表，顏色相同就可以",
-   "把PM2.5濃度直接當成AQI"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   22
-  ],
-  "why": "2025年1月1日起調整污染物濃度門檻，例如PM2.5日平均30.5–50.4微克／立方公尺對應AQI 101–150。AQI取六種污染物副指標的最大值，不能拿單一濃度代替；即時粒狀物還涉及移動平均。舊表可能判錯，應以現行官方指標為準。",
-  "keypoint": "判讀AQI要用現行表與官方指標",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "空氣品質指標：2025年起濃度門檻與活動建議",
-    "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
-    "short": "環境部｜空氣品質指標"
-   }
-  ]
- },
- {
-  "id": "aq-before-02",
-  "hazard": "air",
-  "category": "預報資訊",
-  "stage": "before",
-  "title": "出遊前先看什麼",
-  "situation": "週五晚間，你在家替週末親子健走打包。群組傳來沒有日期的空品截圖，你手上也有可上網的手機。",
-  "options": [
-   "只看群組截圖顏色，先照原計畫",
-   "查預報時間、地區與說明",
-   "只看今晚測站數值，當作明天預報"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   20
-  ],
-  "why": "環境部監測網有三日空品區預報、空品特報與測站資訊，也可用環境即時通查詢。預報描述未來趨勢，測站數值反映觀測時段，出門前仍要更新確認。過期截圖或把今晚觀測當明日保證，都可能漏掉變化。",
-  "keypoint": "預報看地區時間，出門前再確認",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "空氣品質監測網：監測、預報與環境即時通",
-    "url": "https://airtw.moenv.gov.tw/",
-    "short": "環境部｜空氣品質監測網"
-   }
-  ]
- },
- {
-  "id": "aq-before-03",
-  "hazard": "air",
-  "category": "敏感族群",
-  "stage": "before",
-  "title": "普通空品怎麼安排",
-  "situation": "週日早上，你準備帶七十歲爸爸去公園。手機顯示演練用AQI 80，爸爸曾在空品普通時出現咳嗽。",
-  "options": [
-   "普通就照原計畫，忽略咳嗽也快走",
-   "只縮短散步時間，仍要求爸爸快走",
-   "留意症狀，依身體情況調整"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   15,
-   0
-  ],
-  "why": "AQI 51–100是普通，少數特別敏感的人仍可能有症狀，並非完全沒有影響。一般可正常戶外活動，但應注意咳嗽或呼吸急促；已有不適就調整活動。忽略症狀或一律禁止所有活動，都沒有依個別情況判斷。",
-  "keypoint": "普通空品仍要留意個人症狀",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "空氣品質指標：2025年起濃度門檻與活動建議",
-    "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
-    "short": "環境部｜空氣品質指標"
-   }
-  ]
- },
- {
-  "id": "aq-before-04",
-  "hazard": "air",
-  "category": "室內清淨",
-  "stage": "before",
-  "title": "清淨機怎麼挑",
-  "situation": "週三晚上，你和室友在租屋處挑選空氣清淨機。客廳不小，廣告卻只強調機器很小、會釋出臭氧。",
-  "options": [
-   "看適用空間、清淨風量與濾網",
-   "只挑微粒過濾率高的小型機器",
-   "選有臭氧功能的，就省去保養"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "選機器要把清淨風量與使用空間一起考量，微粒過濾率高不代表整間房處理得夠快。會釋出臭氧的設備可能增加健康負擔，不能靠氣味判斷效果。設備也需要依說明定期保養。",
-  "keypoint": "清淨風量要配合空間，留意臭氧",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "室內空氣品質資訊網：空氣清淨機知多少",
-    "url": "https://iaq.moenv.gov.tw/indoorair/improvement_airclean.aspx",
-    "short": "環境部｜空氣清淨機知多少"
-   }
-  ]
- },
- {
-  "id": "aq-during-01",
-  "hazard": "air",
-  "category": "兒童健康",
-  "stage": "during",
-  "title": "橘色的體育課",
-  "situation": "週二下午，你在學校當志工，帶著有氣喘的孩子到操場。演練看板顯示AQI 130，老師準備安排折返跑。",
-  "options": [
-   "先完成折返跑，喘了再休息",
-   "和老師減少戶外體力活動",
-   "戴好口罩後，照原課表折返跑"
-  ],
-  "answer": 1,
-  "risk": [
-   24,
-   0,
-   25
-  ],
-  "why": "AQI 101–150表示敏感族群的健康可能受影響，兒童與氣喘患者應減少戶外活動及體力消耗。這時應先和老師調整折返跑安排，而非等到喘了才停止。配戴口罩也不能取代活動量的調整。",
-  "keypoint": "橘色空品先照顧兒童與氣喘者",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "空氣品質指標：2025年起濃度門檻與活動建議",
-    "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
-    "short": "環境部｜空氣品質指標"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "國民健康署提醒民眾做好空污自我防護，口罩正確配戴步驟「開、戴、壓、密」",
-    "url": "https://www.mohw.gov.tw/fp-16-45821-1.html",
-    "short": "國健署｜空污防護與口罩"
-   }
-  ]
- },
- {
-  "id": "aq-during-02",
-  "hazard": "air",
-  "category": "運動安排",
-  "stage": "during",
-  "title": "紅色還跑長距離",
-  "situation": "週六下午，你和朋友到河濱準備長跑。演練看板顯示AQI 170，你已覺得喉嚨刺痛，朋友說天空還很藍。",
-  "options": [
-   "改成慢跑，仍把原定里程跑完",
-   "戴上防霾口罩，維持原本配速跑",
-   "停下長跑，改到空品合適處"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   25,
-   0
-  ],
-  "why": "AQI 151–200是對所有族群不健康；已有喉嚨不適時應減少戶外活動及體力消耗。長跑會持續增加暴露，口罩也不能讓原本的高強度運動變得安全。天空顏色無法取代空品資訊及身體警訊。",
-  "keypoint": "紅色又不適，就停止戶外長跑",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "空氣品質指標：2025年起濃度門檻與活動建議",
-    "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
-    "short": "環境部｜空氣品質指標"
-   },
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "國民健康署提醒民眾做好空污自我防護，口罩正確配戴步驟「開、戴、壓、密」",
-    "url": "https://www.mohw.gov.tw/fp-16-45821-1.html",
-    "short": "國健署｜空污防護與口罩"
-   }
-  ]
- },
- {
-  "id": "aq-during-03",
-  "hazard": "air",
-  "category": "口罩防護",
-  "stage": "during",
-  "title": "通勤口罩有縫隙",
-  "situation": "週一早上，你在家準備必要的短程通勤。外頭粒狀物污染偏高，你手上有防霾口罩，但鼻樑兩側明顯漏氣。",
-  "options": [
-   "調整鼻樑與帶子，讓口罩貼合",
-   "保持鼻旁縫隙，走路呼吸比較輕鬆",
-   "多套一片鬆口罩，就不用調整鼻樑"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   23,
-   20
-  ],
-  "why": "防霾口罩可選符合CNS 15980檢測標準的產品，但仍須確認與臉部貼合。鼻旁漏氣會降低防護，單靠增加層數無法解決縫隙。必要外出也應縮短暴露時間。",
-  "keypoint": "口罩防護要看規格，也要密合",
-  "sources": [
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "國民健康署提醒民眾做好空污自我防護，口罩正確配戴步驟「開、戴、壓、密」",
-    "url": "https://www.mohw.gov.tw/fp-16-45821-1.html",
-    "short": "國健署｜空污防護與口罩"
-   }
-  ]
- },
- {
-  "id": "aq-during-04",
-  "hazard": "air",
-  "category": "沙塵境外",
-  "stage": "during",
-  "title": "大風就會吹乾淨",
-  "situation": "週日午前，你和阿嬤在家，窗外風勢變強。手機的官方特報說有境外污染及沙塵移入，你正想把窗戶全打開。",
-  "options": [
-   "風大能清空污染，現在全開窗",
-   "先減少外氣進入並追蹤空品變化",
-   "沙塵是天然的，照常帶阿嬤散步"
-  ],
-  "answer": 1,
-  "risk": [
-   23,
-   0,
-   24
-  ],
-  "why": "強風可能帶來境外污染與沙塵，不代表當地空氣立刻變乾淨。室外污染時可減少污染空氣進入，搭配適當過濾，等外氣改善再調整通風。天然來源仍會影響健康，長者也需要防護。",
-  "keypoint": "強風可能帶污染，先查官方特報",
-  "sources": [
-   {
-    "agency": "衛生福利部國民健康署",
-    "title": "沙塵來襲3招自我保護策略",
-    "url": "https://www.mohw.gov.tw/cp-4252-50054-1.html",
-    "short": "國健署｜沙塵自我保護"
-   },
-   {
-    "agency": "環境部",
-    "title": "空氣清淨機知多少",
-    "url": "https://iaq.moenv.gov.tw/indoorair/improvement_airclean.aspx",
-    "short": "環境部｜空氣清淨機知多少"
-   }
-  ]
- },
- {
-  "id": "aq-during-05",
-  "hazard": "air",
-  "category": "林火煙霧",
-  "stage": "during",
-  "title": "煙霧飄到山下",
-  "situation": "傍晚，你和有氣喘的媽媽在山下家中聞到煙味。演練訊息顯示附近有森林火災，地方政府已通知你家所在區域撤離。",
-  "options": [
-   "先關窗開清淨機，留在家等煙消散",
-   "先等附近測站AQI變紅，再出發",
-   "依路線撤離，攜帶必要藥品"
-  ],
-  "answer": 2,
-  "risk": [
-   28,
-   26,
-   0
-  ],
-  "why": "森林火災可能危及居民，地方政府會依火勢發布疏散指示與避難路線，接到撤離通知就應配合行動。攜帶個人所需藥品有助延續照護。關窗留守或等待AQI變色，都會延誤已通知的撤離。",
-  "keypoint": "林火撤離指示優先，不等AQI變色",
-  "sources": [
-   {
-    "agency": "農業部",
-    "title": "森林火災災害防救業務計畫：第六章（第30頁）",
-    "url": "https://nantou.forest.gov.tw/file/202225",
-    "short": "農業部｜森林火災防救計畫"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "準備日常居家儲備：個人處方藥",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
-    "short": "全動署｜居家儲備處方藥"
-   }
-  ]
- },
- {
-  "id": "aq-after-01",
-  "hazard": "air",
-  "category": "恢復活動",
-  "stage": "after",
-  "title": "變綠就加倍運動",
-  "situation": "週日早上，你在家看到污染過後的演練AQI降到40。你和孩子想補回昨天取消的運動，下午預報卻有變差的可能。",
-  "options": [
-   "按最新資訊恢復活動並留意變化",
-   "趁早把整天運動集中到戶外完成",
-   "把早上綠色截圖當作全日依據"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   20
-  ],
-  "why": "AQI 0–50屬良好，官方建議可正常戶外活動。早上的觀測不能代表下午，安排活動仍要參考後續預報與更新資訊。把整天運動集中在戶外，也不能取代活動當時的空品確認。",
-  "keypoint": "空品改善可恢復活動，仍須更新資訊",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "空氣品質指標：2025年起濃度門檻與活動建議",
-    "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
-    "short": "環境部｜空氣品質指標"
-   },
-   {
-    "agency": "環境部",
-    "title": "空氣品質監測網：監測、預報與環境即時通",
-    "url": "https://airtw.moenv.gov.tw/",
-    "short": "環境部｜空氣品質監測網"
-   }
-  ]
- },
- {
-  "id": "aq-after-02",
-  "hazard": "air",
-  "category": "污染通報",
-  "stage": "after",
-  "title": "燒落葉後還有煙",
-  "situation": "週六傍晚，你在家整理陽台，發現巷口又有人露天燒落葉。你已帶孩子避開煙霧，想讓相關單位處理這個反覆出現的問題。",
-  "options": [
-   "先走近煙堆拍照，確定來源才檢舉",
-   "在安全處記錄，向環保單位陳情",
-   "等下雨沖掉煙味，再看看要不要說"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   18
-  ],
-  "why": "露天燃燒屬官方受理的空氣污染陳情項目，不能只當成氣味問題。可在安全位置記錄地點、時間與現象，透過官方公害污染陳情系統反映。靠近煙堆蒐證會增加暴露，等待天氣變化也無助於處理反覆污染。",
-  "keypoint": "遠離煙霧，在安全處記錄並陳情",
-  "sources": [
-   {
-    "agency": "環境部環境管理署",
-    "title": "公害污染陳情",
-    "url": "https://www.ema.gov.tw/affairs/enforcement/petition/307.html",
-    "short": "環管署｜公害污染陳情"
-   }
-  ]
- },
- {
-  "id": "aq-after-03",
-  "hazard": "air",
-  "category": "設備維護",
-  "stage": "after",
-  "title": "清淨機變弱了",
-  "situation": "污染事件過後，你和室友在家檢查清淨機。機器已用很久且保養提示亮起，室友想先忽略提示，等下次污染再保養。",
-  "options": [
-   "延長每日運轉時間，先不安排保養",
-   "等下次空品變差時，再安排保養",
-   "依設備說明安排檢查保養"
-  ],
-  "answer": 2,
-  "risk": [
-   22,
-   20,
-   0
-  ],
-  "why": "環境部提醒，空氣清淨機長期使用後效能可能改變，需要定期維修保養。增加運轉時間或延後處理，都不能取代設備維護。可依設備說明安排檢查，後續仍應搭配室外空品調整過濾與通風。",
-  "keypoint": "清淨機要定期保養，勿只延長運轉",
-  "sources": [
-   {
-    "agency": "環境部",
-    "title": "室內空氣品質資訊網：空氣清淨機知多少",
-    "url": "https://iaq.moenv.gov.tw/indoorair/improvement_airclean.aspx",
-    "short": "環境部｜空氣清淨機知多少"
-   }
-  ]
- },
- {
-  "id": "dr-before-01",
-  "hazard": "drought",
-  "category": "水情燈號",
-  "stage": "before",
-  "title": "綠燈是正常嗎",
-  "situation": "週一晚餐後，你和家人在家看水情宣導卡。卡上先出現綠燈、再轉黃燈，爸爸以為只是交通燈號般的提醒。",
-  "options": [
-   "綠燈水情提醒，黃燈減壓供水",
-   "綠燈水源充足，黃燈全區停水",
-   "綠燈仍照常用水，等黃燈再節水"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   20,
-   18
-  ],
-  "why": "現行綠燈是水情提醒，會加強水源調度與研擬措施，不能解讀為水源充足。黃燈採離峰或特定時段減壓，並停止部分非必要用水，不等於全區立即停水。家戶要及早節水並查供水單位公告。",
-  "keypoint": "綠燈已是水情提醒，黃燈減壓",
-  "sources": [
-   {
-    "agency": "經濟部水利署",
-    "title": "水情燈號意義及對應措施",
-    "url": "https://www.wra.gov.tw/EarlyWarning.aspx?n=18804&sms=9114",
-    "short": "水利署｜水情燈號與措施"
-   }
-  ]
- },
- {
-  "id": "dr-before-02",
-  "hazard": "drought",
-  "category": "限水措施",
-  "stage": "before",
-  "title": "橙紅燈怎麼分",
-  "situation": "週三晚上，你在社區幫長者讀抗旱宣導。你手上有橙燈與紅燈措施卡，大家想知道是不是都要照同一張停水表。",
-  "options": [
-   "橙燈各戶每天停水，紅燈全面斷水",
-   "橙燈減量，紅燈分區或定點供水",
-   "橙紅都只是降低水壓，不必查供水表"
-  ],
-  "answer": 1,
-  "risk": [
-   22,
-   0,
-   24
-  ],
-  "why": "橙燈主要對指定用戶與非急需用途減量，並非各戶一律停水。紅燈採分區輪流、全區定時停供或定點供水，實際範圍與時間須看公告。兩種措施都不能只憑顏色推定自家時程。",
-  "keypoint": "橙燈減量，紅燈分區或定點供水",
-  "sources": [
-   {
-    "agency": "經濟部水利署",
-    "title": "水情燈號意義及對應措施",
-    "url": "https://www.wra.gov.tw/EarlyWarning.aspx?n=18804&sms=9114",
-    "short": "水利署｜水情燈號與措施"
-   }
-  ]
- },
- {
-  "id": "dr-before-03",
-  "hazard": "drought",
-  "category": "儲水規劃",
-  "stage": "before",
-  "title": "兩人的七天備水",
-  "situation": "週日早上，你和伴侶在家盤點防災物資。依全民安全指引準備七天飲用水，你手上有紙筆，打算用未開封包裝水備援。",
-  "options": [
-   "兩人共21公升，生活用水也算入",
-   "兩人共14公升，缺時再出門補水",
-   "兩人至少42公升，另估生活用水"
-  ],
-  "answer": 2,
-  "risk": [
-   24,
-   25,
-   0
-  ],
-  "why": "全民安全指引建議居家物資至少七天，飲用水每人每日不低於3公升，兩人七天就是至少42公升。沖廁與清潔等生活用水須另行規劃，不用壓低飲水量來湊數。七天備援不代表自行裝水能放七天，包裝水依標示保存與輪替。",
-  "keypoint": "飲水至少每人每日3公升，備七天",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "準備日常居家儲備",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
-    "short": "全動署｜準備日常居家儲備"
-   },
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
-    "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
-    "short": "疾管署｜限水飲水儲水衛生"
-   }
-  ]
- },
- {
-  "id": "dr-before-04",
-  "hazard": "drought",
-  "category": "日常節水",
-  "stage": "before",
-  "title": "備水之外先節水",
-  "situation": "週二傍晚，你在家準備晚餐，媽媽正在洗菜。社區提醒節水，你手上有洗菜盆，也發現浴室水龍頭一直滴水。",
-  "options": [
-   "用盆適量洗菜，安排修理漏水",
-   "把水龍頭開小，繼續長時間沖洗",
-   "繼續細流洗菜，等停水後再修漏"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   18,
-   25
-  ],
-  "why": "盆槽放適量水洗菜可減少持續放流，漏水也應及時修復。只把流量調小卻延長沖洗，仍可能浪費水。節水應優先減少漏損與非必要耗用，不能靠犧牲基本飲水。",
-  "keypoint": "節水先減漏損與長時間放流",
-  "sources": [
-   {
-    "agency": "經濟部水利署",
-    "title": "節水小撇步",
-    "url": "https://www.wra.gov.tw/cp.aspx?n=3882",
-    "short": "水利署｜節水小撇步"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：準備日常居家儲備",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
-    "short": "全動署｜準備日常居家儲備"
-   }
-  ]
- },
- {
-  "id": "dr-during-01",
-  "hazard": "drought",
-  "category": "分區供水",
-  "stage": "during",
-  "title": "隔壁有水我也有",
-  "situation": "週四早上，你在家陪爸爸，手機收到分區供水演練訊息。朋友說隔壁里今天有水，你家水龍頭卻只剩細流。",
-  "options": [
-   "依朋友所在里的供水日，安排備水",
-   "按自家地址查官方供水時段",
-   "只看公告縣市名稱，不必核對街道"
-  ],
-  "answer": 1,
-  "risk": [
-   22,
-   0,
-   20
-  ],
-  "why": "供水公告需核對自家所在範圍與時段，相鄰地點未必適用相同安排。北水處答客問說明，可依地址查詢供水狀態；其他地區也應查服務自家的供水單位公告。鄰里經驗或只看縣市名稱，都不足以確認自家是否在公告範圍。",
-  "keypoint": "供水時段按自家地址查官方公告",
-  "sources": [
-   {
-    "agency": "臺北自來水事業處",
-    "title": "防災資訊答客問：地址查詢與緊急取水",
-    "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=107126B84A475DC3&sms=FE72F2803376B31C",
-    "short": "北水處｜地址查詢與取水"
-   }
-  ]
- },
- {
-  "id": "dr-during-02",
-  "hazard": "drought",
-  "category": "取水支援",
-  "stage": "during",
-  "title": "幫阿嬤安排取水",
-  "situation": "週六午前，你到阿嬤家，發現備水將用完。阿嬤走路不穩，你有乾淨帶蓋水桶和手機，群組傳來一張舊取水站地圖。",
-  "options": [
-   "照舊地圖指路，讓阿嬤自己提水回來",
-   "找附近灌溉水代替，就不必走那麼遠",
-   "查站點時段，再帶水桶協助取水"
-  ],
-  "answer": 2,
-  "risk": [
-   23,
-   28,
-   0
-  ],
-  "why": "北水處說明，災時會按需要開設取水站，並透過官方資訊公布位置；出發前應查最新公告並確認開放時間。備水容器應保持清潔並加蓋，阿嬤行走不穩則由你協助搬運。舊地圖未必適用，未確認水質的灌溉水也不宜當飲用水。",
-  "keypoint": "取水先查站點時段，協助搬運者",
-  "sources": [
-   {
-    "agency": "臺北自來水事業處",
-    "title": "防災資訊答客問：地址查詢與緊急取水",
-    "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=107126B84A475DC3&sms=FE72F2803376B31C",
-    "short": "北水處｜地址查詢與取水"
-   },
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
-    "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
-    "short": "疾管署｜限水飲水儲水衛生"
-   }
-  ]
- },
- {
-  "id": "dr-during-03",
-  "hazard": "drought",
-  "category": "加壓設備",
-  "stage": "during",
-  "title": "馬達一直空轉",
-  "situation": "停水演練開始後，你和管理員在大樓機房外聽到抽水機持續運轉。水池水位很低，鄰居提議讓馬達一直抽，等水一來就能搶先補滿。",
-  "options": [
-   "請管理員關閉抽水機電源",
-   "讓馬達繼續抽，才不會錯過復水",
-   "加大馬達抽力，從外管直接抽水"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   28
-  ],
-  "why": "北水處提醒停水時關閉抽水機電源，以免設備損壞；復水時先查看水池與水塔狀況。疾管署也提醒，限水時以馬達抽水可能造成管內負壓，帶入污染物。應由管理員處理設備，不宜持續空抽或加大抽力搶水。",
-  "keypoint": "停水關抽水機，避免空轉與負壓",
-  "sources": [
-   {
-    "agency": "臺北自來水事業處",
-    "title": "用戶用水設備建議資訊",
-    "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=27C91968885D4D58&sms=FE72F2803376B31C",
-    "short": "北水處｜用水設備建議"
-   },
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "缺水怎麼辦？疾管署教您如何省水兼防疫 遠離傳染病",
-    "url": "https://www.mohw.gov.tw/cp-2704-20899-1.html",
-    "short": "疾管署｜缺水防疫指引"
-   }
-  ]
- },
- {
-  "id": "dr-during-04",
-  "hazard": "drought",
-  "category": "飲水安全",
-  "stage": "during",
-  "title": "取回的水直接喝",
-  "situation": "週日中午，你和孩子在家，把官方供水站取回的水倒進煮水壺。水看起來清澈，孩子口渴，桌上也有市售瓶裝水。",
-  "options": [
-   "水看起來清澈，直接喝不必等煮沸",
-   "先喝瓶裝水，取水煮沸再喝",
-   "先用家中濾水壺過濾，免去煮沸步驟"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   23
-  ],
-  "why": "疾管署在限水衛生指引中，建議飲用煮沸的開水或市售瓶裝水。取回的水即使清澈，也不能只憑外觀省略煮沸；題目沒有足以確認濾水壺可供生飲的資訊。孩子口渴時，可先使用桌上的瓶裝水。",
-  "keypoint": "清澈不等於可生飲，飲水注意煮沸",
-  "sources": [
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
-    "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
-    "short": "疾管署｜限水飲水儲水衛生"
-   }
-  ]
- },
- {
-  "id": "dr-during-05",
-  "hazard": "drought",
-  "category": "儲水衛生",
-  "stage": "during",
-  "title": "這桶留到下星期",
-  "situation": "分區供水演練第三天，你在家查看三天前裝的自來水。弟弟說加蓋後能放整週，陽台還有幾桶沒蓋的備水。",
-  "options": [
-   "舊水加新水補滿，就重新算天數",
-   "把開口桶移陰涼處，照樣留整週",
-   "三天內用完，容器定期刷洗"
-  ],
-  "answer": 2,
-  "risk": [
-   24,
-   23,
-   0
-  ],
-  "why": "疾管署提醒自行儲水應加蓋、儲存勿超過三天，容器每週刷洗，避免污染與病媒蚊。新舊水混加不能重設保存時間，移到陰涼處也不能取代加蓋與更新。這和依保存標示管理的未開封包裝水不同。",
-  "keypoint": "自行儲水加蓋，三天內用完並輪替",
-  "sources": [
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
-    "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
-    "short": "疾管署｜限水飲水儲水衛生"
-   }
-  ]
- },
- {
-  "id": "dr-after-01",
-  "hazard": "drought",
-  "category": "復水水質",
-  "stage": "after",
-  "title": "復水後水色異常",
-  "situation": "週一晚上，你在家發現水龍頭恢復出水。你和爸爸看到水色混濁且有異味，爸爸想說煮久一點就拿來煮飯。",
-  "options": [
-   "先停用異常水，改安全飲水並通報",
-   "先煮沸異常水，再拿來洗米煮飯",
-   "先裝進水塔沉澱，明天繼續使用"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   24
-  ],
-  "why": "復水後若有混濁、異色或異味，應停止使用並通知當地自來水事業查處。煮沸不能當作處理所有不明污染的保證，也不宜先把異常水收進水塔。處理確認前先用安全的替代飲水。",
-  "keypoint": "復水有異色異味，先停用並通報",
-  "sources": [
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "缺水怎麼辦？疾管署教您如何省水兼防疫 遠離傳染病",
-    "url": "https://www.mohw.gov.tw/cp-2704-20899-1.html",
-    "short": "疾管署｜缺水防疫指引"
-   }
-  ]
- },
- {
-  "id": "dr-after-02",
-  "hazard": "drought",
-  "category": "水塔維護",
-  "stage": "after",
-  "title": "水來了樓上還沒水",
-  "situation": "週二早上，你住的大樓結束停水演練，鄰棟已恢復供水。管理員說你家在高樓、蓄水池尚未補足，你想確認接下來的處理。",
-  "options": [
-   "把抽水機調到最大，強行搶水回水池",
-   "請管理員查設備，異常洽供水單位",
-   "自己進入蓄水池，查看底部有無堵塞"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   28
-  ],
-  "why": "高地與管線末端復水可能較慢，不能因鄰棟有水就提高抽力搶水。應先確認公共與家戶設備狀況，仍缺水再向供水單位反映，設備檢查交由適當人員。水池水塔也需定期維護，北水處建議每年至少清洗一次。",
-  "keypoint": "復水較慢先查設備，勿強抽或入池",
-  "sources": [
-   {
-    "agency": "臺北自來水事業處",
-    "title": "用戶用水設備建議資訊",
-    "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=27C91968885D4D58&sms=FE72F2803376B31C",
-    "short": "北水處｜用水設備建議"
-   },
-   {
-    "agency": "臺北自來水事業處",
-    "title": "防災資訊答客問：復水與緊急取水",
-    "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=107126B84A475DC3&sms=FE72F2803376B31C",
-    "short": "北水處｜復水與緊急取水"
-   }
-  ]
- },
- {
-  "id": "dr-after-03",
-  "hazard": "drought",
-  "category": "備援更新",
-  "stage": "after",
-  "title": "供水穩了就不備水",
-  "situation": "週日午后，你和家人在家整理停水後的備品。供水單位已公告恢復穩定，未開封包裝水有些快到期，浴室龍頭又開始滴水。",
-  "options": [
-   "取消所有備水，等下次公告停水再買",
-   "快到期的留到下次，龍頭漏水先不修",
-   "輪替補足備水，安排修理漏水"
-  ],
-  "answer": 2,
-  "risk": [
-   20,
-   22,
-   0
-  ],
-  "why": "供水恢復後仍適合維持家庭備援，按標示保存並優先使用將到期的物資，再補回需要的數量。拖延輪替可能讓下次需要時沒有合用飲水。修復漏水也能持續節水，不必等燈號再改變。",
-  "keypoint": "備水循環輪替，恢復供水仍要節水",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：準備日常居家儲備",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
-    "short": "全動署｜準備日常居家儲備"
-   },
-   {
-    "agency": "經濟部水利署",
-    "title": "節水小撇步",
-    "url": "https://www.wra.gov.tw/cp.aspx?n=3882",
-    "short": "水利署｜節水小撇步"
-   }
-  ]
- },
- {
-  "id": "bo-before-01",
-  "hazard": "blackout",
-  "category": "照明通訊",
-  "stage": "before",
-  "title": "夜晚的備用光源",
-  "situation": "你和孩子住在公寓，晚上常靠手機聯絡家人。整理防災用品時，你發現手電筒沒電，行動電源也快用完了。",
-  "options": [
-   "只把手機充飽，通訊需要時再找網路",
-   "換好手電筒電池，充電並留紙本聯絡表",
-   "備幾根蠟燭和打火機，手機有電就夠了"
-  ],
-  "answer": 1,
-  "risk": [
-   18,
-   0,
-   24
-  ],
-  "why": "手電筒可減少使用明火的火災風險，手機與行動電源也要先充電。紙本聯絡資料能在手機沒電時派上用場；只靠單一手機，照明與通訊會共用有限電量。",
-  "keypoint": "照明與通訊都要有備援",
-  "sources": [
-   {
-    "agency": "勞動部勞動力發展署",
-    "title": "LINE@移點通－停電安全事項要注意－多國語言版",
-    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
-    "short": "勞發署｜停電安全事項"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "準備緊急避難包",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
-    "short": "全動署｜準備緊急避難包"
-   }
-  ]
- },
- {
-  "id": "bo-before-02",
-  "hazard": "blackout",
-  "category": "醫療備援",
-  "stage": "before",
-  "title": "呼吸設備不能等",
-  "situation": "你與使用居家電動醫療設備的父親同住。社區公告明天停電，你手上只有一般手機行動電源，該先怎麼安排？",
-  "options": [
-   "先買大容量行動電源，停電後再試接設備",
-   "先看預估復電時間，設備停一下應該沒關係",
-   "聯絡照護與設備單位，確認備電和轉移計畫"
-  ],
-  "answer": 2,
-  "risk": [
-   24,
-   28,
-   0
-  ],
-  "why": "電動醫療設備應事先確認相容的備援電源、可用時間及照護安排。手機行動電源未必能供應設備需求，不能臨時試接或等到電池耗盡才求援。若出現生命危險，應立即求救。",
-  "keypoint": "醫療備援先確認，別等耗盡才求助",
-  "sources": [
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "防災無障礙：肢體障礙者",
-    "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
-    "short": "災防中心｜肢體障礙者防災"
-   },
-   {
-    "agency": "台灣電力公司基隆區營業處",
-    "title": "颱風災後復電安全注意事項",
-    "url": "https://service.taipower.com.tw/branch/files/file_pool/1/0P315608842096404797/%E9%A2%B1%E9%A2%A8%E7%81%BD%E5%BE%8C%E5%BE%A9%E9%9B%BB%E5%AE%89%E5%85%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85%28%E8%99%95%E9%95%B7%E6%A0%B8%E5%AE%9A%29.pdf",
-    "short": "台電基隆｜災後復電安全"
-   }
-  ]
- },
- {
-  "id": "bo-before-03",
-  "hazard": "blackout",
-  "category": "冷藏準備",
-  "stage": "before",
-  "title": "藥品也需要保冷",
-  "situation": "你替母親領回需冷藏的藥品，冰箱裡還有生鮮肉品。明天預計停電，你拿出保冷袋後，下一步怎麼做？",
-  "options": [
-   "備保冷用品，向藥師確認保存要求",
-   "把藥品與肉品全放冷凍庫，延長保存時間",
-   "停電時每隔幾分鐘開冰箱，摸摸是否還冰"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   24,
-   18
-  ],
-  "why": "先備保冷用品，停電時少開冰箱，有助維持保存條件。藥品應依個別標示保存，先向藥師確認合適的保冷方式；不能把需冷藏的藥品一律改放冷凍，也不宜反覆開門摸溫度。",
-  "keypoint": "冷藏藥品先問保存與失溫處理方式",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "停電應變",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
-    "short": "消防署｜停電應變"
-   },
-   {
-    "agency": "衛生福利部食品藥物管理署",
-    "title": "藥品可以放冰箱保存嗎？",
-    "url": "https://www.fda.gov.tw/tc/newsContent.aspx?cid=5049&id=22351",
-    "short": "食藥署｜藥品冰箱保存"
-   }
-  ]
- },
- {
-  "id": "bo-before-04",
-  "hazard": "blackout",
-  "category": "長者照護",
-  "stage": "before",
-  "title": "長停電的冷熱備案",
-  "situation": "你與年邁奶奶住在頂樓，夏天靠冷氣、寒流時靠電暖器。家庭討論長時間停電的備案，你會怎麼安排？",
-  "options": [
-   "先準備卡式爐，房間太冷就關窗開火取暖",
-   "只記住復電查詢方式，等停電很久再找地方",
-   "先約好協助，安排可乘涼保暖的去處"
-  ],
-  "answer": 2,
-  "risk": [
-   28,
-   18,
-   0
-  ],
-  "why": "長時間停電會使降溫與取暖設備失效，應先替長者安排合適去處與移動協助。低溫時也可用衣物與毯子保暖；燃燒器具不應拿來替密閉房間取暖，以免一氧化碳中毒。",
-  "keypoint": "長停電先備妥降溫、保暖與照護去處",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "準備緊急避難包",
-    "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
-    "short": "全動署｜準備緊急避難包"
-   },
-   {
-    "agency": "衛生福利部食品藥物管理署",
-    "title": "提醒餐飲業者應注意營業場所之通風及排氣，預防一氧化碳中毒",
-    "url": "https://www.mohw.gov.tw/cp-2624-19499-1.html",
-    "short": "食藥署｜餐飲通風防一氧化碳"
-   }
-  ]
- },
- {
-  "id": "bo-during-01",
-  "hazard": "blackout",
-  "category": "電器安全",
-  "stage": "during",
-  "title": "突然全暗的客廳",
-  "situation": "晚上你正在客廳用電腦，家中突然停電。地板與插座乾燥，手邊有手電筒，電視和電暖器仍接著插座。",
-  "options": [
-   "用手電筒照明，關閉並拔除非必要電器",
-   "先點蠟燭照明，讓電暖器維持原本設定",
-   "把電器開關全打開，方便知道何時復電"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   24
-  ],
-  "why": "在可安全操作的情況下，先關閉並拔除非必要電器，可降低突然復電與電壓變動造成的風險。電暖器留在開啟狀態可能復電後自行加熱；蠟燭則增加火災風險。",
-  "keypoint": "停電先用手電筒，關閉非必要電器",
-  "sources": [
-   {
-    "agency": "勞動部勞動力發展署",
-    "title": "LINE@移點通－停電安全事項要注意－多國語言版",
-    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
-    "short": "勞發署｜停電安全事項"
-   }
-  ]
- },
- {
-  "id": "bo-during-02",
-  "hazard": "blackout",
-  "category": "一氧化碳",
-  "stage": "during",
-  "title": "發電機放哪裡",
-  "situation": "你家停電，鄰居借來燃油發電機想替冰箱供電。大家提議放在半開門的車庫，認為留一道門縫就足夠通風。",
-  "options": [
-   "搬到公共樓梯間使用，讓廢氣往樓上散開",
-   "先停用，另找戶外遠離門窗的位置",
-   "留在車庫使用，把車庫門完全拉開通風"
-  ],
-  "answer": 1,
-  "risk": [
-   28,
-   0,
-   28
-  ],
-  "why": "燃油發電機的廢氣可能造成一氧化碳中毒，車庫或樓梯間不能當作安全使用場所。應設於戶外並遠離門窗等開口，避免廢氣進入屋內；把門打開也不能讓室內使用變安全。",
-  "keypoint": "燃油發電機只在戶外遠離開口處使用",
-  "sources": [
-   {
-    "agency": "內政部消防署",
-    "title": "停電應變",
-    "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
-    "short": "消防署｜停電應變"
-   },
-   {
-    "agency": "勞動部勞動力發展署",
-    "title": "LINE@移點通－停電安全事項要注意－多國語言版",
-    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
-    "short": "勞發署｜停電安全事項"
-   }
-  ]
- },
- {
-  "id": "bo-during-03",
-  "hazard": "blackout",
-  "category": "電梯受困",
-  "stage": "during",
-  "title": "電梯停在兩層間",
-  "situation": "你與鄰居搭電梯時遇上停電，車廂停住，門沒有打開。你手邊有手機，車廂內也看得到對講機和警鈴。",
-  "options": [
-   "用警鈴或對講機報位置，等候救援",
-   "先用手拉開內門，查看外面能不能跨出去",
-   "請鄰居協助撐住門，輪流從門縫爬出車廂"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   28
-  ],
-  "why": "按車廂內警鈴或對講機，通知管理或保全人員並說明位置，留在車廂等待救援。車廂有通氣，不需為了換氣拉門；自行打開內外門或爬出可能墜落。",
-  "keypoint": "電梯受困先求援，不撬門攀爬",
-  "sources": [
-   {
-    "agency": "農業部農業金融署",
-    "title": "電梯停止，關人時的處置",
-    "url": "https://www.afna.gov.tw/upload/boaf/files/web_structure/187/53141553571.pdf",
-    "short": "農金署｜電梯受困處置"
-   }
-  ]
- },
- {
-  "id": "bo-during-04",
-  "hazard": "blackout",
-  "category": "交通安全",
-  "stage": "during",
-  "title": "路口號誌全熄了",
-  "situation": "傍晚你騎車載孩子回家，前方路口因停電而號誌全暗。路邊已有員警指揮，左右也有車輛與行人準備通過。",
-  "options": [
-   "按喇叭提醒左右來車，照平常綠燈速度過",
-   "跟緊前車穿過路口，避免停下造成回堵",
-   "減速查看人車，依員警指揮並停讓行人"
-  ],
-  "answer": 2,
-  "risk": [
-   25,
-   24,
-   0
-  ],
-  "why": "號誌失效時，不能把沒有紅燈當成可以直接通行。減速並依現場員警指揮、停讓行人，可降低路口衝突；跟車搶過或只靠喇叭示警，都無法確認其他人會停下。",
-  "keypoint": "號誌熄滅先減速，依指揮停讓行人",
-  "sources": [
-   {
-    "agency": "新北市政府交通局",
-    "title": "重要路口交通號誌不斷電系統 預計年底完成130處",
-    "url": "https://www.traffic.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=562aaf0e883d450221c0ef4234cb2698&id=54fa46e9e522dde4",
-    "short": "新北交通局｜路口不斷電系統"
-   },
-   {
-    "agency": "高雄市政府警察局左營分局",
-    "title": "車輛停在路中未移動 警立即發現異常 通知號誌維修保護行人過馬路",
-    "url": "https://kcpd.kcg.gov.tw/News_Content.aspx?n=301858D950E8FB8E&s=61D16ED3AFDBF58F&sms=FC374298B757EFB3",
-    "short": "左營分局｜路口號誌異常"
-   }
-  ]
- },
- {
-  "id": "bo-during-05",
-  "hazard": "blackout",
-  "category": "通報通訊",
-  "stage": "during",
-  "title": "沒網路怎麼查停電",
-  "situation": "你在家發現整條街停電，手機行動網路不穩，但仍能撥電話。家人傳來沒有來源的復電時間，手機電量也不多了。",
-  "options": [
-   "轉傳群組復電時間，讓鄰居先照那個時間等",
-   "用1911查報停電，節省電量",
-   "持續重撥家人視訊，確認每個人看到的說法"
-  ],
-  "answer": 1,
-  "risk": [
-   20,
-   0,
-   18
-  ],
-  "why": "停電查詢與通報可撥台電1911，無法上網時仍有電話管道。群組提供的復電時間應先向台電核對；保留電量供後續聯絡，比持續嘗試視訊合適。",
-  "keypoint": "停電查報找台電1911，保留聯絡電量",
-  "sources": [
-   {
-    "agency": "勞動部勞動力發展署",
-    "title": "LINE@移點通－停電安全事項要注意－多國語言版",
-    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
-    "short": "勞發署｜停電安全事項"
-   },
-   {
-    "agency": "國家災害防救科技中心",
-    "title": "防災無障礙：肢體障礙者",
-    "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
-    "short": "災防中心｜肢體障礙者防災"
-   }
-  ]
- },
- {
-  "id": "bo-after-01",
-  "hazard": "blackout",
-  "category": "食物安全",
-  "stage": "after",
-  "title": "冰箱重新冷了以後",
-  "situation": "你家停電很久後剛復電，冰箱內鮮奶與熟食曾回到室溫，多久不清楚。家人想等它們重新變冰，再拿來吃。",
-  "options": [
-   "把失溫食物煮滾，再冰回去留給明天吃",
-   "丟棄失溫時間不明的鮮奶與熟食",
-   "先聞味道，沒有酸臭的就重新冷藏後食用"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   24
-  ],
-  "why": "易腐食品若已失溫且無法確認保存條件，應保守丟棄，重新冷藏不會消除已形成的風險。沒有異味也不代表安全；加熱不能作為所有失溫食品的補救方法。",
-  "keypoint": "重新變冰不代表失溫食品恢復安全",
-  "sources": [
-   {
-    "agency": "勞動部勞動力發展署",
-    "title": "LINE@移點通－停電安全事項要注意－多國語言版",
-    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
-    "short": "勞發署｜停電安全事項"
-   },
-   {
-    "agency": "衛生福利部疾病管制署",
-    "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
-    "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
-    "short": "疾管署｜淹水清理防疫"
-   }
-  ]
- },
- {
-  "id": "bo-after-02",
-  "hazard": "blackout",
-  "category": "復電檢查",
-  "stage": "after",
-  "title": "有電了就全插回嗎",
-  "situation": "你家電燈亮了，停電前已拔掉電腦與電暖器插頭。插座沒有進水或燒焦味，你準備恢復使用家電。",
-  "options": [
-   "檢查無異常、供電穩定後逐一恢復",
-   "先開電暖器最高檔，藉大負載測試線路是否正常",
-   "先把全部電器一起插回，確認供電是否夠穩"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   22
-  ],
-  "why": "復電後先確認設備與線路狀況，供電穩定後再逐一恢復使用，避免同時啟動多項電器。受潮、破損或有焦味的設備應停用，請合格電工檢查，不能用大負載試探線路是否安全。",
-  "keypoint": "復電先檢查，再逐一恢復電器",
-  "sources": [
-   {
-    "agency": "台灣電力公司基隆區營業處",
-    "title": "颱風災後復電安全注意事項",
-    "url": "https://service.taipower.com.tw/branch/files/file_pool/1/0P315608842096404797/%E9%A2%B1%E9%A2%A8%E7%81%BD%E5%BE%8C%E5%BE%A9%E9%9B%BB%E5%AE%89%E5%85%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85%28%E8%99%95%E9%95%B7%E6%A0%B8%E5%AE%9A%29.pdf",
-    "short": "台電基隆｜災後復電安全"
-   }
-  ]
- },
- {
-  "id": "bo-after-03",
-  "hazard": "blackout",
-  "category": "落線危險",
-  "stage": "after",
-  "title": "街燈亮了仍有落線",
-  "situation": "風雨過後街燈已亮，你牽孩子走到巷口，看到一條電線垂落地面。旁邊沒有火花，有人想拿木棍把它移到路邊。",
-  "options": [
-   "先用乾木棍把電線撥開，方便鄰居通行",
-   "趁沒有火花跨過電線，回家後再向台電反映",
-   "遠離並勸人避開，安全處報1911"
-  ],
-  "answer": 2,
-  "risk": [
-   28,
-   25,
-   0
-  ],
-  "why": "掉落電線即使沒有火花，也可能帶電，不能靠外觀判斷。保持距離並通報台電處理，勿碰觸、跨越或拿物品移動；附近已復電更不能當成落線安全的證明。",
-  "keypoint": "落地電線不碰不靠近，安全處報1911",
-  "sources": [
-   {
-    "agency": "勞動部勞動力發展署",
-    "title": "LINE@移點通－停電安全事項要注意－多國語言版",
-    "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
-    "short": "勞發署｜停電安全事項"
-   },
-   {
-    "agency": "台灣電力公司北北區營業處",
-    "title": "強颱薔琵逼近 台電台北北區營業處全力戒備 請民眾多利用網路通報查詢停復電資訊",
-    "url": "https://service.taipower.com.tw/branch/d116/xmdoc/cont?sid=0Q295333915940640091&sq=&xsmsid=0M242581312763389988",
-    "short": "台電北北區｜停復電查報與落線"
-   }
-  ]
- },
- {
-  "id": "nu-before-01",
-  "hazard": "nuclear",
-  "category": "應變區域",
-  "stage": "before",
-  "title": "住得近要先查什麼",
-  "situation": "你帶家人到北海岸租屋，週末在餐桌研究核安防災。親友說只要查核電廠是否發電，就能決定需不需要準備。",
-  "options": [
-   "用住家離廠距離，直接決定事故時疏散範圍",
-   "先查核安會應變區公告與地方防護計畫",
-   "只看電廠是否發電，停機就刪掉避難計畫"
-  ],
-  "answer": 1,
-  "risk": [
-   24,
-   0,
-   22
-  ],
-  "why": "核一、核二位於新北市石門與萬里，核三位於屏東恆春地區；應變整備應查官方廠別與村里公告。緊急應變計畫區是平時規劃範圍，並非事故時的疏散界線，也不能僅以停機推論無須準備。",
-  "keypoint": "應變計畫區不是事故疏散範圍",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "緊急應變計畫區",
-    "url": "https://www.nusc.gov.tw/保安應變/政府平時準備/應變整備/緊急應變計畫區--5_43_155_898.html",
-    "short": "核安會｜緊急應變計畫區"
-   }
-  ]
- },
- {
-  "id": "nu-before-02",
-  "hazard": "nuclear",
-  "category": "家庭準備",
-  "stage": "before",
-  "title": "輪椅家人的疏散包",
-  "situation": "你和使用輪椅的母親住在應變計畫區，準備參加社區演練。桌上已有常用藥、聯絡資料與手電筒，還該做什麼？",
-  "options": [
-   "只安排家人開車，當天再決定去哪裡集合",
-   "等正式疏散才詢問交通，平時先收好用品",
-   "先確認協助窗口、集結安排與家人聯絡方式"
-  ],
-  "answer": 2,
-  "risk": [
-   18,
-   22,
-   0
-  ],
-  "why": "平時就確認地方疏散與協助安排，備妥必要藥品和聯絡方式，能減少臨時尋找資源的困難。只靠一輛車或等到命令發布才找人，可能延誤需要協助者的移動；當次行動仍依官方指示調整。",
-  "keypoint": "特殊照護與疏散協助要事先約定",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   }
-  ]
- },
- {
-  "id": "nu-before-03",
-  "hazard": "nuclear",
-  "category": "輻射概念",
-  "stage": "before",
-  "title": "沒有事故也有讀值",
-  "situation": "你和孩子在家看核安會的輻射教材，發現生活環境本來就有輻射。孩子問：「有讀值是不是表示附近出事故了？」",
-  "options": [
-   "環境本有背景輻射，查官方事故資訊",
-   "讀到任何輻射，就代表附近設施有洩漏",
-   "天然輻射不會有風險，所以所有讀值都能忽略"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   22,
-   20
-  ],
-  "why": "宇宙射線、土壤岩石等都會形成天然背景輻射，有讀值本身不能證明核子事故。也不能因為來源天然就一律忽略曝露，應依情境與核安會監測說明理解。",
-  "keypoint": "有輻射讀值不等於發生核子事故",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "輻射劑量比較圖：天然背景輻射",
-    "url": "https://www.nusc.gov.tw/緊急應變/對人的影響/輻射劑量比較圖--5_40_873.html",
-    "short": "核安會｜輻射劑量比較圖"
-   }
-  ]
- },
- {
-  "id": "nu-before-04",
-  "hazard": "nuclear",
-  "category": "碘片迷思",
-  "stage": "before",
-  "title": "群組揪買防輻射藥",
-  "situation": "你在家整理避難包，群組有人說每天吃碘片能預防各種輻射，還附上團購連結。家裡沒有事故警報，你會怎麼做？",
-  "options": [
-   "先買一盒每天吃，讓甲狀腺提早建立防護",
-   "改囤含碘鹽和保健品，當作日常防護替代",
-   "不跟團搶購，了解官方發放與服用指示"
-  ],
-  "answer": 2,
-  "risk": [
-   25,
-   22,
-   0
-  ],
-  "why": "碘片主要針對放射性碘對甲狀腺的影響，不是各種輻射的通用防護藥。服用時機須依官方指示，勿自行搶購或預防性服用；含碘鹽及保健品也不能取代碘片。",
-  "keypoint": "不搶購、不自行服碘，也不以碘鹽替代",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   },
-   {
-    "agency": "行政院原子能委員會（核能安全委員會典藏）",
-    "title": "身在輻中要知輻：碘片問答與碘-131小情報（第46、48–49頁）",
-    "url": "https://www.nusc.gov.tw/share/file/convenience/bbQWhhczjgS6lbzKHB4w3Q__.pdf?v=2019103150",
-    "short": "原能會｜碘片問答"
-   }
-  ]
- },
- {
-  "id": "nu-during-01",
-  "hazard": "nuclear",
-  "category": "就地掩蔽",
-  "stage": "during",
-  "title": "警報時你正在商店",
-  "situation": "你在住家附近商店收到核子事故警報，廣播要求所在地民眾就地掩蔽。店內可進入的室內空間就在身旁，家人在別處也已進屋。",
-  "options": [
-   "就近留在室內，依廣播配合掩蔽並聯絡家人",
-   "先騎車離開應變區，到了外面再向家人報平安",
-   "先走回家集合，路上持續看警報更新"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   23
-  ],
-  "why": "要求掩蔽時，先減少戶外曝露，就近進入可防護的室內並收聽指令。為集合而穿越戶外或自行開車離開，可能增加曝露並干擾交通；後續若改為疏散，再依指定方式行動。",
-  "keypoint": "掩蔽指令先進室內，再依通知調整",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：核子事故應對原則",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜核子事故應對原則"
-   },
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   }
-  ]
- },
- {
-  "id": "nu-during-02",
-  "hazard": "nuclear",
-  "category": "門窗空調",
-  "stage": "during",
-  "title": "掩蔽時空調怎麼辦",
-  "situation": "你和幼兒已在家中掩蔽，窗戶開著，換氣設備正把戶外空氣送入室內。收音機持續播放所在地的官方應變訊息。",
-  "options": [
-   "只關窗戶，保留新風換氣維持室內舒適",
-   "關閉門窗與外氣換氣，空調可設室內循環",
-   "留一扇窗換氣，讓空氣清淨機持續運轉"
-  ],
-  "answer": 1,
-  "risk": [
-   22,
-   0,
-   24
-  ],
-  "why": "掩蔽時關好門窗，停止引入外氣的換氣功能，能減少放射性物質進入室內。可切換的空調依指引設為室內循環；開窗或只靠空氣清淨機，不能取代阻隔外氣。",
-  "keypoint": "掩蔽關門窗，停止外氣進入",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：核子事故應對原則",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜核子事故應對原則"
-   },
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   }
-  ]
- },
- {
-  "id": "nu-during-03",
-  "hazard": "nuclear",
-  "category": "官方資訊",
-  "stage": "during",
-  "title": "直播比廣播更急",
-  "situation": "你與家人在室內收聽官方廣播，內容仍要求掩蔽。手機直播卻說「全台都該撤離」，沒有標示發布單位與適用地區。",
-  "options": [
-   "核對所在地官方指示，再依通知行動",
-   "先跟直播撤離，官方沒要求也比較保險",
-   "只看群組最多人轉傳的版本，再決定下一步"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   20
-  ],
-  "why": "防護指令須核對發布單位、時間與適用地區，核安會及地方政府會透過多種管道通知。未經查證就離開掩蔽處，可能增加曝露；轉傳次數不能證明消息正確。",
-  "keypoint": "核對地區與時間，聽官方最新指令",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：核子事故應對原則",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜核子事故應對原則"
-   }
-  ]
- },
- {
-  "id": "nu-during-04",
-  "hazard": "nuclear",
-  "category": "疏散行動",
-  "stage": "during",
-  "title": "指令從掩蔽改疏散",
-  "situation": "你和母親在家掩蔽後，收到政府通知，要求你們所在區域依指定路線前往集結點。避難包和常用藥已在門邊。",
-  "options": [
-   "先開車抄近路離開，稍後再研究指定去處",
-   "繼續關門掩蔽，等警報解除後再出門",
-   "帶必要用品，協助母親依指定安排疏散"
-  ],
-  "answer": 2,
-  "risk": [
-   23,
-   25,
-   0
-  ],
-  "why": "掩蔽與疏散要配合事故發展，官方通知所在地疏散時，應依路線、集結點及交通安排移動。只留在屋內可能延誤保護行動，抄近路則可能進入受影響區或阻礙救災。",
-  "keypoint": "疏散命令發布後，依指定安排離開",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：核子事故應對原則",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜核子事故應對原則"
-   }
-  ]
- },
- {
-  "id": "nu-during-05",
-  "hazard": "nuclear",
-  "category": "碘片使用",
-  "stage": "during",
-  "title": "家裡那盒碘片",
-  "situation": "核子事故期間，你在家掩蔽，找到先前政府發給家人的碘片。官方尚未通知所在地服用，孩子問現在要不要先吃。",
-  "options": [
-   "成人先吃，孩子改多吃含碘食物作為替代",
-   "等官方服用指示，再按個別需求用藥",
-   "先讓每個人吃一樣的量，後續再等官方通知"
-  ],
-  "answer": 1,
-  "risk": [
-   24,
-   0,
-   28
-  ],
-  "why": "已領到碘片也不代表現在就該服用，仍須依官方當次指示及藥品說明辦理。不同年齡或健康狀況需要個別注意，不能全家吃相同劑量；碘片及含碘食物都不能取代掩蔽或疏散。",
-  "keypoint": "有碘片也要等官方服用指示",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   },
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：核子事故應對原則",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜核子事故應對原則"
-   }
-  ]
- },
- {
-  "id": "nu-after-01",
-  "hazard": "nuclear",
-  "category": "飲食飲水",
-  "stage": "after",
-  "title": "菜園能採收了嗎",
-  "situation": "事故進入復原階段，你在臨時安置處準備晚餐。鄰居送來受管制地區菜園剛採的蔬菜，並說洗乾淨就能吃。",
-  "options": [
-   "只要煮熟配煮沸自來水，就能取代檢測確認",
-   "依食水管制，選用確認可用的供應",
-   "先把蔬菜反覆沖洗，就能不受管制繼續食用"
-  ],
-  "answer": 1,
-  "risk": [
-   25,
-   0,
-   23
-  ],
-  "why": "核子事故後，食物及飲水須依官方檢測結果與管制公告使用。受管制區域的農產不能因自行清洗或烹煮就跳過管制，應選擇官方確認可用的供應。",
-  "keypoint": "食物飲水依檢測管制，不自行判定解禁",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故民眾防護行動規範",
-    "url": "https://erss.nusc.gov.tw/law/LawContent.aspx?id=FL036416",
-    "short": "核安會｜民眾防護行動規範"
-   }
-  ]
- },
- {
-  "id": "nu-after-02",
-  "hazard": "nuclear",
-  "category": "偵檢去污",
-  "stage": "after",
-  "title": "返家前先過防護站",
-  "situation": "你依疏散安排抵達防護站，外套曾在戶外沾上灰塵。事故趨緩後，你想直接回家換衣服，現場人員請你先做偵檢。",
-  "options": [
-   "配合偵檢，按指示清洗並更換衣物",
-   "穿著原本衣物先回家，沒有不舒服就不必偵檢",
-   "先把外套拍乾淨，等回家後再洗臉換衣"
-  ],
-  "answer": 0,
-  "risk": [
-   0,
-   25,
-   24
-  ],
-  "why": "防護站可偵檢人員與車輛，並安排必要除污；應先完成現場要求的處理。洗淨手臉、更換衣物有助減少放射性物質進入體內，拍掉灰塵或沒有不適都不能代替偵檢。",
-  "keypoint": "返家前配合偵檢，必要時先去污",
-  "sources": [
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故應變指南",
-    "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
-    "short": "核安會｜核子事故應變指南"
-   }
-  ]
- },
- {
-  "id": "nu-after-03",
-  "hazard": "nuclear",
-  "category": "返家管制",
-  "stage": "after",
-  "title": "解除聲不是通行證",
-  "situation": "你和家人在收容處所聽到核子事故解除廣播，但住家所在街區仍列管制。家人已收好行李，想趁天黑前回去。",
-  "options": [
-   "先回去拿生活用品，短暫停留應該沒關係",
-   "依自己的輻射讀值決定，數字低就直接返家",
-   "確認住家管制與返家通知，獲准後依指示返回"
-  ],
-  "answer": 2,
-  "risk": [
-   25,
-   23,
-   0
-  ],
-  "why": "警報解除仍須配合後續管制與政府指示，不能直接等同所有地區開放返家。自行監測的單一讀值也無法代替整體環境評估；先確認住家是否開放及返家要求。",
-  "keypoint": "警報解除後，返家仍須依官方管制",
-  "sources": [
-   {
-    "agency": "國防部全民防衛動員署",
-    "title": "臺灣全民安全指引：核子事故應對原則",
-    "url": "https://prepare.mnd.gov.tw/emergency-responses",
-    "short": "全動署｜核子事故應對原則"
-   },
-   {
-    "agency": "核能安全委員會",
-    "title": "核子事故民眾防護行動規範",
-    "url": "https://erss.nusc.gov.tw/law/LawContent.aspx?id=FL036416",
-    "short": "核安會｜民眾防護行動規範"
-   }
-  ]
- }
+  {
+    "id": "eq-before-01",
+    "hazard": "earthquake",
+    "category": "居家固定",
+    "stage": "before",
+    "title": "週末整理書櫃",
+    "situation": "週六你和孩子整理客廳，發現高書櫃未固定。最上層還擺著厚重相簿，你會怎麼調整？",
+    "options": [
+      "把高書櫃固定好，厚重相簿放低",
+      "把高櫃靠緊牆壁，暫不加裝固定器",
+      "將厚重相簿留上層，櫃門關緊即可"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      25
+    ],
+    "why": "將高櫃固定、把重物改放下層，可減少家具翻倒及物品落下的風險。櫃子貼牆或只關上櫃門，都不能取代家具固定。",
+    "keypoint": "固定高櫃，重物放低。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "95. 地震前之準備事項為何？",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/109",
+        "short": "氣象署｜地震前準備事項"
+      }
+    ]
+  },
+  {
+    "id": "eq-before-02",
+    "hazard": "earthquake",
+    "category": "避難包",
+    "stage": "before",
+    "title": "替阿嬤備一包",
+    "situation": "晚上你陪阿嬤整理玄關的避難包，她平常需要服藥。你想讓她撤離時拿得動，怎麼準備較合適？",
+    "options": [
+      "以罐頭為主裝好，藥品等撤離再找",
+      "備飲水、照明及藥品，再試背調整重量",
+      "盡量裝入更多存糧，較重就用手提"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      22
+    ],
+    "why": "避難包要依使用者需求與負重能力準備，常用藥及照明也要納入。把家中存糧全搬進去可能拿不動，臨時找藥則會耽誤出發。",
+    "keypoint": "避難包要拿得動，也要顧到用藥。",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "準備緊急避難包",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
+        "short": "全動署｜準備緊急避難包"
+      }
+    ]
+  },
+  {
+    "id": "eq-before-03",
+    "hazard": "earthquake",
+    "category": "輔具",
+    "stage": "before",
+    "title": "輪椅旁的演練",
+    "situation": "下午你陪使用輪椅的爸爸在客廳演練，旁邊有軟墊。若地震搖晃時爸爸無法移到桌下，你應協助爸爸練習哪個動作？",
+    "options": [
+      "讓爸爸離開輪椅坐到地板，再爬向門口",
+      "由家人推爸爸的輪椅往門外移動",
+      "協助爸爸鎖住輪子，讓他留在座位用軟墊護頭頸"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "無法轉移的輪椅使用者可固定車輪、維持坐姿並保護頭頸。搖晃時硬要讓他離開輔具或推行撤離，可能因失去平衡而跌倒。",
+    "keypoint": "固定輪椅，留在座位保護頭頸。",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "行動不便者之地震緊急避難原則",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=1509&code=list&flag=detail&ids=98",
+        "short": "消防署｜行動不便者避震"
+      }
+    ]
+  },
+  {
+    "id": "eq-before-04",
+    "hazard": "earthquake",
+    "category": "迷思",
+    "stage": "before",
+    "title": "群組傳來三角圖",
+    "situation": "晚餐後你收到家族群組圖片，說地震時應離開桌下、躺到高櫃旁。你和家人要選哪個方式練習？",
+    "options": [
+      "就近躲堅固桌下，護頭並抓穩",
+      "躺在高櫃旁邊，利用櫃側空間掩護",
+      "先移到樓梯口，再蹲下保護頭頸部"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      25
+    ],
+    "why": "官方避難核心是趴下、掩護、穩住，利用堅固桌子降低落物傷害。高櫃可能傾倒，搖晃時跑向樓梯也可能跌倒，別依網傳圖改變動作。",
+    "keypoint": "演練趴下、掩護、穩住。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "地震防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
+        "short": "氣象署｜地震防護"
+      }
+    ]
+  },
+  {
+    "id": "eq-during-01",
+    "hazard": "earthquake",
+    "category": "就地掩護",
+    "stage": "during",
+    "title": "水杯突然晃動",
+    "situation": "午後你在書桌前工作，水杯突然晃動，手機也發出地震告警。身旁有堅固桌子，你先做什麼？",
+    "options": [
+      "先到廚房關閉瓦斯，再回桌下掩護",
+      "就近趴低進桌下，護頭抓住桌腳",
+      "先到陽台確認外面，再決定躲哪裡"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      22
+    ],
+    "why": "搖晃當下先降低重心，在堅固桌下保護頭頸並抓住桌腳。穿越房間關瓦斯或跑到陽台，會增加途中跌倒及遭落物擊中的機會。",
+    "keypoint": "先護頭頸，抓穩桌腳等搖晃停止。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "地震防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
+        "short": "氣象署｜地震防護"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      }
+    ]
+  },
+  {
+    "id": "eq-during-02",
+    "hazard": "earthquake",
+    "category": "電梯",
+    "stage": "during",
+    "title": "震時困在電梯內",
+    "situation": "上午你搭電梯時遇到地震，車廂停止且門沒有打開。緊急通話裝置就在按鍵旁，你怎麼做？",
+    "options": [
+      "把門拉開一點確認位置，再跨出車廂",
+      "打開頂板查看出口，嘗試往上攀爬",
+      "使用緊急通話求助，留在車廂待援"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "電梯停住且門未開時，用緊急通話聯絡管理人員或電梯業者，在車廂內等候協助。自行拉門跨出或往上攀爬有墜落風險；震後撤離改走樓梯。",
+    "keypoint": "受困電梯用緊急通話，勿自行開門攀出。",
+    "sources": [
+      {
+        "agency": "勞動部勞動力發展署",
+        "title": "LINE@移點通－電梯受困－多國語版本",
+        "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb38088195d01808ced69334647",
+        "short": "勞發署｜電梯受困"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "地震防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
+        "short": "氣象署｜地震防護"
+      }
+    ]
+  },
+  {
+    "id": "eq-during-03",
+    "hazard": "earthquake",
+    "category": "戶外",
+    "stage": "during",
+    "title": "公園地面在晃",
+    "situation": "傍晚你帶孩子在公園中央玩球，周圍沒有高樹、招牌或電線。地面突然搖晃，你要怎麼帶孩子應對？",
+    "options": [
+      "原地蹲低護頭，陪孩子等搖晃停止",
+      "移到公園圍牆邊，靠著牆面護住頭",
+      "先進附近商店，再靠玻璃門邊蹲下"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      25
+    ],
+    "why": "已在空曠處時，降低重心並保護頭頸，避免奔跑跌倒。圍牆及玻璃門周邊可能有倒塌或碎片風險，不必為找屋簷跑進建物。",
+    "keypoint": "空曠處蹲低護頭，遠離牆與落物。",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      }
+    ]
+  },
+  {
+    "id": "eq-during-04",
+    "hazard": "earthquake",
+    "category": "車輛",
+    "stage": "during",
+    "title": "方向盤傳來晃動",
+    "situation": "白天你開車行經一般道路，突然感到強烈搖晃。前方有可安全靠停且無明顯落物的路段，你怎麼做？",
+    "options": [
+      "先立刻踩住煞車，在原本車道等候",
+      "開警示燈減速靠停，留在車內等候",
+      "先加速離開這段路，到家後再停車"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      22
+    ],
+    "why": "先減速並開啟警示燈，在避開落物的位置安全靠停，留在車內等待搖晃停止。急煞可能導致追撞，加速趕路則增加失控風險。",
+    "keypoint": "減速靠停，留在車內等搖晃停止。",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "地震防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
+        "short": "氣象署｜地震防護"
+      }
+    ]
+  },
+  {
+    "id": "eq-during-05",
+    "hazard": "earthquake",
+    "category": "床上",
+    "stage": "during",
+    "title": "半夜被震醒",
+    "situation": "半夜你在床上被震醒，枕頭就在手邊。床邊沒有高櫃，上方也沒有吊掛物，你當下怎麼做？",
+    "options": [
+      "先下床走到門口，扶住門框等震停",
+      "先鑽到床底躲好，等到震停再出來",
+      "留在床上轉身趴下，用枕頭護頭頸"
+    ],
+    "answer": 2,
+    "risk": [
+      25,
+      22,
+      0
+    ],
+    "why": "沒有易掉落物時，可留在床上轉身趴下，並用枕頭保護頭頸。摸黑移動可能跌倒或踩到碎片，臨時鑽入床底也會增加不必要的移動。",
+    "keypoint": "床上無落物威脅時，留床護頭頸。",
+    "sources": [
+      {
+        "agency": "交通部中央氣象署",
+        "title": "互動式地震避難指南（在臥室床上）",
+        "url": "https://scweb.cwa.gov.tw/webdata/PDF/Earthquake_precautions/index.html",
+        "short": "氣象署｜床上避震"
+      },
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "肢體障礙者防災（睡覺時留床護頭頸）",
+        "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
+        "short": "災防中心｜肢體障礙者防災"
+      }
+    ]
+  },
+  {
+    "id": "eq-after-01",
+    "hazard": "earthquake",
+    "category": "瓦斯",
+    "stage": "after",
+    "title": "廚房傳來異味",
+    "situation": "搖晃已停，你和家人在玄關聞到疑似瓦斯味，電燈仍關著。你要怎麼處理？",
+    "options": [
+      "不碰電器開關，帶家人離屋求助",
+      "先開抽風機排氣，再查看瓦斯管線",
+      "先開燈照明查看，再點爐確認漏氣"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      25
+    ],
+    "why": "疑似漏氣時不要點火或操作電器開關，以免火花引燃。先離開危險處，再從屋外聯絡消防或瓦斯業者；不要留在室內自行試火找漏點。",
+    "keypoint": "疑似漏氣不碰電器，離屋後求助。",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "In an indoor space after the earthquake (the building is possibly damaged)",
+        "url": "https://www.nfa.gov.tw/eng/index.php?article_id=9004&code=list&flag=detail&ids=1371",
+        "short": "消防署｜震後室內應變"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "地震防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
+        "short": "氣象署｜地震防護"
+      }
+    ]
+  },
+  {
+    "id": "eq-after-02",
+    "hazard": "earthquake",
+    "category": "建物餘震",
+    "stage": "after",
+    "title": "柱子出現新裂縫",
+    "situation": "震後你走到家門外，看到柱子裂損、混凝土剝落。家人想回去拿電腦，這時你怎麼建議？",
+    "options": [
+      "趁現在沒有搖晃，先進屋拿出電腦",
+      "遠離受損建物，請專業人員評估",
+      "先貼膠帶標記裂縫，再進屋觀察變化"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      22
+    ],
+    "why": "柱子裂損伴隨混凝土剝落，應先撤離受損建物，再請結構技師等專業人員評估。暫時不搖不代表建物可安全進入，餘震仍須防備；膠帶只能標記，不能補強結構。",
+    "keypoint": "遠離受損建物，餘震仍須防備。",
+    "sources": [
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "防災無障礙：肢體障礙者",
+        "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
+        "short": "災防中心｜肢體障礙者防災"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "地震防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/page/intro/11",
+        "short": "氣象署｜地震防護"
+      }
+    ]
+  },
+  {
+    "id": "eq-after-03",
+    "hazard": "earthquake",
+    "category": "海嘯",
+    "stage": "after",
+    "title": "海邊強震剛停止",
+    "situation": "上午你和朋友在海邊停車場遇到強烈地震，搖晃剛停止。手機還沒收到海嘯通知，你接著怎麼做？",
+    "options": [
+      "留在停車場等待，收到正式通知再走",
+      "先上堤防看看海水，有退潮再往高處",
+      "帶朋友遠離海岸，往內陸高處走"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "沿海強震後要警覺海嘯，能安全移動時立即遠離海岸往高處。不要把收到手機通知或看到海退當成撤離的必要條件，也不要到堤防觀浪。",
+    "keypoint": "海邊強震後，主動往內陸高處避難。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "93. 應如何避免海嘯災難？",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
+        "short": "氣象署｜如何避免海嘯災難"
+      }
+    ]
+  },
+  {
+    "id": "ts-before-01",
+    "hazard": "tsunami",
+    "category": "潛勢區",
+    "stage": "before",
+    "title": "出遊先看避難圖",
+    "situation": "週末前你替家人安排海邊民宿，手上有地方政府海嘯避難圖。出發前怎麼用這張圖較合適？",
+    "options": [
+      "先查民宿出口位置，高處等到現場再找",
+      "查潛勢範圍，和家人熟悉高處與路線",
+      "先記最近地下室，覺得有混凝土就夠了"
+    ],
+    "answer": 1,
+    "risk": [
+      22,
+      0,
+      25
+    ],
+    "why": "潛勢圖呈現模擬可能淹及的區域與深度，可搭配地方避難圖熟悉安全地點與路線。只查出入口仍不夠；海嘯避難要朝高處與內陸規劃，一般地下室不適合作為目的地。",
+    "keypoint": "先查潛勢區，熟悉往高處的路線。",
+    "sources": [
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "海嘯溢淹潛勢圖於避難疏散規劃之應用（2026-11-01）",
+        "url": "https://ncdr.nat.gov.tw/NCDR-Topic/2026/NCDRLibrary/november.html",
+        "short": "災防中心｜海嘯溢淹潛勢圖"
+      }
+    ]
+  },
+  {
+    "id": "ts-before-02",
+    "hazard": "tsunami",
+    "category": "警報認識",
+    "stage": "before",
+    "title": "四種資訊怎麼分",
+    "situation": "晚上你在社區防災課看到「警報、警訊、消息、解除」四種海嘯資訊。你要把哪個觀念記進筆記？",
+    "options": [
+      "看到警訊先當成消息，等改發警報再看",
+      "警報解除就可返家，不必看地方管制",
+      "讀完整的官方資訊，配合所在地指示"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "氣象署的警報、警訊、消息與解除，各有不同發布條件，應讀完整內容再配合地方指示。警訊也可能涉及臺灣沿海威脅，不能當成無關緊要的消息；官方解除海嘯威脅，也不等於地方道路與災區管制一併解除。",
+    "keypoint": "分清資訊類別，依所在地指示行動。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯資訊種類及預估波高分級表",
+        "url": "https://scweb.cwa.gov.tw/zh-TW/Guidance/protection/227",
+        "short": "氣象署｜海嘯波高分級表"
+      }
+    ]
+  },
+  {
+    "id": "ts-before-03",
+    "hazard": "tsunami",
+    "category": "照護準備",
+    "stage": "before",
+    "title": "和阿公走一趟",
+    "situation": "你和步行較慢的阿公住在沿海，週日下午準備演練海嘯避難。手上有地方避難圖，該怎麼安排？",
+    "options": [
+      "陪阿公實走避難路線，確認需要的協助",
+      "先約港邊停車場集合，再一起上車離開",
+      "先找可搭電梯的大樓，不必再試走樓梯"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      22
+    ],
+    "why": "平時和阿公一起走過避難路線，可確認他的速度與需要的協助，再安排家人支援。目的地應依地方海嘯避難規劃選擇，港邊集合會讓撤離延後；不要把災時電梯仍可使用當成唯一方案。",
+    "keypoint": "照護需求先演練，協助人手先約定。",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "防災有Bear來 海嘯安全應變",
+        "url": "https://www.nfa.gov.tw/cht/index.php?act=article&article_id=10284&code=print&ids=1517",
+        "short": "消防署｜海嘯安全應變"
+      },
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "防災無障礙：肢體障礙者",
+        "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
+        "short": "災防中心｜肢體障礙者防災"
+      }
+    ]
+  },
+  {
+    "id": "ts-before-04",
+    "hazard": "tsunami",
+    "category": "資訊準備",
+    "stage": "before",
+    "title": "手機沒網路怎麼辦",
+    "situation": "你準備帶孩子到沿海露營，營地手機收訊不穩。出門前除了避難圖，還想備一個接收官方資訊的方法，選哪個？",
+    "options": [
+      "下載海況攝影的影片，沒訊號時回放判斷",
+      "備妥可攜收音機，先學會調台使用",
+      "先存社群的海嘯截圖，沒有網路就照著做"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      22
+    ],
+    "why": "可攜收音機能在網路不便時提供另一個資訊管道，平時先熟悉操作。海況影片與舊截圖無法取代當次官方警報及現場疏散指示。",
+    "keypoint": "備妥收音機，資訊管道別只靠網路。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯之防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/118",
+        "short": "氣象署｜海嘯之防護"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "準備緊急避難包",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
+        "short": "全動署｜準備緊急避難包"
+      }
+    ]
+  },
+  {
+    "id": "ts-during-01",
+    "hazard": "tsunami",
+    "category": "自主避難",
+    "stage": "during",
+    "title": "強震後還沒通知",
+    "situation": "早上你在沙灘陪孩子玩沙，突然遇到強烈搖晃。你先護住頭頸，等到可以安全移動時，應該怎麼做？",
+    "options": [
+      "先回停車場坐車等候，收到警報再上高地",
+      "先在岸邊看有沒有退潮，再決定是否離開",
+      "立即帶孩子離開海岸，往內陸高處走"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "海邊感到強烈地震後，即使還沒收到警報，也應主動往內陸高處避難。不是每次海嘯前都會海退，等待通知或觀察海況可能錯過撤離時間。",
+    "keypoint": "海邊強震後不等通知，先離岸避難。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "93. 應如何避免海嘯災難？",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
+        "short": "氣象署｜如何避免海嘯災難"
+      }
+    ]
+  },
+  {
+    "id": "ts-during-02",
+    "hazard": "tsunami",
+    "category": "避難方向",
+    "stage": "during",
+    "title": "河口捷徑要走嗎",
+    "situation": "午后海嘯警報響起，你在河口附近的商店街。標示路線通往內陸高地，朋友提議走河岸捷徑，你怎麼選？",
+    "options": [
+      "依地方標示往內陸高處，避開河岸",
+      "沿河堤走到橋上等候，離地較高應較安全",
+      "先上堤防查看浪況，再選擇往哪一邊撤離"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      25
+    ],
+    "why": "海嘯可沿河川往內陸影響，撤離要遠離海岸與河岸。橋上與堤防不適合停留觀浪，應依地方標示路線前往安全處。",
+    "keypoint": "往內陸高處，避開海岸與河岸。",
+    "sources": [
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "海嘯溢淹潛勢圖於避難疏散規劃之應用（2026-11-01）",
+        "url": "https://ncdr.nat.gov.tw/NCDR-Topic/2026/NCDRLibrary/november.html",
+        "short": "災防中心｜海嘯溢淹潛勢圖"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯之防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/118",
+        "short": "氣象署｜海嘯之防護"
+      }
+    ]
+  },
+  {
+    "id": "ts-during-03",
+    "hazard": "tsunami",
+    "category": "垂直避難",
+    "stage": "during",
+    "title": "來不及離開低地",
+    "situation": "下午你在沿海低地接到疏散指示，已來不及走出溢淹範圍。旁邊有地方指定的堅固海嘯避難大樓，你怎麼做？",
+    "options": [
+      "先留一樓大廳等候，看到水來再上樓避難",
+      "循避難標示走樓梯，到大樓指定高層避難",
+      "先進地下停車場避難，利用混凝土牆擋水"
+    ],
+    "answer": 1,
+    "risk": [
+      22,
+      0,
+      25
+    ],
+    "why": "若已無法及時走出溢淹範圍，可依地方規劃到堅固避難大樓的指定高層。NCDR 提醒垂直避難應往頂樓，並建議至少三層樓以上；不要留在一樓等海水，也不要往地下室躲。",
+    "keypoint": "來不及遠離時，依規劃向高層避難。",
+    "sources": [
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "海嘯溢淹潛勢圖於避難疏散規劃之應用（2026-11-01）",
+        "url": "https://ncdr.nat.gov.tw/NCDR-Topic/2026/NCDRLibrary/november.html",
+        "short": "災防中心｜海嘯溢淹潛勢圖"
+      }
+    ]
+  },
+  {
+    "id": "ts-during-04",
+    "hazard": "tsunami",
+    "category": "遠洋海嘯",
+    "stage": "during",
+    "title": "本地沒震也要走",
+    "situation": "傍晚你在漁港旁散步，本地沒有感到地震，卻收到氣象署海嘯警報。現場人員開始引導疏散，你怎麼做？",
+    "options": [
+      "先留在碼頭等候，本地開始搖晃再跟著走",
+      "先開車沿岸確認海況，看到浪再轉往高地",
+      "配合現場人員疏散，離港往安全高處"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "遠方地震也可能引發傳到臺灣的海嘯，本地沒有震感不能否定警報。不要自行把預估抵達時間當成觀浪空檔，應依所在地警報與人員指示避難。",
+    "keypoint": "遠方海嘯也有威脅，無震感仍須應變。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯資訊種類及預估波高分級表",
+        "url": "https://scweb.cwa.gov.tw/zh-TW/Guidance/protection/227",
+        "short": "氣象署｜海嘯波高分級表"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "93. 應如何避免海嘯災難？",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
+        "short": "氣象署｜如何避免海嘯災難"
+      }
+    ]
+  },
+  {
+    "id": "ts-during-05",
+    "hazard": "tsunami",
+    "category": "船舶港口",
+    "stage": "during",
+    "title": "兩處家人怎麼辦",
+    "situation": "你在岸上的港區工作，收到海嘯警報，家人的船已在深海。你正在港區避難指示牌旁，怎麼應對？",
+    "options": [
+      "你依標示離港上高處，提醒船勿返港",
+      "你先到岸邊的船上看守，請家人回港接應",
+      "你先留在港邊等船，家人靠岸後一起避難"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      25
+    ],
+    "why": "岸上人員應停止港邊作業、依指示離開，已在深海的船隻不要急著返港。不要為保船回到碼頭；船上後續航行應配合海事單位與船長指示。",
+    "keypoint": "岸上離港避難，深海船隻勿急返港。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "93. 應如何避免海嘯災難？",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/107",
+        "short": "氣象署｜如何避免海嘯災難"
+      }
+    ]
+  },
+  {
+    "id": "ts-after-01",
+    "hazard": "tsunami",
+    "category": "多波來襲",
+    "stage": "after",
+    "title": "第一波過了",
+    "situation": "你和家人在高處避難，第一波海水退去後，朋友說想回港邊拿背包。警報還沒解除，你怎麼回應？",
+    "options": [
+      "趁第一波退去的空檔，先請朋友快拿快回",
+      "勸朋友別回港，大家留在安全處等官方解除及現場指示",
+      "陪朋友到港邊看一看，確定沒浪再拿背包"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      22
+    ],
+    "why": "海嘯可能多次侵襲並持續數小時，第一波過後不表示結束。警報未解除前應勸朋友一起留在安全處，別為取物或確認海況返回港邊。",
+    "keypoint": "第一波過後仍要避難，等官方解除。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯之防護",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/118",
+        "short": "氣象署｜海嘯之防護"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯來襲時的建議作為",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
+        "short": "氣象署｜海嘯來襲時的建議作為"
+      }
+    ]
+  },
+  {
+    "id": "ts-after-02",
+    "hazard": "tsunami",
+    "category": "解除查證",
+    "stage": "after",
+    "title": "群組說可以回家",
+    "situation": "天黑後你仍在避難點，群組流傳一張「海嘯解除」截圖，但看不出時間。現場尚未通知返家，你怎麼做？",
+    "options": [
+      "截圖看起來是官方格式，先照著訊息返家",
+      "從避難點看海面已平靜，先自行離開回家",
+      "核對氣象署當次資訊，依現場指示行動"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "解除要以當次官方資訊為準，無時間截圖可能是舊資料。海面暫時平靜不能證明威脅解除；返家也要配合地方管制與現場安排。",
+    "keypoint": "查當次官方解除資訊，再依指示返回。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯資訊種類及預估波高分級表",
+        "url": "https://scweb.cwa.gov.tw/zh-TW/Guidance/protection/227",
+        "short": "氣象署｜海嘯波高分級表"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯來襲時的建議作為",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
+        "short": "氣象署｜海嘯來襲時的建議作為"
+      }
+    ]
+  },
+  {
+    "id": "ts-after-03",
+    "hazard": "tsunami",
+    "category": "災後安全",
+    "stage": "after",
+    "title": "解除後屋子受損",
+    "situation": "海嘯解除後你依開放路線回到社區，發現住家牆面明顯毀損，巷內也有殘留物。手上有避難包，你接著怎麼做？",
+    "options": [
+      "避開毀損房屋，依指示前往收容處",
+      "先進屋找出寢具，挑損壞較少的房間住宿",
+      "先自己搬開門邊殘骸，清出通道再進屋"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      25
+    ],
+    "why": "警報解除後仍要注意受損建物，明顯毀損的房屋應避開。住家不安全時，攜避難包依救災人員指示到收容處；不要先進屋過夜或自行搬動殘骸，以免受到二次傷害。",
+    "keypoint": "解除後仍避開危屋，依指示安置。",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "海嘯來襲時的建議作為",
+        "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
+        "short": "氣象署｜海嘯來襲時的建議作為"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      }
+    ]
+  },
+  {
+    "id": "ty-before-01",
+    "hazard": "typhoon",
+    "category": "居家整備",
+    "stage": "before",
+    "title": "陽台先收什麼",
+    "situation": "週末你在家陪長輩，預報說颱風將接近。陽台有花盆、曬衣架，手機正在充電。",
+    "options": [
+      "風雨前收妥雜物，備照明與藥品",
+      "先買足食物，陽台物品等起風再整理",
+      "把花盆靠著外側欄杆，留出室內空間"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "鬆動物可能被風吹落，應在風雨前收進室內或牢固固定。只買食物仍漏掉居家風險；把花盆留在外側也可能掉落。",
+    "keypoint": "趁風雨前固定物品並備妥照護用品",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "颱風前要準備什麼",
+        "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
+        "short": "消防署｜颱風前要準備什麼"
+      }
+    ]
+  },
+  {
+    "id": "ty-before-02",
+    "hazard": "typhoon",
+    "category": "警報判讀",
+    "stage": "before",
+    "title": "只有海警也要準備",
+    "situation": "傍晚你在家看到海上颱風警報，家人說還沒有陸警。你們原訂隔天去海邊散步。",
+    "options": [
+      "海警只影響船隻，照原計畫到岸邊",
+      "取消海邊行程，現在開始居家整備",
+      "等陸警發布再準備，海邊行程先保留"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "海警針對七級暴風範圍可能侵襲近海的威脅，陸警則針對陸地；並非等陸警才準備。海岸也可能有強風大浪，不宜依警報名稱判定能否遊玩。",
+    "keypoint": "海警就開始整備，海岸活動先取消",
+    "sources": [
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "氣象防災小知識：颱風警報發布標準",
+        "url": "https://den.ncdr.nat.gov.tw/1386/1420/2907/6524/",
+        "short": "災防中心｜颱風警報標準"
+      },
+      {
+        "agency": "內政部消防署",
+        "title": "颱風前要準備什麼",
+        "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
+        "short": "消防署｜颱風前要準備什麼"
+      }
+    ]
+  },
+  {
+    "id": "ty-before-03",
+    "hazard": "typhoon",
+    "category": "門窗防護",
+    "stage": "before",
+    "title": "貼米字膠帶就夠嗎",
+    "situation": "白天你檢查客廳窗戶，發現窗框鬆動。家人拿出膠帶，提議貼米字就不用找人修。",
+    "options": [
+      "先貼米字膠帶，等颱風過後再修框",
+      "留一小道窗縫，靠通風減輕風壓",
+      "風雨前請專業人員處理鬆動窗框"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "膠帶無法讓玻璃更耐風，也不能阻止玻璃破裂，窗框是否穩固同樣重要。應在風雨前修繕鬆動窗框；只貼膠帶或留窗縫，都未解決窗框鬆動的問題。",
+    "keypoint": "膠帶不能取代牢靠的門窗",
+    "sources": [
+      {
+        "agency": "內政部",
+        "title": "颱風天貼膠帶在玻璃門窗上不能防風抗爆",
+        "url": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=322349",
+        "short": "內政部｜貼膠帶不能防風抗爆"
+      },
+      {
+        "agency": "內政部消防署",
+        "title": "颱風前要準備什麼",
+        "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
+        "short": "消防署｜颱風前要準備什麼"
+      }
+    ]
+  },
+  {
+    "id": "ty-before-04",
+    "hazard": "typhoon",
+    "category": "照護避難",
+    "stage": "before",
+    "title": "鐵皮屋的撤離安排",
+    "situation": "下午你和坐輪椅的爸爸住在鐵皮屋，里辦公處通知預防性撤離。屋外目前還能安全通行。",
+    "options": [
+      "聯絡里辦協助，帶藥與輔具撤離",
+      "先把屋頂加綁繩子，晚點再評估撤離",
+      "等風把屋頂吹響，再請鄰居協助撤離"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "接獲撤離通知就應配合，行動不便者更需要預留交通與協助時間。臨時加綁不能替代撤離；等屋頂出現異狀再走，可能已難安全移動。",
+    "keypoint": "需要協助的家人提早安排撤離",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：颱風應對原則",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜颱風應對原則"
+      },
+      {
+        "agency": "內政部消防署",
+        "title": "颱風前要準備什麼",
+        "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=57&article_id=165",
+        "short": "消防署｜颱風前要準備什麼"
+      }
+    ]
+  },
+  {
+    "id": "ty-during-01",
+    "hazard": "typhoon",
+    "category": "停班停課",
+    "stage": "during",
+    "title": "停課日去買點心",
+    "situation": "早上你陪孩子在堅固住家，縣市已宣布停班停課。窗外暫時沒下雨，孩子想走去買點心。",
+    "options": [
+      "停班停課路上人少，騎車帶孩子去買",
+      "留在室內，追蹤官方風雨資訊",
+      "趁現在沒雨出門，遇到風大再回家"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "住宅堅固且未受災害威脅時，颱風期間宜留在家中，減少非必要外出。眼前沒下雨不代表後續沒有強風或降雨；步行或騎車買點心仍會增加戶外暴露。",
+    "keypoint": "停班停課時減少非必要外出",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "颱風來時注意事項",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
+        "short": "消防署｜颱風來時注意事項"
+      }
+    ]
+  },
+  {
+    "id": "ty-during-02",
+    "hazard": "typhoon",
+    "category": "戶外避風",
+    "stage": "during",
+    "title": "機車開始左右晃",
+    "situation": "傍晚你騎車回家，陣風讓車身左右偏移。前方有可進入的堅固建築，旁邊則是招牌與施工圍籬。",
+    "options": [
+      "靠施工圍籬停車，等風小一點再騎",
+      "降低車速繼續騎，趕快回家比較安心",
+      "在安全處停妥車，進堅固建築暫避"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "車身已受強風吹偏時，應在安全地點停止騎行並避風，可進入附近堅固建築。圍籬與招牌有倒塌或掉落風險；只減速繼續騎，仍可能失去控制。",
+    "keypoint": "強風難以控制車身時先安全避風",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "颱風來時注意事項",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
+        "short": "消防署｜颱風來時注意事項"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "陸上強風特報：燈號標準與注意事項",
+        "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
+        "short": "氣象署｜強風特報燈號"
+      }
+    ]
+  },
+  {
+    "id": "ty-during-03",
+    "hazard": "typhoon",
+    "category": "迷思破除",
+    "stage": "during",
+    "title": "突然安靜的十分鐘",
+    "situation": "夜裡你在客廳聽見風雨突然轉弱，手機仍顯示颱風警報。家人說可能到颱風眼了，想去巷口看看。",
+    "options": [
+      "留在室內避風，查看官方消息",
+      "先去巷口看一下，風變大立刻回家",
+      "把窗戶全打開，趁平靜時讓屋內通風"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "短暫平靜可能與颱風眼經過有關，後續強風仍可能再起。走到戶外或打開窗戶，都可能在風勢恢復時暴露於危險。",
+    "keypoint": "風雨暫停不代表颱風已離開",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "颱風來時注意事項",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
+        "short": "消防署｜颱風來時注意事項"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "陸上強風特報：燈號標準與注意事項",
+        "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
+        "short": "氣象署｜強風特報燈號"
+      }
+    ]
+  },
+  {
+    "id": "ty-during-04",
+    "hazard": "typhoon",
+    "category": "強風特報",
+    "stage": "during",
+    "title": "沒有颱風也有黃燈",
+    "situation": "冬日下午你在家看到所在地陸上強風黃色燈號，卻沒有颱風警報。你原本要去河濱騎自行車。",
+    "options": [
+      "黃色還不是紅色，先去河濱騎一小段",
+      "改室內活動，留意強風與交通",
+      "沒有颱風警報，河濱行程照常進行"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "陸上強風特報也會用於非颱風造成的強風，黃燈已提醒注意戶外風險。不能等到紅燈才防範；空曠河濱仍可能有強陣風。",
+    "keypoint": "沒有颱風，也要留意陸上強風特報",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "中央氣象署 強風特報 警示資料說明",
+        "url": "https://alerts.ncdr.nat.gov.tw/web/StaticFile/Document/CapDocument_SW.pdf",
+        "short": "氣象署｜強風特報說明"
+      },
+      {
+        "agency": "中央氣象署",
+        "title": "陸上強風特報：燈號標準與注意事項",
+        "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
+        "short": "氣象署｜強風特報燈號"
+      }
+    ]
+  },
+  {
+    "id": "ty-during-05",
+    "hazard": "typhoon",
+    "category": "窗邊避險",
+    "stage": "during",
+    "title": "玻璃一直震動",
+    "situation": "夜間你陪幼兒待在家，客廳玻璃被風吹得震動。你手上有手機，內側房間離窗較遠。",
+    "options": [
+      "陪孩子靠窗觀察，確認玻璃有沒有裂",
+      "頂住玻璃再貼膠帶，試著減少震動",
+      "帶孩子到離窗較遠處，持續接收警報"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "強風時應遠離容易破損的玻璃，移到室內較安全的位置。靠近觀察或臨時頂住玻璃，可能遭碎片割傷；貼膠帶也不能補足抗風能力。",
+    "keypoint": "風強時遠離玻璃，不冒險補強",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "陸上強風特報：燈號標準與注意事項",
+        "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html",
+        "short": "氣象署｜強風特報燈號"
+      },
+      {
+        "agency": "內政部",
+        "title": "颱風天貼膠帶在玻璃門窗上不能防風抗爆",
+        "url": "https://www.moi.gov.tw/News_Content.aspx?n=2&s=322349",
+        "short": "內政部｜貼膠帶不能防風抗爆"
+      }
+    ]
+  },
+  {
+    "id": "ty-after-01",
+    "hazard": "typhoon",
+    "category": "電線通報",
+    "stage": "after",
+    "title": "倒樹纏著電線",
+    "situation": "清晨風雨減弱，你出門看到巷口倒樹纏著垂落電線。鄰居拿著掃把，想先挪出一條路。",
+    "options": [
+      "遠離並提醒鄰居，通報台電1911",
+      "用乾掃把挑開電線，再一起清理樹枝",
+      "看附近也停電，就先徒手移走樹枝"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "垂落電線應視為可能帶電，遠離並撥台電1911通報。鄰近停電不足以確認電線安全；自行挑線或搬動纏線樹枝都可能接觸電線，應交由台電處理。",
+    "keypoint": "掉落電線不靠近、不碰觸，通報1911",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "停電應變",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
+        "short": "消防署｜停電應變"
+      }
+    ]
+  },
+  {
+    "id": "ty-after-02",
+    "hazard": "typhoon",
+    "category": "返家安全",
+    "stage": "after",
+    "title": "警報解除就回家嗎",
+    "situation": "下午颱風警報解除，你和家人在親友家暫住。原住處巷道仍有倒樹，地方也尚未解除管制。",
+    "options": [
+      "請家人留守，自己先回去清倒樹",
+      "等管制解除、確認路況再返家",
+      "警報已解除，先走小巷繞過封鎖處"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "氣象警報解除不等於道路與建物已恢復安全。應配合地方管制並確認路況；繞封鎖或自行清理未確認的倒樹，都可能遇到殘存危險。",
+    "keypoint": "返家先確認地方管制與道路狀況",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "颱風來時注意事項",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=189&code=list&flag=detail&ids=58",
+        "short": "消防署｜颱風來時注意事項"
+      }
+    ]
+  },
+  {
+    "id": "ty-after-03",
+    "hazard": "typhoon",
+    "category": "健康防護",
+    "stage": "after",
+    "title": "整理院子的碎片",
+    "situation": "水退後你準備清院子，地上有泥沙與碎玻璃。家人拿來拖鞋和手套，你該如何做好防護再開始清理？",
+    "options": [
+      "穿拖鞋加厚手套，方便隨時沖洗雙腳",
+      "先徒手撿走碎片，再換裝清理泥沙",
+      "換長靴並戴防水手套、口罩再清理"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "清理災後環境應保護手腳與呼吸道，避免傷口接觸污泥。拖鞋露出腳部，徒手處理碎片也容易割傷，應先穿戴防護用品。",
+    "keypoint": "災後清理先做好手腳與呼吸道防護",
+    "sources": [
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
+        "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
+        "short": "疾管署｜淹水清理防疫"
+      }
+    ]
+  },
+  {
+    "id": "fl-before-01",
+    "hazard": "flood",
+    "category": "雨量分級",
+    "stage": "before",
+    "title": "三小時就要注意",
+    "situation": "晚上你在家看防災教材，例題寫三小時雨量達100毫米、24小時未達200毫米。家人以為全天沒到200就不算豪雨。",
+    "options": [
+      "已達豪雨條件，短時間大雨也要整備",
+      "還沒達豪雨條件，等全天200毫米再說",
+      "只算一般大雨，短時間雨量不用計入"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "豪雨條件為24小時達200毫米，或3小時達100毫米，任一成立即可。大雨為24小時80毫米或1小時40毫米；大豪雨為24小時350毫米或3小時200毫米；超大豪雨為24小時500毫米，皆為以上。這些是雨量分級，不能當成住家淹水深度或安全界線。",
+    "keypoint": "豪雨也看短延時雨量，不只看全天",
+    "sources": [
+      {
+        "agency": "中央氣象署",
+        "title": "豪（大）雨特報：雨量分級與作業說明",
+        "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html",
+        "short": "氣象署｜豪大雨分級"
+      }
+    ]
+  },
+  {
+    "id": "fl-before-02",
+    "hazard": "flood",
+    "category": "地下室",
+    "stage": "before",
+    "title": "抽水機之外的準備",
+    "situation": "下午你巡查社區地下停車場，預報晚間有豪雨。管理員說抽水機能運轉，你手上拿著車鑰匙。",
+    "options": [
+      "等雨勢最大再下樓，順便確認抽水狀況",
+      "提早移車，確認擋水與撤離安排",
+      "抽水機正常就留車，等水進來再移車"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "易積水地下空間應備妥擋水設施，並在進水前完成必要移車及避難安排。只確認設備能運轉還不夠；進水後不要再下去查看或搶車。",
+    "keypoint": "地下室移車趁早，進水後不再下去",
+    "sources": [
+      {
+        "agency": "教育部",
+        "title": "災害應變參考程序手冊：颱風、水災與土石流",
+        "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+        "short": "教育部｜颱風水災土石流手冊"
+      },
+      {
+        "agency": "教育部",
+        "title": "災害應變參考程序手冊：水災應變原則",
+        "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+        "short": "教育部｜水災應變手冊"
+      }
+    ]
+  },
+  {
+    "id": "fl-before-03",
+    "hazard": "flood",
+    "category": "照護避難",
+    "stage": "before",
+    "title": "陪奶奶提早離開",
+    "situation": "傍晚你陪使用助行器的奶奶住在低窪一樓，里辦通知撤離。外面尚無積水，你已備好藥袋與手機。",
+    "options": [
+      "把家具墊高後等候，淹進來再決定去向",
+      "先讓奶奶睡一覺，半夜若淹水再出發",
+      "聯絡協助帶藥撤離，走安全路線"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "接獲撤離通知應及早行動，行動較慢的家人需要預留協助時間。墊高家具不能替代撤離；等夜間或積水後再走，路線可能已不安全。",
+    "keypoint": "低窪住家配合通知及早協助撤離",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "颱風發生時該如何疏散、避難",
+        "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=58&article_id=187",
+        "short": "消防署｜颱風疏散避難"
+      },
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "防災無障礙：肢體障礙者",
+        "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
+        "short": "災防中心｜肢體障礙者防災"
+      }
+    ]
+  },
+  {
+    "id": "fl-before-04",
+    "hazard": "flood",
+    "category": "用電整備",
+    "stage": "before",
+    "title": "先斷電還是先涉水",
+    "situation": "上午你在低窪住家準備避難，地板和雙手都乾燥。總開關可安全接近，家人問電器怎麼處理。",
+    "options": [
+      "安全關總電源，按撤離安排離開",
+      "先讓電器繼續運轉，水進屋後才斷電",
+      "保持總電源開啟，靠漏電斷路器就好"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "準備應對淹水時，趁地面、雙手與開關周圍乾燥且能安全操作，先關閉總電源。不要等水進屋才操作，也不要只靠漏電保護裝置；若已需涉水接近開關，先離開並尋求專業協助。",
+    "keypoint": "斷電要趁能安全操作時完成",
+    "sources": [
+      {
+        "agency": "教育部",
+        "title": "災害應變參考程序手冊：水災應變原則",
+        "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+        "short": "教育部｜水災應變手冊"
+      },
+      {
+        "agency": "經濟部標準檢驗局",
+        "title": "使用轉接電源線組（延長線）注意事項",
+        "url": "https://www.bsmi.gov.tw/wSite/ct?ctNode=6014&mp=1&xItem=40683",
+        "short": "標檢局｜延長線注意事項"
+      }
+    ]
+  },
+  {
+    "id": "fl-during-01",
+    "hazard": "flood",
+    "category": "行人安全",
+    "stage": "during",
+    "title": "熟悉的巷口積水了",
+    "situation": "下班時你牽孩子到巷口，前方路面已被混濁積水蓋住。回家只差一個街口，但看不見水底。",
+    "options": [
+      "找長棍探一下路，水不深就帶孩子走",
+      "退回安全處，另找未淹水路線",
+      "沿熟悉的路邊走，牽緊孩子慢慢通過"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "混濁積水會遮住排水溝與可能脫落的溝蓋，熟悉街道也不代表水底安全。你目前仍能退回未淹水處，應改走安全路線；拿棍探路不應成為帶孩子主動涉水的理由。",
+    "keypoint": "不因熟悉道路就牽孩子涉水",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "颱風過後應注意事項",
+        "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=59&article_id=192",
+        "short": "消防署｜颱風過後應注意事項"
+      }
+    ]
+  },
+  {
+    "id": "fl-during-02",
+    "hazard": "flood",
+    "category": "地下道",
+    "stage": "during",
+    "title": "前車通過就能過嗎",
+    "situation": "夜裡你開車接家人，地下道入口已積水，警示燈亮起。前面一輛休旅車剛通過，你的車還停在乾燥路面。",
+    "options": [
+      "等前車駛遠一些，再跟著低速通過",
+      "加速通過低點，減少車子泡水時間",
+      "在安全處改道，避開積水地下道"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "地下道等低窪路段容易迅速積水，應遵守警示與管制改道。前車通過不代表水深未變或你的車能通過，低速與加速都不能消除受困風險。",
+    "keypoint": "地下道有積水或警示就改道",
+    "sources": [
+      {
+        "agency": "教育部",
+        "title": "災害應變參考程序手冊：颱風、水災與土石流",
+        "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+        "short": "教育部｜颱風水災土石流手冊"
+      }
+    ]
+  },
+  {
+    "id": "fl-during-03",
+    "hazard": "flood",
+    "category": "垂直避難",
+    "stage": "during",
+    "title": "水已擋住大門",
+    "situation": "深夜你和家人受困在堅固公寓一樓，屋外急流已阻斷出路。樓梯通往無積水二樓，手機還能通話。",
+    "options": [
+      "走樓梯上樓，撥119報受困位置",
+      "牽繩子一起涉水，趁水還沒更高離開",
+      "到地下室找工具，先把大門排水疏通"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "若已無法安全向外撤離，可往安全較高樓層移動並撥119通報救援位置。不可把提早撤離原則變成強行涉水，也不要進入地下室；垂直避難須以建物與樓梯安全為前提。",
+    "keypoint": "出路被水阻斷時往安全高樓層避難",
+    "sources": [
+      {
+        "agency": "教育部",
+        "title": "災害應變參考程序手冊：颱風、水災與土石流",
+        "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+        "short": "教育部｜颱風水災土石流手冊"
+      },
+      {
+        "agency": "內政部消防署",
+        "title": "颱風發生時該如何疏散、避難",
+        "url": "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=58&article_id=187",
+        "short": "消防署｜颱風疏散避難"
+      }
+    ]
+  },
+  {
+    "id": "fl-during-04",
+    "hazard": "flood",
+    "category": "車輛避險",
+    "stage": "during",
+    "title": "車還在地下二樓",
+    "situation": "豪雨中你在社區一樓，管理員通知地下車道開始進水。你的車停在地下二樓，車鑰匙就在口袋。",
+    "options": [
+      "搭電梯下樓取車，趁水還不深開上來",
+      "遠離地下入口，在安全處配合應變",
+      "請鄰居同行下樓，兩個人一起移車"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "地下空間進水後，不要再下去搶車，水位可能上升並阻斷出口。找人同行仍可能一起受困；也不應搭電梯下地下室搶救財物，先留在安全處配合應變。",
+    "keypoint": "地下室已進水，不下樓搶車",
+    "sources": [
+      {
+        "agency": "教育部",
+        "title": "災害應變參考程序手冊：水災應變原則",
+        "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+        "short": "教育部｜水災應變手冊"
+      }
+    ]
+  },
+  {
+    "id": "fl-during-05",
+    "hazard": "flood",
+    "category": "電器安全",
+    "stage": "during",
+    "title": "水邊的延長線",
+    "situation": "下午你看到客廳積水靠近通電延長線，通往總開關的路也濕了。孩子正想伸手把插頭拔掉。",
+    "options": [
+      "站在積水裡拔插頭，先讓延長線斷電",
+      "拿濕布包住插頭，再把電源拔除",
+      "阻止靠近，離開水區請專業協助"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "延長線應避免在水中或潮濕環境使用，濕手接觸通電插頭也有觸電風險。此時先阻止孩子靠近並離開水區；站在水中拔插頭或拿濕布包著拔，都不是安全處理方式。",
+    "keypoint": "水區可能漏電，不涉水拔插頭或斷電",
+    "sources": [
+      {
+        "agency": "經濟部標準檢驗局",
+        "title": "使用轉接電源線組（延長線）注意事項",
+        "url": "https://www.bsmi.gov.tw/wSite/ct?ctNode=6014&mp=1&xItem=40683",
+        "short": "標檢局｜延長線注意事項"
+      }
+    ]
+  },
+  {
+    "id": "fl-after-01",
+    "hazard": "flood",
+    "category": "清理消毒",
+    "stage": "after",
+    "title": "先洗淨再消毒",
+    "situation": "水退後你回到已確認安全的家，地面留有污泥。你拿著漂白水，家人打算直接倒在泥上消毒。",
+    "options": [
+      "穿戴防護清泥洗淨，再稀釋消毒",
+      "直接將漂白水倒進污泥，等乾了再掃除",
+      "穿拖鞋用水沖一遍，表面乾了就算完成"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "應先穿戴防護用品，清除污泥並清洗環境，之後再進行消毒。消毒劑依產品標示及官方指引稀釋使用，不能直接倒原液代替清潔，也不能只看地面乾燥就認定完成。",
+    "keypoint": "先清除、清洗，再按指引消毒",
+    "sources": [
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
+        "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
+        "short": "疾管署｜淹水清理防疫"
+      }
+    ]
+  },
+  {
+    "id": "fl-after-02",
+    "hazard": "flood",
+    "category": "飲食安全",
+    "stage": "after",
+    "title": "冰箱裡的泡水食物",
+    "situation": "午后你整理已退水廚房，發現備好的便當曾泡到污水。家人覺得加熱後還能吃，你手邊另有未受污染的食品。",
+    "options": [
+      "去掉碰水的外層，其餘留給晚餐吃",
+      "丟棄泡水便當，改吃未受污染的食品",
+      "把便當充分煮熱，確認沒異味再食用"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "便當曾接觸污水，應整份丟棄，改吃未受污染的食品。刮除表層或加熱後聞起來正常，都不足以確認沒有殘留污染。",
+    "keypoint": "泡水食物不食用，不靠加熱挽救",
+    "sources": [
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
+        "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
+        "short": "疾管署｜淹水清理防疫"
+      }
+    ]
+  },
+  {
+    "id": "fl-after-03",
+    "hazard": "flood",
+    "category": "泡水設備",
+    "stage": "after",
+    "title": "水退了就能發動嗎",
+    "situation": "隔天你在已開放通行的停車場看到泡水汽車，家裡洗衣機也曾進水。兩者外觀看來已乾，你拿著車鑰匙猶豫。",
+    "options": [
+      "先發動汽車看看，家電晚點再插電測試",
+      "兩者都先試用一下，異常才找人檢查",
+      "汽車交專業拖修，家電經專業檢查確認安全後再用"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "泡水車不應自行發動，應交專業拖吊及維修檢查。泡水家電也須由專業人員檢查，確認安全後才能使用；外表乾燥不代表內部電路與機件已恢復。",
+    "keypoint": "泡水車不發動，泡水電器先專業檢查",
+    "sources": [
+      {
+        "agency": "教育部",
+        "title": "災害應變參考程序手冊：颱風、水災與土石流",
+        "url": "https://disaster.moe.edu.tw/MOE_FILE/daolpU/teachingMaterial/2024/TM20240527015854292/03%E9%A2%B1%E9%A2%A8%E8%88%87%E6%B0%B4%E7%81%BD%E8%88%87%E5%9C%9F%E7%9F%B3%E6%B5%81.pdf",
+        "short": "教育部｜颱風水災土石流手冊"
+      }
+    ]
+  },
+  {
+    "id": "df-before-01",
+    "hazard": "debris",
+    "category": "潛勢辨識",
+    "stage": "before",
+    "title": "地圖沒標就安全？",
+    "situation": "你剛搬到山村，週末與家人查防災地圖。住家旁的小溪沒有標成土石流潛勢溪流。",
+    "options": [
+      "查坡地風險與地方避難路線",
+      "只記住列管溪流，其餘溪溝照常通行",
+      "把未列管視為安全，豪雨時照常走溪邊"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "潛勢資料是防災參考，未列管不等於沒有土砂危害。只看溪流名單會漏掉邊坡等風險，應搭配地方避難資訊。",
+    "keypoint": "未列管不代表沒有坡地風險",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "防災Q&A",
+        "url": "https://246.ardswc.gov.tw/Bulletin/FAQ",
+        "short": "農村水保署｜防災Q&A"
+      },
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      }
+    ]
+  },
+  {
+    "id": "df-before-02",
+    "hazard": "debris",
+    "category": "警戒準備",
+    "stage": "before",
+    "title": "黃燈時先接阿嬤",
+    "situation": "你家位於警戒影響範圍，下午收到黃色警戒。阿嬤使用助行器，村里已安排預防性疏散接送。",
+    "options": [
+      "先整理行李，等升紅燈才聯絡接送",
+      "備妥藥物輔具，依村里安排接送",
+      "先留家中觀察，等雨勢加大再安排接送"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "黃色警戒就要準備避難，行動不便者宜預防性疏散。等紅燈或雨勢加大才安排接送，可能因風雨及道路狀況惡化而錯過安全撤離時機。",
+    "keypoint": "行動不便者在黃色警戒就提早疏散",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      },
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "警戒發布及作為",
+        "url": "https://246.ardswc.gov.tw/DebrisFlow/AlertPublish",
+        "short": "農村水保署｜警戒發布及作為"
+      }
+    ]
+  },
+  {
+    "id": "df-before-03",
+    "hazard": "debris",
+    "category": "路線規劃",
+    "stage": "before",
+    "title": "捷徑跨過溪溝",
+    "situation": "你與爸爸在晴天演練撤離，手上有村里避難圖。地圖路線較遠，另一條捷徑需經過溪溝與陡坡。",
+    "options": [
+      "記下跨溪捷徑，豪雨時比較省時間",
+      "只用導航最短路線，不必看避難圖",
+      "依避難圖熟悉路線，確認替代路與聯絡人"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "地方避難路線考量地形與危險區域，應事先熟悉。跨溪或貼著陡坡的捷徑可能受洪水與落石影響，導航距離短不代表適合避難。",
+    "keypoint": "避難走安全路線，不貪跨溪捷徑",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      }
+    ]
+  },
+  {
+    "id": "df-before-04",
+    "hazard": "debris",
+    "category": "戶外活動",
+    "stage": "before",
+    "title": "山區露營遇雨報",
+    "situation": "你週末要帶孩子到溪谷露營，帳篷已裝車。出發前看到山區豪雨預報，營地附近又有陡峭邊坡。",
+    "options": [
+      "取消溪谷行程，改室內活動",
+      "先到營地觀察，溪水變濁再收帳",
+      "詢問營主雨勢，沒有封營就照常過夜"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "溪谷與邊坡在豪雨時可能受土砂或溪水暴漲影響，應提早避開。等溪水變濁才撤收會壓縮逃生時間；營地未封閉也不代表豪雨期間安全。",
+    "keypoint": "豪雨前就避開溪谷露營與登山",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      }
+    ]
+  },
+  {
+    "id": "df-during-01",
+    "hazard": "debris",
+    "category": "疏散時機",
+    "stage": "during",
+    "title": "紅燈還要守家嗎",
+    "situation": "你晚間在家收到紅色警戒，地方人員通知你沿指定道路撤離。門前尚未積水，你手上已拿著避難包。",
+    "options": [
+      "再觀察半小時，看到溪水上漲再走",
+      "帶包配合撤離，到指定安全處所",
+      "先到溪橋確認水勢，再決定要不要走"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "紅色警戒應依地方指示前往安全處所，不以家門口有無積水決定。延後撤離或到橋上查看，都會增加暴露於危險區的時間。",
+    "keypoint": "收到撤離指示就配合，不等水到門前",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "警戒發布及作為",
+        "url": "https://246.ardswc.gov.tw/DebrisFlow/AlertPublish",
+        "short": "農村水保署｜警戒發布及作為"
+      },
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      }
+    ]
+  },
+  {
+    "id": "df-during-02",
+    "hazard": "debris",
+    "category": "異常前兆",
+    "stage": "during",
+    "title": "溪水突然變濁",
+    "situation": "你和朋友在山區步道休息，腳下溪水忽然混濁並夾帶枯木。附近開始有落石聲，手機還沒收到警戒。",
+    "options": [
+      "先錄下水色變化，再回頭找出口",
+      "等手機警戒到達，才帶朋友離開",
+      "循安全路徑離谷，安全後通報"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "水色突變、漂流木及落石都是需警覺的現場異常，不必等簡訊才行動。拍攝會耽誤離開，等待訊息也不能排除眼前危險。",
+    "keypoint": "看到異常先離開，不等手機警戒",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      },
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      }
+    ]
+  },
+  {
+    "id": "df-during-03",
+    "hazard": "debris",
+    "category": "撤離方向",
+    "stage": "during",
+    "title": "別順著溪流跑",
+    "situation": "你與隊友在溪畔聽見上游轟隆聲，已能看見土砂向下移動。側邊有可通往遠離溪谷高地的安全步道。",
+    "options": [
+      "沿側邊安全步道，撤往溪流兩側高地",
+      "沿著溪流向下跑，找更寬的河床",
+      "逆著溪流往上跑，找土砂較少的地方"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "應利用安全路徑往溪道兩側較高處撤離，減少停留在土砂流動路徑上。題目中的側邊步道可遠離溪谷；沿溪向上或向下跑都仍在溪道附近，不應為了橫向移動而跨溪或爬不穩定陡坡。",
+    "keypoint": "橫向遠離溪道，往兩側安全高地",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      }
+    ]
+  },
+  {
+    "id": "df-during-04",
+    "hazard": "debris",
+    "category": "邊坡前兆",
+    "stage": "during",
+    "title": "樹歪了牆也裂了",
+    "situation": "你在山坡住家門外發現樹木新近傾斜，擋土牆也出現裂縫。鄰居想請你拿鏟子一起清掉坡腳落石。",
+    "options": [
+      "站遠一點看裂縫，等繼續擴大再走",
+      "先遠離邊坡，提醒鄰居並通報",
+      "先清掉坡腳落石，讓門口恢復通行"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "新出現的傾斜、裂縫與落石可能是坡地不穩的徵兆。留下觀察或自行清理都可能遭後續崩落波及，應先離開危險範圍。",
+    "keypoint": "邊坡異常先遠離，別自行清落石",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      }
+    ]
+  },
+  {
+    "id": "df-during-05",
+    "hazard": "debris",
+    "category": "堰塞湖",
+    "stage": "during",
+    "title": "接到堰塞湖撤離通知",
+    "situation": "你在下游家中收到堰塞湖警報，地方通知沿指定路線到收容處所。家人說外面沒下雨，想先去河堤看看。",
+    "options": [
+      "先看住家雨勢，沒下雨就留在家中",
+      "走上河堤確認水勢，再回家帶行李",
+      "帶家人依指定路線前往收容處所"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "堰塞湖的風險需依壩體、蓄水及影響範圍等現況評估，住家沒下雨不能取代專業判斷。既已接獲地方撤離通知，就應依指定路線離開，不先去河堤查看而延誤避難。",
+    "keypoint": "堰塞湖警報依指示撤離，不去河邊看",
+    "sources": [
+      {
+        "agency": "農業部林業及自然保育署",
+        "title": "堰塞湖應變機制簡介",
+        "url": "https://www.forest.gov.tw/0004787",
+        "short": "林業保育署｜堰塞湖應變機制"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      }
+    ]
+  },
+  {
+    "id": "df-after-01",
+    "hazard": "debris",
+    "category": "返家時機",
+    "stage": "after",
+    "title": "雨停就能回家嗎",
+    "situation": "你和家人在收容處所過夜，早上天空放晴。朋友傳訊說村口已有人回家，但地方尚未通知可返回。",
+    "options": [
+      "留在安全處，確認警戒解除與地方返家指示",
+      "仿效已返家的村民先回村口，看到封鎖再折返",
+      "趁放晴先回家，下午再確認警戒資訊"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "放晴與他人返家不能取代警戒及通行確認，坡地仍可能有後續災害。應等警戒解除並依地方指示返家，避免在未確認路段冒險。",
+    "keypoint": "返家看解除與地方指示，不只看天氣",
+    "sources": [
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      }
+    ]
+  },
+  {
+    "id": "df-after-02",
+    "hazard": "debris",
+    "category": "二次災害",
+    "stage": "after",
+    "title": "回家路上又見落石",
+    "situation": "你依通知返家途中，發現前方道路有新落石，坡面仍傳來聲響。同行者認為只要搬開幾顆石頭就能通過。",
+    "options": [
+      "停在落石旁等一下，沒聲響就通過",
+      "退至安全處通報，等候通行安排",
+      "大家一起搬石頭，趕在下一場雨前回家"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "獲准返家後仍要留意新落石及異常聲響，這些可能表示邊坡仍不穩定。應退至安全處通報並等候安排；停在坡下觀察或自行搬石，都會增加遭後續崩落波及的機會。",
+    "keypoint": "路上再有落石，退開通報別硬闖",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：災害應對",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜災害應對"
+      },
+      {
+        "agency": "農業部農村發展及水土保持署",
+        "title": "民眾防災指南",
+        "url": "https://246.ardswc.gov.tw/SelfPreparedness/Guide",
+        "short": "農村水保署｜民眾防災指南"
+      }
+    ]
+  },
+  {
+    "id": "df-after-03",
+    "hazard": "debris",
+    "category": "資訊通報",
+    "stage": "after",
+    "title": "想幫忙查上游",
+    "situation": "你暫住親友家，群組流傳上游堰塞湖已消失。朋友邀你騎車去管制區拍照，地方尚未解除管制。",
+    "options": [
+      "先到河道入口拍照，再等地方解除管制",
+      "跟著熟路朋友進山，親眼確認才可靠",
+      "查官方及地方公告，留在管制區外"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "堰塞湖是否解除警戒，須經權責單位評估並發布通知，群組轉傳不能取代這項程序。警戒解除前仍應避開受管制河道，不為了拍照靠近危險區，也不跟著熟路朋友闖入。",
+    "keypoint": "堰塞湖安全由官方確認，不自行探查",
+    "sources": [
+      {
+        "agency": "農業部林業及自然保育署",
+        "title": "堰塞湖應變機制簡介",
+        "url": "https://www.forest.gov.tw/0004787",
+        "short": "林業保育署｜堰塞湖應變機制"
+      },
+      {
+        "agency": "農業部林業及自然保育署",
+        "title": "燕子口堰塞湖壩體今午已潰決 及時通報相關單位終平安落幕",
+        "url": "https://www.forest.gov.tw/0000176/news/0077263",
+        "short": "林業保育署｜燕子口堰塞湖通報"
+      }
+    ]
+  },
+  {
+    "id": "tp-before-01",
+    "hazard": "temperature",
+    "category": "高溫燈號",
+    "stage": "before",
+    "title": "黃燈也要調行程",
+    "situation": "你週末要陪爸爸在戶外搬貨，預報顯示當地高溫黃色燈號。朋友說黃燈還好，中午搬完再休息就行。",
+    "options": [
+      "改到較涼時段，安排遮蔭休息與補水",
+      "照原定中午搬貨，口渴時再停下喝水",
+      "等升紅燈才調整，黃燈先把工作做完"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "氣象署的高溫燈號以日最高溫為基準，達36°C以上即納入示警。黃燈時就應避開炎熱時段、安排涼處休息並主動喝水；等到口渴或紅燈才調整，會延後防護。",
+    "keypoint": "高溫黃燈就調整活動與休息",
+    "sources": [
+      {
+        "agency": "交通部中央氣象署",
+        "title": "高溫",
+        "url": "https://climate.cwa.gov.tw/HighTemperature",
+        "short": "氣象署｜高溫"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
+        "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
+        "short": "國健署｜處暑防熱傷害"
+      }
+    ]
+  },
+  {
+    "id": "tp-before-02",
+    "hazard": "temperature",
+    "category": "低溫照護",
+    "stage": "before",
+    "title": "寒流前找阿公",
+    "situation": "你看到當地低溫特報，明早要去探望獨居阿公。他習慣清晨出門運動，家裡已備有外套與帽子。",
+    "options": [
+      "照常清晨運動，出汗後就不用外套",
+      "先聯絡確認保暖，改在較暖時段出門",
+      "等低溫紅燈才聯絡，其他燈號照常作息"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "低溫特報需注意適用地區及持續時間，不能等紅燈才照護。長者應注意頭頸與四肢保暖、避開清晨低溫，親友也宜主動聯繫。",
+    "keypoint": "低溫先關懷長者，避開清晨外出",
+    "sources": [
+      {
+        "agency": "交通部中央氣象署",
+        "title": "低溫特報",
+        "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W28.html",
+        "short": "氣象署｜低溫特報"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "連續低溫來襲 如何自我保暖 隨身保暖商品使用2原則 低溫保健8要點",
+        "url": "https://www.mohw.gov.tw/cp-16-76942-1.html",
+        "short": "國健署｜低溫保健八要點"
+      }
+    ]
+  },
+  {
+    "id": "tp-before-03",
+    "hazard": "temperature",
+    "category": "幼兒安全",
+    "stage": "before",
+    "title": "買東西只要幾分鐘",
+    "situation": "你載幼兒到便利商店，孩子在後座睡著。車子停在路邊，你打算下車買水，車內還有剛才的冷氣。",
+    "options": [
+      "車窗開一條縫，讓孩子繼續睡幾分鐘",
+      "先把冷氣開強，熄火後快速去買水",
+      "帶孩子一起下車，到商店內買水"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "幼兒體溫調節較弱，停泊車內可能很快變熱。應帶孩子一起離車；開一點窗或事先吹冷氣，都不足以讓獨留車內成為安全的安排。",
+    "keypoint": "不把幼兒獨留車內，短暫也要照顧",
+    "sources": [
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "切勿獨留小孩於車內，保幼3招預防熱傷害",
+        "url": "https://www.mohw.gov.tw/cp-2704-48383-1.html",
+        "short": "國健署｜勿留小孩在車內"
+      }
+    ]
+  },
+  {
+    "id": "tp-before-04",
+    "hazard": "temperature",
+    "category": "補水迷思",
+    "stage": "before",
+    "title": "不口渴就不用喝？",
+    "situation": "天氣悶熱，你準備傍晚去健走，也正在和同住的阿嬤討論今天怎麼補水。你沒有醫囑限水；阿嬤因心臟病有醫囑限水。你要如何安排兩人的飲水？",
+    "options": [
+      "自己主動少量多次喝水；阿嬤維持醫囑限水，若需調整先問醫師",
+      "自己和阿嬤都等口渴才喝，避免常上廁所",
+      "自己和阿嬤都訂相同大量飲水目標，自行取消限水"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "你沒有醫囑限水，健走前後及活動中應主動少量多次補水，不要等口渴才喝。阿嬤已有醫囑限水，應遵照原醫囑；酷熱時若需調整飲水量應先詢問醫師，不可自行增加或套用你的水量。",
+    "keypoint": "自己主動補水；阿嬤依醫囑，調整前先問醫師",
+    "sources": [
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
+        "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
+        "short": "國健署｜處暑防熱傷害"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "預防熱傷害！保持涼爽、補充水分、提高警覺",
+        "url": "https://www.mohw.gov.tw/fp-16-41241-1.html",
+        "short": "國健署｜預防熱傷害"
+      }
+    ]
+  },
+  {
+    "id": "tp-during-01",
+    "hazard": "temperature",
+    "category": "熱衰竭",
+    "stage": "during",
+    "title": "搬貨後暈又想吐",
+    "situation": "你與同事在悶熱倉庫搬貨，同事大量流汗、頭暈噁心，但清醒且能吞嚥。旁邊有陰涼休息區與飲水。",
+    "options": [
+      "給水後繼續慢慢搬，做完再一起休息",
+      "停工降溫補水，陪同協助就醫",
+      "讓他獨自回倉庫休息，下班再問情況"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "大量出汗伴隨暈眩、噁心，可能是熱衰竭，應停止工作、移至涼處並鬆衣降溫。清醒且能吞嚥者可少量補充含電解質飲品，並由人陪同協助就醫；意識異常立即打119，不能繼續搬貨或獨留休息。",
+    "keypoint": "疑似熱衰竭先停工降溫，惡化就求援",
+    "sources": [
+      {
+        "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
+        "title": "中暑怎麼辦？",
+        "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
+        "short": "新竹臺大｜中暑怎麼辦"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
+        "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
+        "short": "國健署｜處暑防熱傷害"
+      }
+    ]
+  },
+  {
+    "id": "tp-during-02",
+    "hazard": "temperature",
+    "category": "中暑急救",
+    "stage": "during",
+    "title": "球友開始答非所問",
+    "situation": "你打球時發現朋友全身發燙，回答問題混亂，站也站不穩。場邊有水、毛巾與手機，其他人正圍過來。",
+    "options": [
+      "扶到場邊灌運動飲料，等他清醒再求援",
+      "先測到高於40°C，才決定是否叫救護車",
+      "請人打119，同時移至涼處降溫且不餵水"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "熱暴露後意識異常應視為疑似中暑急症，立即求援並以濕毛巾、搧風等方式降溫。不必等量到特定體溫；意識不清時灌水有嗆入風險，應有人陪同等救援。",
+    "keypoint": "熱後意識異常，119與降溫同步進行",
+    "sources": [
+      {
+        "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
+        "title": "中暑怎麼辦？",
+        "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
+        "short": "新竹臺大｜中暑怎麼辦"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
+        "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
+        "short": "國健署｜處暑防熱傷害"
+      }
+    ]
+  },
+  {
+    "id": "tp-during-03",
+    "hazard": "temperature",
+    "category": "失溫處置",
+    "stage": "during",
+    "title": "冷雨後說話含糊",
+    "situation": "你在山上遇到冷雨，隊友衣服濕透、發抖且說話含糊。你有備用乾衣、保暖毯與手機，旁邊就有可避風雨處。",
+    "options": [
+      "立即求援並避風雨，換乾衣包毯",
+      "讓他繼續快走流汗，靠運動恢復體溫",
+      "留在原地等雨停，保留濕衣以免換衣受寒"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "淋雨後發抖又言語不清，可能是失溫，應立即求援就醫。先在可避風雨處換去濕衣、用乾衣及保暖毯減少散熱；繼續快走耗力或穿濕衣等待，都會延誤保暖與救援。",
+    "keypoint": "失溫疑兆先求援，避風雨換乾衣保暖",
+    "sources": [
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "高溫與酷寒",
+        "url": "https://www.cdc.gov.tw/Category/ListContent/wL-8Abm9o5_5l4gSOR8M5g?uaid=_VBRPRbLJSqI9J9_wSjD2w",
+        "short": "疾管署｜高溫與酷寒"
+      }
+    ]
+  },
+  {
+    "id": "tp-during-04",
+    "hazard": "temperature",
+    "category": "取暖通風",
+    "stage": "during",
+    "title": "暖氣開了仍怕冷",
+    "situation": "你與家人寒流夜在客廳取暖，使用中的燃氣取暖設備原廠要求通風。家人嫌冷，想把門窗與通風口全部封住。",
+    "options": [
+      "先封通風口保暖，每小時再開窗一次",
+      "保持通風，確認設備排氣正常",
+      "沒有聞到異味，就把門窗全部關緊"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "燃氣設備燃燒不完全且通風不良時可能累積一氧化碳，不能靠有無異味判斷。應依設備規範使用並保持通風排氣，間歇開窗不能合理化封住通風口。",
+    "keypoint": "燃氣取暖要通風，不能靠聞味道判斷",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "冷氣團來襲 消防署提醒：熱水器要通風 防中毒卡安心",
+        "url": "https://www.nfa.gov.tw/pro/index.php?article_id=17433&code=list&flag=detail&ids=1470",
+        "short": "消防署｜熱水器通風防中毒"
+      },
+      {
+        "agency": "衛生福利部食品藥物管理署",
+        "title": "提醒餐飲業者應注意營業場所之通風及排氣，預防一氧化碳中毒",
+        "url": "https://www.mohw.gov.tw/cp-2624-19499-1.html",
+        "short": "食藥署｜餐飲通風防一氧化碳"
+      }
+    ]
+  },
+  {
+    "id": "tp-during-05",
+    "hazard": "temperature",
+    "category": "長者熱害",
+    "stage": "during",
+    "title": "室內阿嬤也頭暈",
+    "situation": "你下午去阿嬤家，屋內悶熱不通風。她沒有外出，卻頭暈乏力且體溫升高，你手上有電話與濕毛巾。",
+    "options": [
+      "她沒曬太陽，先蓋毯休息觀察到晚上",
+      "只開窗就離開，讓她睡醒再打電話",
+      "陪她到涼處降溫並協助就醫"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "室內悶熱也可能造成熱傷害。長者出現頭暈、乏力與體溫升高時，應立即陪她移至涼處、鬆衣並用濕毛巾擦拭及搧風降溫，同時協助儘速就醫；若體溫持續升高、嘔吐或意識異常，立即撥119，等待救援時持續降溫並陪同。加蓋厚毯或獨留可能延誤。",
+    "keypoint": "室內熱傷害也要降溫並協助就醫",
+    "sources": [
+      {
+        "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
+        "title": "中暑怎麼辦？",
+        "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
+        "short": "新竹臺大｜中暑怎麼辦"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "預防熱傷害！保持涼爽、補充水分、提高警覺",
+        "url": "https://www.mohw.gov.tw/fp-16-41241-1.html",
+        "short": "國健署｜預防熱傷害"
+      }
+    ]
+  },
+  {
+    "id": "tp-after-01",
+    "hazard": "temperature",
+    "category": "恢復追蹤",
+    "stage": "after",
+    "title": "休息後還是噁心",
+    "situation": "你健走時曾頭暈大量流汗，已在涼處休息、降溫與補水。過了一會仍噁心無力，朋友問要不要繼續走完路線。",
+    "options": [
+      "停止行程，請人陪同就醫",
+      "把剩下路線走慢一點，回家再睡覺",
+      "先獨自坐車回家，明天不舒服再處理"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "熱傷害處理後症狀仍未改善，需要醫療評估。繼續運動可能加重熱負荷，獨自離開也可能錯過惡化徵兆；出現意識異常要立即求援。",
+    "keypoint": "降溫休息後仍不適，停止活動並就醫",
+    "sources": [
+      {
+        "agency": "國立臺灣大學醫學院附設醫院新竹臺大分院",
+        "title": "中暑怎麼辦？",
+        "url": "https://www.hch.gov.tw/?aid=626&iid=297&page_name=detail&pid=43",
+        "short": "新竹臺大｜中暑怎麼辦"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
+        "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
+        "short": "國健署｜處暑防熱傷害"
+      }
+    ]
+  },
+  {
+    "id": "tp-after-02",
+    "hazard": "temperature",
+    "category": "低溫健康",
+    "stage": "after",
+    "title": "回暖後阿公胸痛",
+    "situation": "你早上陪阿公從寒冷戶外回家，他已換上乾衣坐下休息。屋內逐漸暖起來，他卻說胸口痛、呼吸不舒服。",
+    "options": [
+      "再加一件外套，等午餐後看是否好轉",
+      "立即撥119求助，陪同並依救護指示處理",
+      "請他走動暖身，看看胸口會不會放鬆"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      25
+    ],
+    "why": "低溫可能誘發心血管急症，回到暖處不代表胸痛與呼吸不適可忽略。應立即求援，等待觀察或要求走動可能延誤醫療並增加負擔。",
+    "keypoint": "低溫後胸痛呼吸不適，立即119",
+    "sources": [
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "連續低溫來襲 如何自我保暖 隨身保暖商品使用2原則 低溫保健8要點",
+        "url": "https://www.mohw.gov.tw/cp-16-76942-1.html",
+        "short": "國健署｜低溫保健八要點"
+      }
+    ]
+  },
+  {
+    "id": "tp-after-03",
+    "hazard": "temperature",
+    "category": "再次預防",
+    "stage": "after",
+    "title": "沒亮燈就恢復跑？",
+    "situation": "你上次在悶熱天運動曾頭暈，這次已就醫評估恢復。今天當地沒有高溫燈號，朋友邀你中午跑同樣路線。",
+    "options": [
+      "沒亮高溫燈號，就維持中午原定強度",
+      "先少喝水減輕負擔，跑完再一次補足",
+      "改涼爽時段，補水休息並留意不適"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      25,
+      0
+    ],
+    "why": "高溫燈號是提醒工具，沒有燈號也不能排除活動與悶熱造成的熱負荷。恢復活動仍需調整時段、補水與休息，不能靠不喝水或照原強度來適應。",
+    "keypoint": "沒有高溫燈號，仍要防熱與留意不適",
+    "sources": [
+      {
+        "agency": "交通部中央氣象署",
+        "title": "高溫",
+        "url": "https://climate.cwa.gov.tw/HighTemperature",
+        "short": "氣象署｜高溫"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "立秋已過暑氣未退，處暑防熱傷害不可鬆懈",
+        "url": "https://www.mohw.gov.tw/cp-16-87454-1.html",
+        "short": "國健署｜處暑防熱傷害"
+      }
+    ]
+  },
+  {
+    "id": "aq-before-01",
+    "hazard": "air",
+    "category": "指標判讀",
+    "stage": "before",
+    "title": "舊表還能用嗎",
+    "situation": "週六早上，你和家人在家整理防災卡。你找到一張2024年的PM2.5對照表，想拿來判讀之後的空品。",
+    "options": [
+      "改查環境部現行AQI與對照表",
+      "沿用舊表，顏色相同就可以",
+      "把PM2.5濃度直接當成AQI"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      22
+    ],
+    "why": "2025年1月1日起調整污染物濃度門檻，例如PM2.5日平均30.5–50.4微克／立方公尺對應AQI 101–150。AQI取六種污染物副指標的最大值，不能拿單一濃度代替；即時粒狀物還涉及移動平均。舊表可能判錯，應以現行官方指標為準。",
+    "keypoint": "判讀AQI要用現行表與官方指標",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "空氣品質指標：2025年起濃度門檻與活動建議",
+        "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
+        "short": "環境部｜空氣品質指標"
+      }
+    ]
+  },
+  {
+    "id": "aq-before-02",
+    "hazard": "air",
+    "category": "預報資訊",
+    "stage": "before",
+    "title": "出遊前先看什麼",
+    "situation": "週五晚間，你在家替週末親子健走打包。群組傳來沒有日期的空品截圖，你手上也有可上網的手機。",
+    "options": [
+      "只看群組截圖顏色，先照原計畫",
+      "查預報時間、地區與說明",
+      "只看今晚測站數值，當作明天預報"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      20
+    ],
+    "why": "環境部監測網有三日空品區預報、空品特報與測站資訊，也可用環境即時通查詢。預報描述未來趨勢，測站數值反映觀測時段，出門前仍要更新確認。過期截圖或把今晚觀測當明日保證，都可能漏掉變化。",
+    "keypoint": "預報看地區時間，出門前再確認",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "空氣品質監測網：監測、預報與環境即時通",
+        "url": "https://airtw.moenv.gov.tw/",
+        "short": "環境部｜空氣品質監測網"
+      }
+    ]
+  },
+  {
+    "id": "aq-before-03",
+    "hazard": "air",
+    "category": "敏感族群",
+    "stage": "before",
+    "title": "普通空品怎麼安排",
+    "situation": "週日早上，你準備帶七十歲爸爸去公園。手機顯示演練用AQI 80，爸爸曾在空品普通時出現咳嗽。",
+    "options": [
+      "普通就照原計畫，忽略咳嗽也快走",
+      "只縮短散步時間，仍要求爸爸快走",
+      "留意症狀，依身體情況調整"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      15,
+      0
+    ],
+    "why": "AQI 51–100是普通，少數特別敏感的人仍可能有症狀。一般可正常戶外活動，但應注意咳嗽或呼吸急促；已有不適就調整活動。忽略症狀，或只縮短時間卻仍要求快走，都沒有依個別情況判斷。",
+    "keypoint": "普通空品仍要留意個人症狀",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "空氣品質指標：2025年起濃度門檻與活動建議",
+        "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
+        "short": "環境部｜空氣品質指標"
+      }
+    ]
+  },
+  {
+    "id": "aq-before-04",
+    "hazard": "air",
+    "category": "室內清淨",
+    "stage": "before",
+    "title": "清淨機怎麼挑",
+    "situation": "週三晚上，你和室友在租屋處挑選空氣清淨機。客廳不小，廣告卻只強調機器很小、會釋出臭氧。",
+    "options": [
+      "看適用空間、清淨風量與濾網",
+      "只挑微粒過濾率高的小型機器",
+      "選有臭氧功能的，就省去保養"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "選機器要把清淨風量與使用空間一起考量，微粒過濾率高不代表整間房處理得夠快。會釋出臭氧的設備可能增加健康負擔，不能靠氣味判斷效果。設備也需要依說明定期保養。",
+    "keypoint": "清淨風量要配合空間，留意臭氧",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "室內空氣品質資訊網：空氣清淨機知多少",
+        "url": "https://iaq.moenv.gov.tw/indoorair/improvement_airclean.aspx",
+        "short": "環境部｜空氣清淨機知多少"
+      }
+    ]
+  },
+  {
+    "id": "aq-during-01",
+    "hazard": "air",
+    "category": "兒童健康",
+    "stage": "during",
+    "title": "橘色的體育課",
+    "situation": "週二下午，你在學校當志工，帶著有氣喘的孩子到操場。演練看板顯示AQI 130，老師準備安排折返跑。",
+    "options": [
+      "先完成折返跑，喘了再休息",
+      "和老師減少戶外體力活動",
+      "戴好口罩後，照原課表折返跑"
+    ],
+    "answer": 1,
+    "risk": [
+      24,
+      0,
+      25
+    ],
+    "why": "AQI 101–150表示敏感族群的健康可能受影響，兒童與氣喘患者應減少戶外活動及體力消耗。這時應先和老師調整折返跑安排，而非等到喘了才停止。配戴口罩也不能取代活動量的調整。",
+    "keypoint": "橘色空品先照顧兒童與氣喘者",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "空氣品質指標：2025年起濃度門檻與活動建議",
+        "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
+        "short": "環境部｜空氣品質指標"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "國民健康署提醒民眾做好空污自我防護，口罩正確配戴步驟「開、戴、壓、密」",
+        "url": "https://www.mohw.gov.tw/fp-16-45821-1.html",
+        "short": "國健署｜空污防護與口罩"
+      }
+    ]
+  },
+  {
+    "id": "aq-during-02",
+    "hazard": "air",
+    "category": "運動安排",
+    "stage": "during",
+    "title": "紅色還跑長距離",
+    "situation": "週六下午，你和朋友到河濱準備長跑。演練看板顯示AQI 170，你已覺得喉嚨刺痛，朋友說天空還很藍。",
+    "options": [
+      "改成慢跑，仍把原定里程跑完",
+      "戴上防霾口罩，維持原本配速跑",
+      "停下長跑，改到空品合適處"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      25,
+      0
+    ],
+    "why": "AQI 151–200是對所有族群不健康；已有喉嚨不適時應減少戶外活動及體力消耗。長跑會持續增加暴露，口罩也不能讓原本的高強度運動變得安全。天空顏色無法取代空品資訊及身體警訊。",
+    "keypoint": "紅色又不適，就停止戶外長跑",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "空氣品質指標：2025年起濃度門檻與活動建議",
+        "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
+        "short": "環境部｜空氣品質指標"
+      },
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "國民健康署提醒民眾做好空污自我防護，口罩正確配戴步驟「開、戴、壓、密」",
+        "url": "https://www.mohw.gov.tw/fp-16-45821-1.html",
+        "short": "國健署｜空污防護與口罩"
+      }
+    ]
+  },
+  {
+    "id": "aq-during-03",
+    "hazard": "air",
+    "category": "口罩防護",
+    "stage": "during",
+    "title": "通勤口罩有縫隙",
+    "situation": "週一早上，你在家準備必要的短程通勤。外頭粒狀物污染偏高，你手上有防霾口罩，但鼻樑兩側明顯漏氣。",
+    "options": [
+      "調整鼻樑與帶子，讓口罩貼合",
+      "保持鼻旁縫隙，走路呼吸比較輕鬆",
+      "多套一片鬆口罩，就不用調整鼻樑"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      23,
+      20
+    ],
+    "why": "防霾口罩可選符合CNS 15980檢測標準的產品，但仍須確認與臉部貼合。鼻旁漏氣會降低防護，單靠增加層數無法解決縫隙。必要外出也應縮短暴露時間。",
+    "keypoint": "口罩防護要看規格，也要密合",
+    "sources": [
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "國民健康署提醒民眾做好空污自我防護，口罩正確配戴步驟「開、戴、壓、密」",
+        "url": "https://www.mohw.gov.tw/fp-16-45821-1.html",
+        "short": "國健署｜空污防護與口罩"
+      }
+    ]
+  },
+  {
+    "id": "aq-during-04",
+    "hazard": "air",
+    "category": "沙塵境外",
+    "stage": "during",
+    "title": "大風就會吹乾淨",
+    "situation": "週日午前，你和阿嬤在家，窗外風勢變強。手機的官方特報說有境外污染及沙塵移入，你正想把窗戶全打開。",
+    "options": [
+      "風大能清空污染，現在全開窗",
+      "先減少外氣進入並追蹤空品變化",
+      "沙塵是天然的，照常帶阿嬤散步"
+    ],
+    "answer": 1,
+    "risk": [
+      23,
+      0,
+      24
+    ],
+    "why": "強風可能帶來境外污染與沙塵，不代表當地空氣立刻變乾淨。室外污染時可減少污染空氣進入，搭配適當過濾，等外氣改善再調整通風。天然來源仍會影響健康，長者也需要防護。",
+    "keypoint": "強風可能帶污染，先查官方特報",
+    "sources": [
+      {
+        "agency": "衛生福利部國民健康署",
+        "title": "沙塵來襲3招自我保護策略",
+        "url": "https://www.mohw.gov.tw/cp-4252-50054-1.html",
+        "short": "國健署｜沙塵自我保護"
+      },
+      {
+        "agency": "環境部",
+        "title": "空氣清淨機知多少",
+        "url": "https://iaq.moenv.gov.tw/indoorair/improvement_airclean.aspx",
+        "short": "環境部｜空氣清淨機知多少"
+      }
+    ]
+  },
+  {
+    "id": "aq-during-05",
+    "hazard": "air",
+    "category": "林火煙霧",
+    "stage": "during",
+    "title": "煙霧飄到山下",
+    "situation": "傍晚，你和有氣喘的媽媽在山下家中聞到煙味。演練訊息顯示附近有森林火災，地方政府已通知你家所在區域撤離。",
+    "options": [
+      "先關窗開清淨機，留在家等煙消散",
+      "先等附近測站AQI變紅，再出發",
+      "依路線撤離，攜帶必要藥品"
+    ],
+    "answer": 2,
+    "risk": [
+      28,
+      26,
+      0
+    ],
+    "why": "森林火災可能危及居民，地方政府會依火勢發布疏散指示與避難路線，接到撤離通知就應配合行動。攜帶個人所需藥品有助延續照護。關窗留守或等待AQI變色，都會延誤已通知的撤離。",
+    "keypoint": "林火撤離指示優先，不等AQI變色",
+    "sources": [
+      {
+        "agency": "農業部",
+        "title": "森林火災災害防救業務計畫：第六章（第30頁）",
+        "url": "https://nantou.forest.gov.tw/file/202225",
+        "short": "農業部｜森林火災防救計畫"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "準備日常居家儲備：個人處方藥",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
+        "short": "全動署｜居家儲備處方藥"
+      }
+    ]
+  },
+  {
+    "id": "aq-after-01",
+    "hazard": "air",
+    "category": "恢復活動",
+    "stage": "after",
+    "title": "變綠就加倍運動",
+    "situation": "週日早上，你在家看到污染過後的演練AQI降到40。你和孩子想補回昨天取消的運動，下午預報卻有變差的可能。",
+    "options": [
+      "按最新資訊恢復活動並留意變化",
+      "趁早加倍運動，即使不適也完成",
+      "把早上綠色截圖當作全日依據"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      20
+    ],
+    "why": "AQI 0–50屬良好，可正常戶外活動，但仍應依體能安排並留意不適。早上的觀測不能代表下午，活動前與活動期間仍須確認最新空品及預報；不適時不應硬撐完成。",
+    "keypoint": "空品改善可恢復活動，仍須更新資訊",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "空氣品質指標：2025年起濃度門檻與活動建議",
+        "url": "https://airtw.moenv.gov.tw/CHT/Information/Standard/AirQualityIndicatorNew.aspx",
+        "short": "環境部｜空氣品質指標"
+      },
+      {
+        "agency": "環境部",
+        "title": "空氣品質監測網：監測、預報與環境即時通",
+        "url": "https://airtw.moenv.gov.tw/",
+        "short": "環境部｜空氣品質監測網"
+      }
+    ]
+  },
+  {
+    "id": "aq-after-02",
+    "hazard": "air",
+    "category": "污染通報",
+    "stage": "after",
+    "title": "燒落葉後還有煙",
+    "situation": "週六傍晚，你在家整理陽台，發現巷口又有人露天燒落葉。你已帶孩子避開煙霧，想讓相關單位處理這個反覆出現的問題。",
+    "options": [
+      "先走近煙堆拍照，確定來源才檢舉",
+      "在安全處記錄，向環保單位陳情",
+      "等下雨沖掉煙味，再看看要不要說"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      18
+    ],
+    "why": "露天燃燒屬官方受理的空氣污染陳情項目，不能只當成氣味問題。可在安全位置記錄地點、時間與現象，透過官方公害污染陳情系統反映。靠近煙堆蒐證會增加暴露，等待天氣變化也無助於處理反覆污染。",
+    "keypoint": "遠離煙霧，在安全處記錄並陳情",
+    "sources": [
+      {
+        "agency": "環境部環境管理署",
+        "title": "公害污染陳情",
+        "url": "https://www.ema.gov.tw/affairs/enforcement/petition/307.html",
+        "short": "環管署｜公害污染陳情"
+      }
+    ]
+  },
+  {
+    "id": "aq-after-03",
+    "hazard": "air",
+    "category": "設備維護",
+    "stage": "after",
+    "title": "清淨機變弱了",
+    "situation": "污染事件過後，你和室友在家檢查清淨機。機器已用很久且保養提示亮起，室友想先忽略提示，等下次污染再保養。",
+    "options": [
+      "延長每日運轉時間，先不安排保養",
+      "等下次空品變差時，再安排保養",
+      "依設備說明安排檢查保養"
+    ],
+    "answer": 2,
+    "risk": [
+      22,
+      20,
+      0
+    ],
+    "why": "環境部提醒，空氣清淨機長期使用後效能可能改變，需要定期維修保養。增加運轉時間或延後處理，都不能取代設備維護。可依設備說明安排檢查，後續仍應搭配室外空品調整過濾與通風。",
+    "keypoint": "清淨機要定期保養，勿只延長運轉",
+    "sources": [
+      {
+        "agency": "環境部",
+        "title": "室內空氣品質資訊網：空氣清淨機知多少",
+        "url": "https://iaq.moenv.gov.tw/indoorair/improvement_airclean.aspx",
+        "short": "環境部｜空氣清淨機知多少"
+      }
+    ]
+  },
+  {
+    "id": "dr-before-01",
+    "hazard": "drought",
+    "category": "水情燈號",
+    "stage": "before",
+    "title": "綠燈是正常嗎",
+    "situation": "週一晚餐後，你和家人在家看水情宣導卡。卡上先出現綠燈、再轉黃燈，爸爸以為只是交通燈號般的提醒。",
+    "options": [
+      "綠燈水情提醒，黃燈減壓供水",
+      "綠燈水源充足，黃燈全區停水",
+      "綠燈仍照常用水，等黃燈再節水"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      20,
+      18
+    ],
+    "why": "現行綠燈是水情提醒，會加強水源調度與研擬措施，不能解讀為水源充足。黃燈採離峰或特定時段減壓，並停止部分非必要用水，不等於全區立即停水。家戶要及早節水並查供水單位公告。",
+    "keypoint": "綠燈已是水情提醒，黃燈減壓",
+    "sources": [
+      {
+        "agency": "經濟部水利署",
+        "title": "水情燈號意義及對應措施",
+        "url": "https://www.wra.gov.tw/EarlyWarning.aspx?n=18804&sms=9114",
+        "short": "水利署｜水情燈號與措施"
+      }
+    ]
+  },
+  {
+    "id": "dr-before-02",
+    "hazard": "drought",
+    "category": "限水措施",
+    "stage": "before",
+    "title": "橙紅燈怎麼分",
+    "situation": "週三晚上，你在社區幫長者讀抗旱宣導。你手上有橙燈與紅燈措施卡，大家想知道是不是都要照同一張停水表。",
+    "options": [
+      "橙燈各戶每天停水，紅燈全面斷水",
+      "橙燈減量，紅燈分區或定點供水",
+      "橙紅都只是降低水壓，不必查供水表"
+    ],
+    "answer": 1,
+    "risk": [
+      22,
+      0,
+      24
+    ],
+    "why": "橙燈主要對指定用戶與非急需用途減量，並非各戶一律停水。紅燈採分區輪流、全區定時停供或定點供水，實際範圍與時間須看公告。兩種措施都不能只憑顏色推定自家時程。",
+    "keypoint": "橙燈減量，紅燈分區或定點供水",
+    "sources": [
+      {
+        "agency": "經濟部水利署",
+        "title": "水情燈號意義及對應措施",
+        "url": "https://www.wra.gov.tw/EarlyWarning.aspx?n=18804&sms=9114",
+        "short": "水利署｜水情燈號與措施"
+      }
+    ]
+  },
+  {
+    "id": "dr-before-03",
+    "hazard": "drought",
+    "category": "儲水規劃",
+    "stage": "before",
+    "title": "兩人的七天備水",
+    "situation": "週日早上，你和伴侶在家盤點防災物資。依全民安全指引準備七天飲用水，你手上有紙筆，打算用未開封包裝水備援。",
+    "options": [
+      "兩人共21公升，生活用水也算入",
+      "兩人共14公升，缺時再出門補水",
+      "兩人至少42公升，另估生活用水"
+    ],
+    "answer": 2,
+    "risk": [
+      24,
+      25,
+      0
+    ],
+    "why": "全民安全指引建議居家物資至少七天，飲用水每人每日不低於3公升，兩人七天就是至少42公升。沖廁與清潔等生活用水須另行規劃，不用壓低飲水量來湊數。七天備援不代表自行裝水能放七天，包裝水依標示保存與輪替。",
+    "keypoint": "飲水至少每人每日3公升，備七天",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "準備日常居家儲備",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
+        "short": "全動署｜準備日常居家儲備"
+      },
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
+        "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
+        "short": "疾管署｜限水飲水儲水衛生"
+      }
+    ]
+  },
+  {
+    "id": "dr-before-04",
+    "hazard": "drought",
+    "category": "日常節水",
+    "stage": "before",
+    "title": "備水之外先節水",
+    "situation": "週二傍晚，你在家準備晚餐，媽媽正在洗菜。社區提醒節水，你手上有洗菜盆，也發現浴室水龍頭一直滴水。",
+    "options": [
+      "用盆適量洗菜，安排修理漏水",
+      "把水龍頭開小，繼續長時間沖洗",
+      "繼續細流洗菜，等停水後再修漏"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      18,
+      25
+    ],
+    "why": "盆槽放適量水洗菜可減少持續放流，漏水也應及時修復。只把流量調小卻延長沖洗，仍可能浪費水。節水應優先減少漏損與非必要耗用，不能靠犧牲基本飲水。",
+    "keypoint": "節水先減漏損與長時間放流",
+    "sources": [
+      {
+        "agency": "經濟部水利署",
+        "title": "節水小撇步",
+        "url": "https://www.wra.gov.tw/cp.aspx?n=3882",
+        "short": "水利署｜節水小撇步"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：準備日常居家儲備",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
+        "short": "全動署｜準備日常居家儲備"
+      }
+    ]
+  },
+  {
+    "id": "dr-during-01",
+    "hazard": "drought",
+    "category": "分區供水",
+    "stage": "during",
+    "title": "隔壁有水我也有",
+    "situation": "週四早上，你在家陪爸爸，手機收到分區供水演練訊息。朋友說隔壁里今天有水，你家水龍頭卻只剩細流。",
+    "options": [
+      "依朋友所在里的供水日，安排備水",
+      "按自家地址查官方供水時段",
+      "只看公告縣市名稱，不必核對街道"
+    ],
+    "answer": 1,
+    "risk": [
+      22,
+      0,
+      20
+    ],
+    "why": "供水公告需核對自家所在範圍與時段，相鄰地點未必適用相同安排。北水處答客問說明，可依地址查詢供水狀態；其他地區也應查服務自家的供水單位公告。鄰里經驗或只看縣市名稱，都不足以確認自家是否在公告範圍。",
+    "keypoint": "供水時段按自家地址查官方公告",
+    "sources": [
+      {
+        "agency": "臺北自來水事業處",
+        "title": "防災資訊答客問：地址查詢與緊急取水",
+        "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=107126B84A475DC3&sms=FE72F2803376B31C",
+        "short": "北水處｜地址查詢與取水"
+      }
+    ]
+  },
+  {
+    "id": "dr-during-02",
+    "hazard": "drought",
+    "category": "取水支援",
+    "stage": "during",
+    "title": "幫阿嬤安排取水",
+    "situation": "週六午前，你到阿嬤家，發現備水將用完。阿嬤走路不穩，你有乾淨帶蓋水桶和手機，群組傳來一張舊取水站地圖。",
+    "options": [
+      "照舊地圖指路，讓阿嬤自己提水回來",
+      "找附近灌溉水代替，就不必走那麼遠",
+      "查站點時段，再帶水桶協助取水"
+    ],
+    "answer": 2,
+    "risk": [
+      23,
+      28,
+      0
+    ],
+    "why": "北水處說明，災時會按需要開設取水站，並透過官方資訊公布位置；出發前應查最新公告並確認開放時間。備水容器應保持清潔並加蓋，阿嬤行走不穩則由你協助搬運。舊地圖未必適用，未確認水質的灌溉水也不宜當飲用水。",
+    "keypoint": "取水先查站點時段，由你協助行動不便的阿嬤搬水",
+    "sources": [
+      {
+        "agency": "臺北自來水事業處",
+        "title": "防災資訊答客問：地址查詢與緊急取水",
+        "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=107126B84A475DC3&sms=FE72F2803376B31C",
+        "short": "北水處｜地址查詢與取水"
+      },
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
+        "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
+        "short": "疾管署｜限水飲水儲水衛生"
+      }
+    ]
+  },
+  {
+    "id": "dr-during-03",
+    "hazard": "drought",
+    "category": "加壓設備",
+    "stage": "during",
+    "title": "馬達一直空轉",
+    "situation": "停水演練開始後，你和管理員在大樓機房外聽到抽水機持續運轉。水池水位很低，鄰居提議讓馬達一直抽，等水一來就能搶先補滿。",
+    "options": [
+      "請管理員關閉抽水機電源",
+      "讓馬達繼續抽，才不會錯過復水",
+      "加大馬達抽力，從外管直接抽水"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      28
+    ],
+    "why": "北水處提醒停水時關閉抽水機電源，以免設備損壞；復水時先查看水池與水塔狀況。疾管署也提醒，限水時以馬達抽水可能造成管內負壓，帶入污染物。應由管理員處理設備，不宜持續空抽或加大抽力搶水。",
+    "keypoint": "停水關抽水機，避免空轉與負壓",
+    "sources": [
+      {
+        "agency": "臺北自來水事業處",
+        "title": "用戶用水設備建議資訊",
+        "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=27C91968885D4D58&sms=FE72F2803376B31C",
+        "short": "北水處｜用水設備建議"
+      },
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "缺水怎麼辦？疾管署教您如何省水兼防疫 遠離傳染病",
+        "url": "https://www.mohw.gov.tw/cp-2704-20899-1.html",
+        "short": "疾管署｜缺水防疫指引"
+      }
+    ]
+  },
+  {
+    "id": "dr-during-04",
+    "hazard": "drought",
+    "category": "飲水安全",
+    "stage": "during",
+    "title": "取回的水直接喝",
+    "situation": "週日中午，你和孩子在家，把官方供水站取回的水倒進煮水壺。水看起來清澈，孩子口渴，桌上也有市售瓶裝水。",
+    "options": [
+      "水看起來清澈，直接喝不必等煮沸",
+      "先喝瓶裝水，取水煮沸再喝",
+      "先用家中濾水壺過濾，免去煮沸步驟"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      23
+    ],
+    "why": "疾管署在限水衛生指引中，建議飲用煮沸的開水或市售瓶裝水。取回的水即使清澈，也不能只憑外觀省略煮沸；題目沒有足以確認濾水壺可供生飲的資訊。孩子口渴時，可先使用桌上的瓶裝水。",
+    "keypoint": "清澈不等於可生飲，飲水注意煮沸",
+    "sources": [
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
+        "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
+        "short": "疾管署｜限水飲水儲水衛生"
+      }
+    ]
+  },
+  {
+    "id": "dr-during-05",
+    "hazard": "drought",
+    "category": "儲水衛生",
+    "stage": "during",
+    "title": "這桶留到下星期",
+    "situation": "分區供水期間，你在家規劃今天新裝自來水的保存方式。弟弟說加蓋後能放整週，陽台另有幾個準備裝水的乾淨開口桶。",
+    "options": [
+      "舊水加新水補滿，就重新算天數",
+      "把開口桶移陰涼處，照樣留整週",
+      "儲水立即加蓋，三天內用完並每週刷洗容器"
+    ],
+    "answer": 2,
+    "risk": [
+      24,
+      23,
+      0
+    ],
+    "why": "自行儲水應加蓋，存放勿超過三天，容器每週刷洗一次；新舊水混加不能重新計算保存時間，移到陰涼處也不能取代加蓋與輪替。",
+    "keypoint": "自行儲水加蓋，三天內用完並輪替",
+    "sources": [
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "進入抗旱關鍵時期！限水期間民眾應落實手部衛生及留意儲水方式，勿讓傳染病有機可乘",
+        "url": "https://www.cdc.gov.tw/Category/ListContent/XIWNfIIaJZ-_G6LnGVVzCA?uaid=bQ1uG-EfyPJxSD44E85YxA",
+        "short": "疾管署｜限水飲水儲水衛生"
+      }
+    ]
+  },
+  {
+    "id": "dr-after-01",
+    "hazard": "drought",
+    "category": "復水水質",
+    "stage": "after",
+    "title": "復水後水色異常",
+    "situation": "週一晚上，你在家發現水龍頭恢復出水。你和爸爸看到水色混濁且有異味，爸爸想說煮久一點就拿來煮飯。",
+    "options": [
+      "先停用異常水，改安全飲水並通報",
+      "先煮沸異常水，再拿來洗米煮飯",
+      "先裝進水塔沉澱，明天繼續使用"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      24
+    ],
+    "why": "復水後若有混濁、異色或異味，應停止使用並通知當地自來水事業查處。煮沸不能當作處理所有不明污染的保證，也不宜先把異常水收進水塔。處理確認前先用安全的替代飲水。",
+    "keypoint": "復水有異色異味，先停用並通報",
+    "sources": [
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "缺水怎麼辦？疾管署教您如何省水兼防疫 遠離傳染病",
+        "url": "https://www.mohw.gov.tw/cp-2704-20899-1.html",
+        "short": "疾管署｜缺水防疫指引"
+      }
+    ]
+  },
+  {
+    "id": "dr-after-02",
+    "hazard": "drought",
+    "category": "水塔維護",
+    "stage": "after",
+    "title": "水來了樓上還沒水",
+    "situation": "週二早上，你住的大樓結束停水演練，鄰棟已恢復供水。管理員說你家在高樓、蓄水池尚未補足，你想確認接下來的處理。",
+    "options": [
+      "把抽水機調到最大，強行搶水回水池",
+      "請管理員查設備，異常洽供水單位",
+      "自己進入蓄水池，查看底部有無堵塞"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      28
+    ],
+    "why": "高地與管線末端復水可能較慢，不能因鄰棟有水就提高抽力搶水。應先確認公共與家戶設備狀況，仍缺水再向供水單位反映，設備檢查交由適當人員。水池水塔也需定期維護，北水處建議每年至少清洗一次。",
+    "keypoint": "復水較慢先查設備，勿強抽或入池",
+    "sources": [
+      {
+        "agency": "臺北自來水事業處",
+        "title": "用戶用水設備建議資訊",
+        "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=27C91968885D4D58&sms=FE72F2803376B31C",
+        "short": "北水處｜用水設備建議"
+      },
+      {
+        "agency": "臺北自來水事業處",
+        "title": "防災資訊答客問：復水與緊急取水",
+        "url": "https://www.water.gov.taipei/News_Content.aspx?n=E87B343A22B302B1&s=107126B84A475DC3&sms=FE72F2803376B31C",
+        "short": "北水處｜復水與緊急取水"
+      }
+    ]
+  },
+  {
+    "id": "dr-after-03",
+    "hazard": "drought",
+    "category": "備援更新",
+    "stage": "after",
+    "title": "供水穩了就不備水",
+    "situation": "週日午后，你和家人在家整理停水後的備品。供水單位已公告恢復穩定，未開封包裝水有些快到期，浴室龍頭又開始滴水。",
+    "options": [
+      "取消所有備水，等下次公告停水再買",
+      "快到期的留到下次，龍頭漏水先不修",
+      "輪替補足備水，安排修理漏水"
+    ],
+    "answer": 2,
+    "risk": [
+      20,
+      22,
+      0
+    ],
+    "why": "供水恢復後仍適合維持家庭備援，按標示保存並優先使用將到期的物資，再補回需要的數量。拖延輪替可能讓下次需要時沒有合用飲水。修復漏水也能持續節水，不必等燈號再改變。",
+    "keypoint": "備水循環輪替，恢復供水仍要節水",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：準備日常居家儲備",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/household-supplies",
+        "short": "全動署｜準備日常居家儲備"
+      },
+      {
+        "agency": "經濟部水利署",
+        "title": "節水小撇步",
+        "url": "https://www.wra.gov.tw/cp.aspx?n=3882",
+        "short": "水利署｜節水小撇步"
+      }
+    ]
+  },
+  {
+    "id": "bo-before-01",
+    "hazard": "blackout",
+    "category": "照明通訊",
+    "stage": "before",
+    "title": "夜晚的備用光源",
+    "situation": "你和孩子住在公寓，晚上常靠手機聯絡家人。整理防災用品時，你發現手電筒沒電，行動電源也快用完了。",
+    "options": [
+      "只把手機充飽，通訊需要時再找網路",
+      "換好手電筒電池，充飽手機與行動電源，備妥紙本聯絡表",
+      "備幾根蠟燭和打火機，手機有電就夠了"
+    ],
+    "answer": 1,
+    "risk": [
+      18,
+      0,
+      24
+    ],
+    "why": "手電筒可減少使用明火的火災風險，手機與行動電源也要先充電。紙本聯絡資料能在手機沒電時派上用場；只靠單一手機，照明與通訊會共用有限電量。",
+    "keypoint": "照明與通訊都要有備援",
+    "sources": [
+      {
+        "agency": "勞動部勞動力發展署",
+        "title": "LINE@移點通－停電安全事項要注意－多國語言版",
+        "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
+        "short": "勞發署｜停電安全事項"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "準備緊急避難包",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
+        "short": "全動署｜準備緊急避難包"
+      }
+    ]
+  },
+  {
+    "id": "bo-before-02",
+    "hazard": "blackout",
+    "category": "醫療備援",
+    "stage": "before",
+    "title": "呼吸設備不能等",
+    "situation": "你與使用居家電動醫療設備的父親同住。社區公告明天停電，你手上只有一般手機行動電源，該先怎麼安排？",
+    "options": [
+      "先買大容量行動電源，停電後再試接設備",
+      "先看預估復電時間，設備停一下應該沒關係",
+      "聯絡照護與設備單位，確認備電和轉移計畫"
+    ],
+    "answer": 2,
+    "risk": [
+      24,
+      28,
+      0
+    ],
+    "why": "電動醫療設備應事先確認相容的備援電源、可用時間及照護安排。手機行動電源未必能供應設備需求，不能臨時試接或等到電池耗盡才求援。若出現生命危險，應立即求救。",
+    "keypoint": "醫療備援先確認，別等耗盡才求助",
+    "sources": [
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "防災無障礙：肢體障礙者",
+        "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
+        "short": "災防中心｜肢體障礙者防災"
+      },
+      {
+        "agency": "台灣電力公司基隆區營業處",
+        "title": "颱風災後復電安全注意事項",
+        "url": "https://service.taipower.com.tw/branch/files/file_pool/1/0P315608842096404797/%E9%A2%B1%E9%A2%A8%E7%81%BD%E5%BE%8C%E5%BE%A9%E9%9B%BB%E5%AE%89%E5%85%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85%28%E8%99%95%E9%95%B7%E6%A0%B8%E5%AE%9A%29.pdf",
+        "short": "台電基隆｜災後復電安全"
+      }
+    ]
+  },
+  {
+    "id": "bo-before-03",
+    "hazard": "blackout",
+    "category": "冷藏準備",
+    "stage": "before",
+    "title": "藥品也需要保冷",
+    "situation": "你替母親領回需冷藏的藥品，冰箱裡還有生鮮肉品。明天預計停電，你拿出保冷袋後，下一步怎麼做？",
+    "options": [
+      "備保冷用品，向藥師確認保存要求",
+      "把藥品與肉品全放冷凍庫，延長保存時間",
+      "停電時每隔幾分鐘開冰箱，摸摸是否還冰"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      24,
+      18
+    ],
+    "why": "先備保冷用品，停電時少開冰箱，有助維持保存條件。藥品應依個別標示保存，先向藥師確認合適的保冷方式；不能把需冷藏的藥品一律改放冷凍，也不宜反覆開門摸溫度。",
+    "keypoint": "冷藏藥品先問保存與失溫處理方式",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "停電應變",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
+        "short": "消防署｜停電應變"
+      },
+      {
+        "agency": "衛生福利部食品藥物管理署",
+        "title": "藥品可以放冰箱保存嗎？",
+        "url": "https://www.fda.gov.tw/tc/newsContent.aspx?cid=5049&id=22351",
+        "short": "食藥署｜藥品冰箱保存"
+      }
+    ]
+  },
+  {
+    "id": "bo-before-04",
+    "hazard": "blackout",
+    "category": "長者照護",
+    "stage": "before",
+    "title": "長停電的冷熱備案",
+    "situation": "你與年邁奶奶住在頂樓，夏天靠冷氣、寒流時靠電暖器。家庭討論長時間停電的備案，你會怎麼安排？",
+    "options": [
+      "先準備卡式爐，房間太冷就關窗開火取暖",
+      "只記住復電查詢方式，等停電很久再找地方",
+      "先約好協助，安排可乘涼保暖的去處"
+    ],
+    "answer": 2,
+    "risk": [
+      28,
+      18,
+      0
+    ],
+    "why": "長時間停電會使降溫與取暖設備失效，應先替長者安排合適去處與移動協助。低溫時也可用衣物與毯子保暖；燃燒器具不應拿來替密閉房間取暖，以免一氧化碳中毒。",
+    "keypoint": "長停電先備妥降溫、保暖與照護去處",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "準備緊急避難包",
+        "url": "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
+        "short": "全動署｜準備緊急避難包"
+      },
+      {
+        "agency": "衛生福利部食品藥物管理署",
+        "title": "提醒餐飲業者應注意營業場所之通風及排氣，預防一氧化碳中毒",
+        "url": "https://www.mohw.gov.tw/cp-2624-19499-1.html",
+        "short": "食藥署｜餐飲通風防一氧化碳"
+      }
+    ]
+  },
+  {
+    "id": "bo-during-01",
+    "hazard": "blackout",
+    "category": "電器安全",
+    "stage": "during",
+    "title": "突然全暗的客廳",
+    "situation": "晚上你正在客廳用電腦，家中突然停電。地板與插座乾燥，手邊有手電筒，電視和電暖器仍接著插座。",
+    "options": [
+      "用手電筒照明，關閉並拔除非必要電器",
+      "先點蠟燭照明，讓電暖器維持原本設定",
+      "把電器開關全打開，方便知道何時復電"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      24
+    ],
+    "why": "在可安全操作的情況下，先關閉並拔除非必要電器，可降低突然復電與電壓變動造成的風險。電暖器留在開啟狀態可能復電後自行加熱；蠟燭則增加火災風險。",
+    "keypoint": "停電先用手電筒，關閉非必要電器",
+    "sources": [
+      {
+        "agency": "勞動部勞動力發展署",
+        "title": "LINE@移點通－停電安全事項要注意－多國語言版",
+        "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
+        "short": "勞發署｜停電安全事項"
+      }
+    ]
+  },
+  {
+    "id": "bo-during-02",
+    "hazard": "blackout",
+    "category": "一氧化碳",
+    "stage": "during",
+    "title": "發電機放哪裡",
+    "situation": "你家停電，鄰居借來燃油發電機想替冰箱供電。大家提議放在半開門的車庫，認為留一道門縫就足夠通風。",
+    "options": [
+      "搬到公共樓梯間使用，讓廢氣往樓上散開",
+      "先停用，另找戶外遠離門窗的位置",
+      "留在車庫使用，把車庫門完全拉開通風"
+    ],
+    "answer": 1,
+    "risk": [
+      28,
+      0,
+      28
+    ],
+    "why": "燃油發電機的廢氣可能造成一氧化碳中毒，車庫或樓梯間不能當作安全使用場所。應設於戶外並遠離門窗等開口，避免廢氣進入屋內；把門打開也不能讓室內使用變安全。",
+    "keypoint": "燃油發電機只在戶外遠離開口處使用",
+    "sources": [
+      {
+        "agency": "內政部消防署",
+        "title": "停電應變",
+        "url": "https://www.tfdp.com.tw/cht/index.php?article_id=186&code=list&flag=detail&ids=58",
+        "short": "消防署｜停電應變"
+      },
+      {
+        "agency": "勞動部勞動力發展署",
+        "title": "LINE@移點通－停電安全事項要注意－多國語言版",
+        "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
+        "short": "勞發署｜停電安全事項"
+      }
+    ]
+  },
+  {
+    "id": "bo-during-03",
+    "hazard": "blackout",
+    "category": "電梯受困",
+    "stage": "during",
+    "title": "電梯停在兩層間",
+    "situation": "你與鄰居搭電梯時遇上停電，車廂停住，門沒有打開。你手邊有手機，車廂內也看得到對講機和警鈴。",
+    "options": [
+      "用警鈴或對講機報位置，等候救援",
+      "先用手拉開內門，查看外面能不能跨出去",
+      "請鄰居協助撐住門，輪流從門縫爬出車廂"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      28
+    ],
+    "why": "按車廂內警鈴或對講機，通知管理或保全人員並說明位置，留在車廂等待救援。車廂有通氣，不需為了換氣拉門；自行打開內外門或爬出可能墜落。",
+    "keypoint": "電梯受困先求援，不撬門攀爬",
+    "sources": [
+      {
+        "agency": "農業部農業金融署",
+        "title": "電梯停止，關人時的處置",
+        "url": "https://www.afna.gov.tw/upload/boaf/files/web_structure/187/53141553571.pdf",
+        "short": "農金署｜電梯受困處置"
+      }
+    ]
+  },
+  {
+    "id": "bo-during-04",
+    "hazard": "blackout",
+    "category": "交通安全",
+    "stage": "during",
+    "title": "路口號誌全熄了",
+    "situation": "傍晚你騎車載孩子回家，前方路口因停電而號誌全暗。路邊已有員警指揮，左右也有車輛與行人準備通過。",
+    "options": [
+      "按喇叭提醒左右來車，照平常綠燈速度過",
+      "跟緊前車穿過路口，避免停下造成回堵",
+      "減速查看人車，依員警指揮並停讓行人"
+    ],
+    "answer": 2,
+    "risk": [
+      25,
+      24,
+      0
+    ],
+    "why": "號誌失效時，不能把沒有紅燈當成可以直接通行。減速並依現場員警指揮、停讓行人，可降低路口衝突；跟車搶過或只靠喇叭示警，都無法確認其他人會停下。",
+    "keypoint": "號誌熄滅先減速，依指揮停讓行人",
+    "sources": [
+      {
+        "agency": "新北市政府交通局",
+        "title": "重要路口交通號誌不斷電系統 預計年底完成130處",
+        "url": "https://www.traffic.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=562aaf0e883d450221c0ef4234cb2698&id=54fa46e9e522dde4",
+        "short": "新北交通局｜路口不斷電系統"
+      },
+      {
+        "agency": "高雄市政府警察局左營分局",
+        "title": "車輛停在路中未移動 警立即發現異常 通知號誌維修保護行人過馬路",
+        "url": "https://kcpd.kcg.gov.tw/News_Content.aspx?n=301858D950E8FB8E&s=61D16ED3AFDBF58F&sms=FC374298B757EFB3",
+        "short": "左營分局｜路口號誌異常"
+      }
+    ]
+  },
+  {
+    "id": "bo-during-05",
+    "hazard": "blackout",
+    "category": "通報通訊",
+    "stage": "during",
+    "title": "沒網路怎麼查停電",
+    "situation": "你在家發現整條街停電，手機行動網路不穩，但仍能撥電話。家人傳來沒有來源的復電時間，手機電量也不多了。",
+    "options": [
+      "轉傳群組復電時間，讓鄰居先照那個時間等",
+      "用1911查報停電，節省電量",
+      "持續重撥家人視訊，確認每個人看到的說法"
+    ],
+    "answer": 1,
+    "risk": [
+      20,
+      0,
+      18
+    ],
+    "why": "停電查詢與通報可撥台電1911，無法上網時仍有電話管道。群組提供的復電時間應先向台電核對；保留電量供後續聯絡，比持續嘗試視訊合適。",
+    "keypoint": "停電查報找台電1911，保留聯絡電量",
+    "sources": [
+      {
+        "agency": "勞動部勞動力發展署",
+        "title": "LINE@移點通－停電安全事項要注意－多國語言版",
+        "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
+        "short": "勞發署｜停電安全事項"
+      },
+      {
+        "agency": "國家災害防救科技中心",
+        "title": "防災無障礙：肢體障礙者",
+        "url": "https://easy2do.ncdr.nat.gov.tw/disability/assets/physical-0b6152dc.html",
+        "short": "災防中心｜肢體障礙者防災"
+      }
+    ]
+  },
+  {
+    "id": "bo-after-01",
+    "hazard": "blackout",
+    "category": "食物安全",
+    "stage": "after",
+    "title": "冰箱重新冷了以後",
+    "situation": "你家停電很久後剛復電，冰箱內鮮奶與熟食曾回到室溫，多久不清楚。家人想等它們重新變冰，再拿來吃。",
+    "options": [
+      "把失溫食物煮滾，再冰回去留給明天吃",
+      "丟棄失溫時間不明的鮮奶與熟食",
+      "先聞味道，沒有酸臭的就重新冷藏後食用"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      24
+    ],
+    "why": "易腐食品若已失溫且無法確認保存條件，應保守丟棄，重新冷藏不會消除已形成的風險。沒有異味也不代表安全；加熱不能作為所有失溫食品的補救方法。",
+    "keypoint": "重新變冰不代表失溫食品恢復安全",
+    "sources": [
+      {
+        "agency": "勞動部勞動力發展署",
+        "title": "LINE@移點通－停電安全事項要注意－多國語言版",
+        "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
+        "short": "勞發署｜停電安全事項"
+      },
+      {
+        "agency": "衛生福利部疾病管制署",
+        "title": "豪雨來襲造成多處積水或淹水 請民眾清理家園務必落實防疫三步驟 並注意自身健康安全",
+        "url": "https://www.cdc.gov.tw/Bulletin/Detail/ydSdLOyGHeyL6k79KMUokA?typeid=9",
+        "short": "疾管署｜淹水清理防疫"
+      }
+    ]
+  },
+  {
+    "id": "bo-after-02",
+    "hazard": "blackout",
+    "category": "復電檢查",
+    "stage": "after",
+    "title": "有電了就全插回嗎",
+    "situation": "你家電燈亮了，停電前已拔掉電腦與電暖器插頭。插座沒有進水或燒焦味，你準備恢復使用家電。",
+    "options": [
+      "檢查無異常、供電穩定後逐一恢復",
+      "先開電暖器最高檔，藉大負載測試線路是否正常",
+      "先把全部電器一起插回，確認供電是否夠穩"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      22
+    ],
+    "why": "復電後先確認設備與線路狀況，供電穩定後再逐一恢復使用，避免同時啟動多項電器。受潮、破損或有焦味的設備應停用，請合格電工檢查，不能用大負載試探線路是否安全。",
+    "keypoint": "復電先檢查，再逐一恢復電器",
+    "sources": [
+      {
+        "agency": "台灣電力公司基隆區營業處",
+        "title": "颱風災後復電安全注意事項",
+        "url": "https://service.taipower.com.tw/branch/files/file_pool/1/0P315608842096404797/%E9%A2%B1%E9%A2%A8%E7%81%BD%E5%BE%8C%E5%BE%A9%E9%9B%BB%E5%AE%89%E5%85%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85%28%E8%99%95%E9%95%B7%E6%A0%B8%E5%AE%9A%29.pdf",
+        "short": "台電基隆｜災後復電安全"
+      }
+    ]
+  },
+  {
+    "id": "bo-after-03",
+    "hazard": "blackout",
+    "category": "落線危險",
+    "stage": "after",
+    "title": "街燈亮了仍有落線",
+    "situation": "風雨過後街燈已亮，你牽孩子走到巷口，看到一條電線垂落地面。旁邊沒有火花，有人想拿木棍把它移到路邊。",
+    "options": [
+      "先用乾木棍把電線撥開，方便鄰居通行",
+      "趁沒有火花跨過電線，回家後再向台電反映",
+      "遠離並勸人避開，安全處報1911"
+    ],
+    "answer": 2,
+    "risk": [
+      28,
+      25,
+      0
+    ],
+    "why": "掉落電線即使沒有火花，也可能帶電，不能靠外觀判斷。保持距離並通報台電處理，勿碰觸、跨越或拿物品移動；附近已復電更不能當成落線安全的證明。",
+    "keypoint": "落地電線不碰不靠近，安全處報1911",
+    "sources": [
+      {
+        "agency": "勞動部勞動力發展署",
+        "title": "LINE@移點通－停電安全事項要注意－多國語言版",
+        "url": "https://fw.wda.gov.tw/wda-employer/home/file/2c95efb39e70661a019e7259e6d0206c",
+        "short": "勞發署｜停電安全事項"
+      },
+      {
+        "agency": "台灣電力公司北北區營業處",
+        "title": "強颱薔琵逼近 台電台北北區營業處全力戒備 請民眾多利用網路通報查詢停復電資訊",
+        "url": "https://service.taipower.com.tw/branch/d116/xmdoc/cont?sid=0Q295333915940640091&sq=&xsmsid=0M242581312763389988",
+        "short": "台電北北區｜停復電查報與落線"
+      }
+    ]
+  },
+  {
+    "id": "nu-before-01",
+    "hazard": "nuclear",
+    "category": "應變區域",
+    "stage": "before",
+    "title": "住得近要先查什麼",
+    "situation": "你帶家人到北海岸租屋，週末在餐桌研究核安防災。親友說只要查核電廠是否發電，就能決定需不需要準備。",
+    "options": [
+      "用住家離廠距離，直接決定事故時疏散範圍",
+      "先查核安會應變區公告與地方防護計畫",
+      "只看電廠是否發電，停機就刪掉避難計畫"
+    ],
+    "answer": 1,
+    "risk": [
+      24,
+      0,
+      22
+    ],
+    "why": "核一、核二位於新北市石門與萬里，核三位於屏東恆春地區；應變整備應查官方廠別與村里公告。緊急應變計畫區是平時規劃範圍，並非事故時的疏散界線，也不能僅以停機推論無須準備。",
+    "keypoint": "應變計畫區不是事故疏散範圍",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "緊急應變計畫區",
+        "url": "https://www.nusc.gov.tw/保安應變/政府平時準備/應變整備/緊急應變計畫區--5_43_155_898.html",
+        "short": "核安會｜緊急應變計畫區"
+      }
+    ]
+  },
+  {
+    "id": "nu-before-02",
+    "hazard": "nuclear",
+    "category": "家庭準備",
+    "stage": "before",
+    "title": "輪椅家人的疏散包",
+    "situation": "你和使用輪椅的母親住在應變計畫區，準備參加社區演練。桌上已有常用藥、聯絡資料與手電筒，還該做什麼？",
+    "options": [
+      "只安排家人開車，當天再決定去哪裡集合",
+      "等正式疏散才詢問交通，平時先收好用品",
+      "先確認協助窗口、集結安排與家人聯絡方式"
+    ],
+    "answer": 2,
+    "risk": [
+      18,
+      22,
+      0
+    ],
+    "why": "平時就確認地方疏散與協助安排，備妥必要藥品和聯絡方式，能減少臨時尋找資源的困難。只靠一輛車或等到命令發布才找人，可能延誤需要協助者的移動；當次行動仍依官方指示調整。",
+    "keypoint": "特殊照護與疏散協助要事先約定",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      }
+    ]
+  },
+  {
+    "id": "nu-before-03",
+    "hazard": "nuclear",
+    "category": "輻射概念",
+    "stage": "before",
+    "title": "沒有事故也有讀值",
+    "situation": "你和孩子在家看核安會的輻射教材，發現生活環境本來就有輻射。孩子問：「有讀值是不是表示附近出事故了？」",
+    "options": [
+      "環境本有背景輻射，查官方事故資訊",
+      "讀到任何輻射，就代表附近設施有洩漏",
+      "天然輻射不會有風險，所以所有讀值都能忽略"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      22,
+      20
+    ],
+    "why": "宇宙射線、土壤岩石等都會形成天然背景輻射，有讀值本身不能證明核子事故。也不能因為來源天然就一律忽略曝露，應依情境與核安會監測說明理解。",
+    "keypoint": "有輻射讀值不等於發生核子事故",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "輻射劑量比較圖：天然背景輻射",
+        "url": "https://www.nusc.gov.tw/緊急應變/對人的影響/輻射劑量比較圖--5_40_873.html",
+        "short": "核安會｜輻射劑量比較圖"
+      }
+    ]
+  },
+  {
+    "id": "nu-before-04",
+    "hazard": "nuclear",
+    "category": "碘片迷思",
+    "stage": "before",
+    "title": "群組揪買防輻射藥",
+    "situation": "你在家整理避難包，群組有人說每天吃碘片能預防各種輻射，還附上團購連結。家裡沒有事故警報，你會怎麼做？",
+    "options": [
+      "先買一盒每天吃，讓甲狀腺提早建立防護",
+      "改囤含碘鹽和保健品，當作日常防護替代",
+      "不跟團搶購，了解官方發放與服用指示"
+    ],
+    "answer": 2,
+    "risk": [
+      25,
+      22,
+      0
+    ],
+    "why": "碘片主要針對放射性碘對甲狀腺的影響，不是各種輻射的通用防護藥。服用時機須依官方指示，勿自行搶購或預防性服用；含碘鹽及保健品也不能取代碘片。",
+    "keypoint": "不搶購、不自行服碘，也不以碘鹽替代",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      },
+      {
+        "agency": "行政院原子能委員會（核能安全委員會典藏）",
+        "title": "身在輻中要知輻：碘片問答與碘-131小情報（第46、48–49頁）",
+        "url": "https://www.nusc.gov.tw/share/file/convenience/bbQWhhczjgS6lbzKHB4w3Q__.pdf?v=2019103150",
+        "short": "原能會｜碘片問答"
+      }
+    ]
+  },
+  {
+    "id": "nu-during-01",
+    "hazard": "nuclear",
+    "category": "就地掩蔽",
+    "stage": "during",
+    "title": "警報時你正在商店",
+    "situation": "你在住家附近商店收到核子事故警報，廣播要求所在地民眾就地掩蔽。店內可進入的室內空間就在身旁，家人在別處也已進屋。",
+    "options": [
+      "就近留在室內，依廣播配合掩蔽並聯絡家人",
+      "先騎車離開應變區，到了外面再向家人報平安",
+      "先走回家集合，路上持續看警報更新"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      23
+    ],
+    "why": "要求掩蔽時，先減少戶外曝露，就近進入可防護的室內並收聽指令。為集合而穿越戶外或自行開車離開，可能增加曝露並干擾交通；後續若改為疏散，再依指定方式行動。",
+    "keypoint": "掩蔽指令先進室內，再依通知調整",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：核子事故應對原則",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜核子事故應對原則"
+      },
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      }
+    ]
+  },
+  {
+    "id": "nu-during-02",
+    "hazard": "nuclear",
+    "category": "門窗空調",
+    "stage": "during",
+    "title": "掩蔽時空調怎麼辦",
+    "situation": "你和幼兒已在家中掩蔽，窗戶開著，換氣設備正把戶外空氣送入室內。收音機持續播放所在地的官方應變訊息。",
+    "options": [
+      "只關窗戶，保留新風換氣維持室內舒適",
+      "關閉門窗與外氣換氣，空調可設室內循環",
+      "留一扇窗換氣，讓空氣清淨機持續運轉"
+    ],
+    "answer": 1,
+    "risk": [
+      22,
+      0,
+      24
+    ],
+    "why": "掩蔽時關好門窗，停止引入外氣的換氣功能，能減少放射性物質進入室內。可切換的空調依指引設為室內循環；開窗或只靠空氣清淨機，不能取代阻隔外氣。",
+    "keypoint": "掩蔽關門窗，停止外氣進入",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：核子事故應對原則",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜核子事故應對原則"
+      },
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      }
+    ]
+  },
+  {
+    "id": "nu-during-03",
+    "hazard": "nuclear",
+    "category": "官方資訊",
+    "stage": "during",
+    "title": "直播比廣播更急",
+    "situation": "你與家人在室內收聽官方廣播，內容仍要求掩蔽。手機直播卻說「全台都該撤離」，沒有標示發布單位與適用地區。",
+    "options": [
+      "核對所在地官方指示，再依通知行動",
+      "先跟直播撤離，官方沒要求也比較保險",
+      "只看群組最多人轉傳的版本，再決定下一步"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      20
+    ],
+    "why": "防護指令須核對發布單位、時間與適用地區，核安會及地方政府會透過多種管道通知。未經查證就離開掩蔽處，可能增加曝露；轉傳次數不能證明消息正確。",
+    "keypoint": "核對地區與時間，聽官方最新指令",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：核子事故應對原則",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜核子事故應對原則"
+      }
+    ]
+  },
+  {
+    "id": "nu-during-04",
+    "hazard": "nuclear",
+    "category": "疏散行動",
+    "stage": "during",
+    "title": "指令從掩蔽改疏散",
+    "situation": "你和母親在家掩蔽後，收到政府通知，要求你們所在區域依指定路線前往集結點。避難包和常用藥已在門邊。",
+    "options": [
+      "先開車抄近路離開，稍後再研究指定去處",
+      "繼續關門掩蔽，等警報解除後再出門",
+      "帶必要用品，協助母親依指定安排疏散"
+    ],
+    "answer": 2,
+    "risk": [
+      23,
+      25,
+      0
+    ],
+    "why": "掩蔽與疏散要配合事故發展，官方通知所在地疏散時，應依路線、集結點及交通安排移動。只留在屋內可能延誤保護行動，抄近路則可能進入受影響區或阻礙救災。",
+    "keypoint": "疏散命令發布後，依指定安排離開",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：核子事故應對原則",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜核子事故應對原則"
+      }
+    ]
+  },
+  {
+    "id": "nu-during-05",
+    "hazard": "nuclear",
+    "category": "碘片使用",
+    "stage": "during",
+    "title": "家裡那盒碘片",
+    "situation": "核子事故期間，你在家掩蔽，找到先前政府發給家人的碘片。官方尚未通知所在地服用，孩子問現在要不要先吃。",
+    "options": [
+      "成人先吃，孩子改多吃含碘食物作為替代",
+      "等官方服用指示，再按個別需求用藥",
+      "先讓每個人吃一樣的量，後續再等官方通知"
+    ],
+    "answer": 1,
+    "risk": [
+      24,
+      0,
+      28
+    ],
+    "why": "已領到碘片也不代表現在就該服用，仍須依官方當次指示及藥品說明辦理。不同年齡或健康狀況需要個別注意，不能全家吃相同劑量；碘片及含碘食物都不能取代掩蔽或疏散。",
+    "keypoint": "有碘片也要等官方服用指示",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      },
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：核子事故應對原則",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜核子事故應對原則"
+      }
+    ]
+  },
+  {
+    "id": "nu-after-01",
+    "hazard": "nuclear",
+    "category": "飲食飲水",
+    "stage": "after",
+    "title": "菜園能採收了嗎",
+    "situation": "事故進入復原階段，你在臨時安置處準備晚餐。鄰居送來受管制地區菜園剛採的蔬菜，並說洗乾淨就能吃。",
+    "options": [
+      "只要煮熟配煮沸自來水，就能取代檢測確認",
+      "依食水管制，選用確認可用的供應",
+      "先把蔬菜反覆沖洗，就能不受管制繼續食用"
+    ],
+    "answer": 1,
+    "risk": [
+      25,
+      0,
+      23
+    ],
+    "why": "核子事故後，食物及飲水須依官方檢測結果與管制公告使用。受管制區域的農產不能因自行清洗或烹煮就跳過管制，應選擇官方確認可用的供應。",
+    "keypoint": "食物飲水依檢測管制，不自行判定解禁",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故民眾防護行動規範",
+        "url": "https://erss.nusc.gov.tw/law/LawContent.aspx?id=FL036416",
+        "short": "核安會｜民眾防護行動規範"
+      }
+    ]
+  },
+  {
+    "id": "nu-after-02",
+    "hazard": "nuclear",
+    "category": "偵檢去污",
+    "stage": "after",
+    "title": "返家前先過防護站",
+    "situation": "你依疏散安排抵達防護站，外套曾在戶外沾上灰塵。事故趨緩後，你想直接回家換衣服，現場人員請你先做偵檢。",
+    "options": [
+      "配合偵檢，按指示清洗並更換衣物",
+      "穿著原本衣物先回家，沒有不舒服就不必偵檢",
+      "先把外套拍乾淨，等回家後再洗臉換衣"
+    ],
+    "answer": 0,
+    "risk": [
+      0,
+      25,
+      24
+    ],
+    "why": "防護站可偵檢人員與車輛，並安排必要除污；應先完成現場要求的處理。洗淨手臉、更換衣物有助減少放射性物質進入體內，拍掉灰塵或沒有不適都不能代替偵檢。",
+    "keypoint": "返家前配合偵檢，必要時先去污",
+    "sources": [
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故應變指南",
+        "url": "https://www.nusc.gov.tw/share/file/emergency/8bWZa2wGRXRUJbNEfHGrMA__.pdf?v=2023121845",
+        "short": "核安會｜核子事故應變指南"
+      }
+    ]
+  },
+  {
+    "id": "nu-after-03",
+    "hazard": "nuclear",
+    "category": "返家管制",
+    "stage": "after",
+    "title": "解除聲不是通行證",
+    "situation": "你和家人在收容處所聽到核子事故解除廣播，但住家所在街區仍列管制。家人已收好行李，想趁天黑前回去。",
+    "options": [
+      "先回去拿生活用品，短暫停留應該沒關係",
+      "依自己的輻射讀值決定，數字低就直接返家",
+      "確認住家管制與返家通知，獲准後依指示返回"
+    ],
+    "answer": 2,
+    "risk": [
+      25,
+      23,
+      0
+    ],
+    "why": "警報解除仍須配合後續管制與政府指示，不能直接等同所有地區開放返家。自行監測的單一讀值也無法代替整體環境評估；先確認住家是否開放及返家要求。",
+    "keypoint": "警報解除後，返家仍須依官方管制",
+    "sources": [
+      {
+        "agency": "國防部全民防衛動員署",
+        "title": "臺灣全民安全指引：核子事故應對原則",
+        "url": "https://prepare.mnd.gov.tw/emergency-responses",
+        "short": "全動署｜核子事故應對原則"
+      },
+      {
+        "agency": "核能安全委員會",
+        "title": "核子事故民眾防護行動規範",
+        "url": "https://erss.nusc.gov.tw/law/LawContent.aspx?id=FL036416",
+        "short": "核安會｜民眾防護行動規範"
+      }
+    ]
+  }
 ]
