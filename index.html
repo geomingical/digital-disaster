@@ -58,6 +58,7 @@
         </svg>
         <div class="risk-body">
           <div class="risk-top">風險值 <b id="risk-num">0</b></div>
+          <p class="score-note">演練分數，非災情或機率</p>
           <div class="risk-track">
             <span class="risk-scale" aria-hidden="true">0</span>
             <div class="risk-bar" role="meter" aria-label="風險值" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="risk-bar"><div class="risk-fill" id="risk-fill"></div></div>
@@ -98,6 +99,7 @@
             <span class="tag" id="card-tag"></span>
             <span class="card-count" id="card-count"></span>
           </div>
+          <p class="score-note">演練分數，非即時災情、非真實機率</p>
           <h2 id="card-title"></h2>
           <p id="card-sit"></p>
         </div>
@@ -132,6 +134,7 @@
           <p id="load-notice-text"></p>
           <button type="button" class="btn btn-small" id="btn-retry">重新讀取資料</button>
         </div>
+        <div class="rating-notice"><img src="assets/gsrr-g.svg" alt="普遍級（普級）" width="48" height="48"><div><strong>普遍級（普級）</strong><p>注意使用時間、避免沉迷、遊戲虛擬情節勿模仿。</p></div></div>
         <p class="start-legal">教育演練用，非政府發布，請以官方公告為準。真的遇到緊急狀況才請撥 119（手機可撥 112）；請勿因本遊戲結果撥打。</p>
         <button class="icon-btn start-sound" id="btn-sound-start" type="button" aria-pressed="false" aria-label="開啟音效" title="開啟音效"></button>
       </div>
@@ -239,7 +242,7 @@
     </div>
   </div>
 
-  <footer id="legal">教育演練用，非政府發布，請以官方公告為準。真的遇到緊急狀況才請撥 119（手機可撥 112）；請勿因本遊戲結果撥打。</footer>
+  <footer id="legal"><div class="rating-notice"><img src="assets/gsrr-g.svg" alt="普遍級（普級）" width="48" height="48"><div><strong>普遍級（普級）</strong><p>注意使用時間、避免沉迷、遊戲虛擬情節勿模仿。</p></div></div><div>教育演練用，非政府發布，請以官方公告為準。真的遇到緊急狀況才請撥 119（手機可撥 112）；請勿因本遊戲結果撥打。</div><div>由 AIMing Data 製作｜聯絡 <a href="mailto:geomingical@gmail.com">geomingical@gmail.com</a></div></footer>
 </div>
 <noscript><p style="position:fixed;top:40%;left:0;right:0;text-align:center">這個遊戲需要開啟 JavaScript 才能遊玩。</p></noscript>
 

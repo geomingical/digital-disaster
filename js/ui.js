@@ -511,6 +511,7 @@
 
     showHelp() {
       const wrap = el('div', 'help');
+      wrap.appendChild(document.querySelector('.rating-notice').cloneNode(true));
       wrap.appendChild(el('p', 'help-note help-first', '這是教育演練，不是即時警報。風險值只是遊戲分數，不代表真實發生的機率。'));
       const rows = [
         ['走動', '方向鍵或 WASD；也可以點地面，角色會自己走過去。手機用左下角搖桿。'],

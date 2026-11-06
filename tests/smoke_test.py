@@ -207,6 +207,16 @@ def test_rules(browser, data):
     # 入口流程
     check(page.locator("#start-screen").is_visible() and "在情境裡學會台灣的防災知識" in page.inner_text(".start-sub"), "開始畫面")
     check("119" in page.inner_text(".start-legal") and "119" in page.inner_text("#legal"), "開始卡片與頁尾都有固定小字")
+    warning = "注意使用時間、避免沉迷、遊戲虛擬情節勿模仿。"
+    check((ROOT / "assets/gsrr-g.svg").is_file(), "官方普級圖存在")
+    check("sosCue()" in (ROOT / "js/audio.js").read_text() and "audio.sosCue()" in (ROOT / "js/main.js").read_text(), "求援提示使用 sosCue")
+    old_badge = "零" + "風險"
+    sources = [ROOT / "README.md", ROOT / "index.html", *ROOT.glob("js/*.js"), *ROOT.glob("data/*.json")]
+    check(all(old_badge not in path.read_text() for path in sources), "無舊徽章名稱")
+    for selector in ["#start-screen", "#legal"]:
+        check(warning in page.inner_text(selector), f"{selector} 有法定警語")
+        check(page.locator(selector + " .rating-notice img").evaluate("e => e.complete && e.naturalWidth > 0 && e.width >= 45 && e.height >= 45"), f"{selector} 普級圖載入且至少 45px")
+    check(page.locator('#legal a[href="mailto:geomingical@gmail.com"]').count() == 1, "頁尾聯絡連結")
     page.click("#btn-start")
     check(g(page, "state.screen") == "entry" and page.locator(".hz-stamp").count() == 10, "入口 10 個圖章")
     head = page.inner_text(".entry-ribbon")
@@ -265,6 +275,8 @@ def test_rules(browser, data):
     page.keyboard.press("Escape")
     page.click("#btn-entry-back")
     page.click("#btn-howto")
+    check(warning in page.inner_text("#modal-body"), "操作說明有法定警語")
+    check(page.locator("#modal-body .rating-notice img").evaluate("e => e.complete && e.naturalWidth > 0 && e.width >= 45 && e.height >= 45"), "操作說明普級圖載入且至少 45px")
     help_text = page.inner_text("#modal-body")
     check("演練" in help_text and "遊戲分數" in help_text and "機率" in help_text, "說明寫明是演練、風險值不是機率")
     page.keyboard.press("Escape")
@@ -893,7 +905,7 @@ AUDIT_JS = """(selectors) => {
   }
   return out;
 }"""
-AUDIT_SELECTORS = ["#hud", ".hud-route", ".hud-route-top", ".hud-risk", ".risk-top", ".hud-btns", "#card", ".card-head", "#card h2", ".opt", ".opt-text", ".fb-head",
+AUDIT_SELECTORS = ["#hud", ".hud-route", ".hud-route-top", ".hud-risk", ".risk-top", ".score-note", ".rating-notice", ".hud-btns", "#card", ".card-head", "#card h2", ".opt", ".opt-text", ".fb-head",
                    ".start-card", ".start-btns .btn", ".entry-top", ".entry-ribbon", ".hz-stamp", ".hz-label", "#entry-bubble", "#bubble-go",
                    ".intro-panel", ".intro-btns .btn", ".ending-panel", ".ending-btns .btn", ".ending-stats > div", ".sum-title", "#legal", ".modal-box"]
 
@@ -934,11 +946,13 @@ def test_layouts(browser, data):
         shot("play")
         if tag in ("390x844", "360x640"):
             h = page.evaluate("document.getElementById('hud').getBoundingClientRect().height")
-            if not (98 <= h <= 114):
+            if not (98 <= h <= 128):
                 problems.append(f"手機 HUD 高度 {h}")
         g(page, "triggerNextEvent()")
         page.wait_for_timeout(600)
         audit(page, "card", problems)
+        if overlap_check(page, "#risk-num", ".hud-risk .score-note"):
+            problems.append("演練說明蓋到 HUD 數字")
         shot("card")
         if overlap_check(page, "#card", "#hud"):
             problems.append("卡片蓋到 HUD")

@@ -1,4 +1,5 @@
-/* WebAudio 合成音效與程序生成背景音樂（BGM）。預設靜音，使用者開啟後才建立 AudioContext。 */
+/* 所有音效以 WebAudio 即時合成，無音檔，未取樣或引用任何真實警報器／官方警報（如國家級警報、PWS）音檔，音型刻意不同於官方警報。
+ * WebAudio 合成音效與程序生成背景音樂（BGM）。預設靜音，使用者開啟後才建立 AudioContext。 */
 (function () {
   const DH = (window.DH = window.DH || {});
   let ctx = null;
@@ -570,7 +571,8 @@
     fanfare() {
       play(() => [523, 659, 784, 1046].forEach((n, i) => tone(n, i * 0.15, 0.42, 0.11, 'triangle')));
     },
-    siren() {
+    /* 所有音效以 WebAudio 即時合成，無音檔，未取樣或引用任何真實警報器／官方警報（如國家級警報、PWS）音檔，音型刻意不同於官方警報。 */
+    sosCue() {
       play(() => [0, 0.5].forEach((s) => tone(520, s, 0.45, 0.07, 'sine', 700)));
     },
   };

@@ -430,7 +430,7 @@
     });
     needsRedraw = true;
     sizeEndingCanvas();
-    if (grade.tier === 'bad') audio.siren();
+    if (grade.tier === 'bad') audio.sosCue();
     else audio.fanfare();
   }
 
